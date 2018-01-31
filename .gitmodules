@@ -1,9 +1,9 @@
 [submodule "lib/ast-set2matrix"]
-	path = lib/ast-set2matrix
+	path = lib/ast_set2matrix
 	url = https://github.com/PetukhovVictor/ast-set2matrix.git
 [submodule "lib/kotlin-source2ast"]
-	path = lib/kotlin-source2ast
+	path = lib/kotlin_source2ast
 	url = https://github.com/PetukhovVictor/kotlin-source2ast.git
 [submodule "lib/anomaly-detection"]
-	path = lib/anomaly-detection
+	path = lib/anomaly_detection
 	url = https://github.com/PetukhovVictor/anomaly-detection.git
