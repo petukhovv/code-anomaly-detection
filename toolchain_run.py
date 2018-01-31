@@ -32,7 +32,7 @@ CLEANABLE_FOLDERS = [Paths.AST, Paths.AST_VECTORS, Paths.AST_SPARSED_VECTORS]
 
 
 def toolchain_run(input, output):
-    # Kotlin source codes paring
+    # Kotlin source codes parsing
     source2ast(input, Paths.AST)
 
     # Kotlin CST factorization
@@ -52,5 +52,5 @@ def toolchain_run(input, output):
     for folder in CLEANABLE_FOLDERS:
         shutil.rmtree(folder)
 
-    print('===================' + os.linesep)
+    print('===================')
     print('%d anomalies found' % anomalies_number)
