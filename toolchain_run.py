@@ -31,10 +31,6 @@ class Paths:
     FILES_MAP = './%s/files_map.json' % STAGES_DATA
 
 
-CLEANABLE_FILES = [Paths.FILES_MAP, Paths.ALL_FEATURES, Paths.DATASET_JSON, Paths.DATASET_CSV, Paths.DISTANCES]
-CLEANABLE_FOLDERS = [Paths.AST, Paths.AST_VECTORS, Paths.AST_SPARSED_VECTORS]
-
-
 def toolchain_run(input, output):
     time_logger = TimeLogger(task_name='Code anomaly detection')
 
