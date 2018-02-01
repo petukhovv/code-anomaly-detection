@@ -1,5 +1,6 @@
-import os
 import shutil
+
+from lib.TimeLogger import TimeLogger
 
 from lib.kotlin_source2ast.source2ast import source2ast
 
@@ -13,18 +14,21 @@ from lib.anomaly_detection.anomaly_selection import anomaly_selection
 
 
 class Paths:
+    # Path to the data of intermediate stages
+    STAGES_DATA = './data'
+
     # Stage paths to input-output files/folders
-    AST = './ast'
-    AST_VECTORS = './ast_vectors'
-    AST_SPARSED_VECTORS = './ast_sparsed_vectors'
-    DATASET_JSON = './dataset.json'
-    DATASET_CSV = './dataset.csv'
-    DISTANCES = './distances.json'
+    AST = './%s/ast' % STAGES_DATA
+    AST_VECTORS = './%s/ast_vectors' % STAGES_DATA
+    AST_SPARSED_VECTORS = './%s/ast_sparsed_vectors' % STAGES_DATA
+    DATASET_JSON = './%s/dataset.json' % STAGES_DATA
+    DATASET_CSV = './%s/dataset.csv' % STAGES_DATA
+    DISTANCES = './%s/distances.json' % STAGES_DATA
 
     # Stage paths to additional files
-    FEATURES_CONFIG = './features_config.json'
+    FEATURES_CONFIG = './%s/features_config.json' % STAGES_DATA
     ALL_FEATURES = '%s/all_features.json' % AST_VECTORS
-    FILES_MAP = './files_map.json'
+    FILES_MAP = './%s/files_map.json' % STAGES_DATA
 
 
 CLEANABLE_FILES = [Paths.FILES_MAP, Paths.ALL_FEATURES, Paths.DATASET_JSON, Paths.DATASET_CSV, Paths.DISTANCES]
@@ -32,6 +36,8 @@ CLEANABLE_FOLDERS = [Paths.AST, Paths.AST_VECTORS, Paths.AST_SPARSED_VECTORS]
 
 
 def toolchain_run(input, output):
+    time_logger = TimeLogger(task_name='Code anomaly detection')
+
     # Kotlin source codes parsing
     source2ast(input, Paths.AST)
 
@@ -46,11 +52,7 @@ def toolchain_run(input, output):
     anomalies_number =\
         anomaly_selection(Paths.FILES_MAP, output, use_dbscan=False, differences_file=Paths.DISTANCES)
 
-    for file in CLEANABLE_FILES:
-        os.remove(file)
+    shutil.rmtree(Paths.STAGES_DATA)
 
-    for folder in CLEANABLE_FOLDERS:
-        shutil.rmtree(folder)
-
-    print('===================')
-    print('%d anomalies found' % anomalies_number)
+    time_logger.finish(full_finish=True)
+    print('Found %d anomalies' % anomalies_number)
