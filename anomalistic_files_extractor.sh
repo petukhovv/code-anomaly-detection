@@ -12,12 +12,16 @@ do
             shift
             shift
             ;;
+        -c|--code_folder)
+            code_folder="$2"
+            shift
+            shift
+            ;;
     esac
 done
 
 mkdir -p ${anomalies_folder}
 
-code_folder="./code"
 file_counter=1
 
 jq -r '.[] | "\(.[0]):\(.[1])"' ${anomalies_file} | while read item
