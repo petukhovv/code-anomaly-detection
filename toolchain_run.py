@@ -19,17 +19,17 @@ class Paths:
     STAGES_DATA = './data'
 
     # Stage paths to input-output files/folders
-    AST = './%s/ast' % STAGES_DATA
-    AST_VECTORS = './%s/ast_vectors' % STAGES_DATA
-    AST_SPARSED_VECTORS = './%s/ast_sparsed_vectors' % STAGES_DATA
-    DATASET_JSON = './%s/dataset.json' % STAGES_DATA
-    DATASET_CSV = './%s/dataset.csv' % STAGES_DATA
-    DISTANCES = './%s/distances.json' % STAGES_DATA
+    AST = '%s/ast' % STAGES_DATA
+    AST_VECTORS = '%s/ast_vectors' % STAGES_DATA
+    AST_SPARSED_VECTORS = '%s/ast_sparsed_vectors' % STAGES_DATA
+    DATASET_JSON = '%s/dataset.json' % STAGES_DATA
+    DATASET_CSV = '%s/dataset.csv' % STAGES_DATA
+    DISTANCES = '%s/distances.json' % STAGES_DATA
 
     # Stage paths to additional files
-    FEATURES_CONFIG = './%s/features_config.json' % STAGES_DATA
+    FEATURES_CONFIG = './features_config.json'
     ALL_FEATURES = '%s/all_features.json' % AST_VECTORS
-    FILES_MAP = './%s/files_map.json' % STAGES_DATA
+    FILES_MAP = '%s/files_map.json' % STAGES_DATA
 
 
 AUTOENCODER_SPLIT_DATASET_PERCENT = 0.9
