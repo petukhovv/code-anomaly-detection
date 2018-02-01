@@ -1,3 +1,4 @@
+import os
 import shutil
 
 from lib.TimeLogger import TimeLogger
@@ -31,8 +32,15 @@ class Paths:
     FILES_MAP = './%s/files_map.json' % STAGES_DATA
 
 
+AUTOENCODER_SPLIT_DATASET_PERCENT = 0.9
+AUTOENCODER_DIM_PERCENT = 0.8
+
+
 def toolchain_run(input, output):
     time_logger = TimeLogger(task_name='Code anomaly detection')
+
+    if not os.path.exists(Paths.STAGES_DATA):
+        os.makedirs(Paths.STAGES_DATA)
 
     # Kotlin source codes parsing
     source2ast(input, Paths.AST)
@@ -44,7 +52,7 @@ def toolchain_run(input, output):
     matrix2csv(Paths.DATASET_JSON, Paths.DATASET_CSV)
 
     # Anomaly detection
-    autoencoding(Paths.DATASET_CSV, 0.9, 0.8, Paths.DISTANCES)
+    autoencoding(Paths.DATASET_CSV, AUTOENCODER_SPLIT_DATASET_PERCENT, AUTOENCODER_DIM_PERCENT, Paths.DISTANCES)
     anomalies_number =\
         anomaly_selection(Paths.FILES_MAP, output, use_dbscan=False, differences_file=Paths.DISTANCES)
 
