@@ -31,9 +31,11 @@ If the program finds anomalies, then it is written to the specified file.
 python3 main.py -i ~/IdeaProjects/kotlin-native -o ./anomalies.json
 ```
 
+While working, the program creates a temporary folder `data` with intermediate analysis results in its own folder. Please do not remove it. The program will automatically remove it after the completion of its work.
+
 ### Copying anomalistic files to specified directory
 
-You can use `anomalistic_files_extractor` script to copy anomalistic files (by paths in `anomalies.json`) to specified directory.
+You can use `anomalistic_files_extractor.sh` script to copy anomalistic files (by paths in `anomalies.json`) to specified directory.
 
 #### Script arguments
 
@@ -45,8 +47,24 @@ You can use `anomalistic_files_extractor` script to copy anomalistic files (by p
 
 ```
 chmod +x ./anomalistic_files_extractor.sh
+```
+```
 ./anomalistic_files_extractor.sh -i ./anomalies.json -o ./anomalies -c ~/IdeaProjects/kotlin-native
 ```
 The specified folder will be automatically created if not exist.
 
 File names will be contain anomaly factor and index number.
+
+## Kotlin CST factorization config
+
+To factorize the Kotlin CST, a configuration file `features_config.json` is used that lists the extracting features.
+
+You can change extracting features configuration. See more: [ast2vec readme](https://github.com/PetukhovVictor/ast2vec#feature-configuration)
+
+## Configure algorithm parameters
+
+To configure the parameters of the algorithms you can use the tools used in the `code-anomaly-decetion` yourself.
+See:
+- [kotlin-source2ast](https://github.com/PetukhovVictor/kotlin-source2ast),
+- [ast-set2matrix](https://github.com/PetukhovVictor/ast-set2matrix),
+- [anomaly-detectyion](https://github.com/PetukhovVictor/anomaly-detection).
