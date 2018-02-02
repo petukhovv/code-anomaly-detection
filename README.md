@@ -20,6 +20,11 @@ You run the program on the project you are interested in by specifying the proje
 
 If the program finds anomalies, then it is written to the specified file.
 
+Before run program, you need to initialize and update the git submodules:
+```
+git submodule update --init --recursive --remote
+```
+
 ### Program arguments
 
 * **-i, --input_folder**: path to your project on Kotlin (or just containing kotlin source code files);
