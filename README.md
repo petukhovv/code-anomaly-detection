@@ -27,8 +27,8 @@ git submodule update --init --recursive --remote
 
 ### Program arguments
 
-* **-i, --input_folder**: path to your project on Kotlin (or just containing kotlin source code files);
-* **-o, --output_file**: file in which paths to anomalistic files will be written, if they are found.
+* `-i`, `--input_folder`: path to your project on Kotlin (or just containing kotlin source code files);
+* `-o`, `--output_file`: file in which paths to anomalistic files will be written, if they are found.
 
 ### Example of use
 
