@@ -12,7 +12,7 @@ Program consist of four top-level parts:
 - autoencoding: run autoencoder neural network on the dataset obtained from the previous stage (vector set);
 - anomaly selection based on the decoding losses obtained from the autoencoder (DBScan or 3/5-sigma deviation).
 
-These parts correspond to three tools included in code-anomaly-detection as submodules: [kotlin-source2ast](https://github.com/PetukhovVictor/kotlin-source2ast), [ast-set2matrix](https://github.com/PetukhovVictor/ast-set2matrix) and [anomaly-detectyion](https://github.com/PetukhovVictor/anomaly-detection).
+These parts correspond to three tools included in code-anomaly-detection as submodules: [kotlin-source2ast](https://github.com/PetukhovVictor/kotlin-source2ast), [ast-set2matrix](https://github.com/PetukhovVictor/ast-set2matrix) and [anomaly-detection](https://github.com/PetukhovVictor/anomaly-detection).
 
 ## Program use
 
