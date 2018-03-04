@@ -6,7 +6,7 @@ Program for anomaly detection in Kotlin source code.
 
 ### Example 1
 
-test 1
+test 1. asfd
 
 ```
 package com.exsilicium.scripture.shared.model
