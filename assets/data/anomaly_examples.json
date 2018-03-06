@@ -1,0 +1,455 @@
+{
+  "big_code_hierarchy": {
+    "cstExamples": {
+      "total": 30,
+      "all_url": "https://yadi.sk/d/IrbdGxNE3Sp9Uv",
+      "items": {
+        "1741_0924744.kt": "151957f7945e3263b57250e77dfdb144",
+        "1074_71399994.kt": "539c0d2f726ab9d172c2ba832647bb59",
+        "1069_46563454.kt": "51faa4f6fe65ce5ffe7dcf07277298fc",
+        "898_05903588.kt": "b3699e54be5e89620ef21d7daff046d5"
+      }
+    },
+    "bytecodeExamples": {
+      "total": 3,
+      "all_url": "https://yadi.sk/d/YCnuCJct3T458t",
+      "items": [
+        {
+          "1239_EditorStage.kt": "32c2862d60e8a6dbdffde10c894eb0ee",
+          "1239_EditorStage.class.json": "23bf17aa90861ccf53bfaf64540c9f3e"
+        },
+        {
+          "1012_widgets.kt": "3bfc65560dbe242770a197e4f70d6010",
+          "1012_widgets.class.json": "2acac35b52e41e10cd5f8ee7d9720ecb"
+        },
+        {
+          "367_TextEditState.kt": "1367d67f947a371b4cab7df9699e2ebe",
+          "367_TextEditState.class.json": "f07d6a0bb71036edf3a9fcc0c478d194"
+        }
+      ]
+    }
+  },
+  "big_multiline_strings": {
+    "cstExamples": {
+      "total": 27,
+      "all_url": "https://yadi.sk/d/9Au__OYE3SpBCr",
+      "items": {
+        "2186_41650207.kt": "002658e398499aba5af48079b757ee37",
+        "1334_20790702.kt": "8f99a88a788a7df5527d353249b757b7",
+        "1059_98046631.kt": "c1bce32a004307edc75c2b1b06e8741e"
+      }
+    },
+    "bytecodeExamples": {
+      "total": 8,
+      "all_url": "https://yadi.sk/d/w12QHeYe3T4JZ6",
+      "items": [
+        {
+          "1318_Nuklear.kt": "69f8449438004c9a44fb16ac83425953",
+          "1318_Nuklear.class.json": "019accb8655f3e82373d1307fd3dcb02"
+        },
+        {
+          "476_Yoga.kt": "81902be30aa42bd0d9c06c490dbeb9f9",
+          "476_Yoga.class.json": "654a87b7b09c65e5560ce0f7858cfb99"
+        }
+      ]
+    }
+  },
+  "big_static_arrays_or_map": {
+    "cstExamples": {
+      "total": 30,
+      "all_url": "https://yadi.sk/d/maeusvha3SpBNz",
+      "items": {
+        "9619_60767009.kt": "0d8e93f7a4d5d2d90cd21dfe3db08ba9",
+        "2674_55547561.kt": "42e6133f25da84e2441f860a31a9b6fa",
+        "980_875609694.kt": "284565b7378498a33b08d616e89c1d5c",
+        "851_999352119.kt": "e7ca55cc400dc58bd2c69b16301047c4",
+        "845_169014207.kt": "716c3b8666504a113a378672f90ca805",
+        "695_518795113.kt": "e696d3e199af4097ae248b11a9796325"
+      }
+    },
+    "bytecodeExamples": {
+      "total": 2,
+      "all_url": "https://yadi.sk/d/P757gCM93T4Jhk",
+      "items": [
+        {
+          "4593_font.kt": "d93b41874a6f3a8071cc8ed37c67f043",
+          "4593_FontAtlas$jap.class.json": "3decd6def7741376c04a6e8aa77a0e97"
+        }
+      ]
+    }
+  },
+  "complex_or_long_logical_expressions": {
+    "cstExamples": {
+      "total": 6,
+      "all_url": "https://yadi.sk/d/5G06go5u3SpBb4",
+      "items": {
+        "1059_98046631.kt": "3647ffb32f84ccc3d2a70f8c307ba73b",
+        "915_130522116.kt": "dc6328ef8f09d1cf92579fc9eb232c6a",
+        "820_667231648.kt": "b300171c7ed957ed63dab31478ddae91"
+      }
+    }
+  },
+  "long_calls_chain": {
+    "cstExamples": {
+      "total": 5,
+      "all_url": "https://yadi.sk/d/W8eMX2-O3SpBVD",
+      "items": {
+        "2248_26554994.kt": "2b99468058b33bf3b2b7cc5a58e066c6",
+        "727_697819708.kt": "b7e12a90af763f8391c2ae8106079b6d",
+        "518_805403162.kt": "2246bf7576e58da5b21daab33b8ef2c5",
+        "461_072377513.kt": "5f7dea7728ddbd95f2f776de019dc5d5"
+      }
+    }
+  },
+  "long_enumerations": {
+    "cstExamples": {
+      "total": 2,
+      "all_url": "https://yadi.sk/d/bDlWpiO43SpBsG",
+      "items": {
+        "1403_48722141.kt": "78471c599da5c5f3833d750c1e89121c",
+        "1391_26303605.kt": "8bb6cfe1e759e798812684a14ecfb2a7"
+      }
+    }
+  },
+  "many_assignment_statements": {
+    "cstExamples": {
+      "total": 57,
+      "all_url": "https://yadi.sk/d/jf5FdjE83SpAjD",
+      "items": {
+        "4177_1494766.kt": "e1b0a656056130c04adb1b68c8598819",
+        "1262_83299418.kt": "f5cfd5c6f15a43127653aaffa1a4de57",
+        "957_169484679.kt": "00a45839580e6324bebaa827f096b1b4"
+      }
+    },
+    "bytecodeExamples": {
+      "total": 3,
+      "all_url": "https://yadi.sk/d/pLr5vDuR3T4JqQ",
+      "items": [
+        {
+          "1012_widgets.kt": "192dac21b2f2ef17ad2b4d058c435cbd",
+          "1012_widgets.class.json": "d9e30301b98da8b54ace91fa1fb55783"
+        },
+        {
+          "367_TextEditState.kt": "c3ed202002a1b5ad30cc1021a34d680c",
+          "367_TextEditState.class.json": "799d177612a571936086db788b621634"
+        }
+      ]
+    }
+  },
+  "many_case_in_when": {
+    "cstExamples": {
+      "total": 33,
+      "all_url": "https://yadi.sk/d/OFBOzJAD3Sp97x",
+      "items": {
+        "9427_45911639.kt": "e181a0760133fc553f53009f73c54980",
+        "2731_22781338.kt": "be00cb93e1a670b50778c4c88cb6446b",
+        "2359_47083853.kt": "3b1971a3c1dcb80d724a728f0d562909",
+        "2238_22719281.kt": "365a663c52112c79f3f9a754c201f2f5"
+      }
+    },
+    "bytecodeExamples": {
+      "total": 1,
+      "all_url": "https://yadi.sk/d/XzXrz5Y93T4K3A",
+      "items": [
+        {
+          "634_ViewModel.kt": "5c03635aa5843afee6484c871418a10d",
+          "634_ViewModel.class.json": "a9c5856a5dc2c06323918897ad096057"
+        }
+      ]
+    }
+  },
+  "many_concatenations": {
+    "cstExamples": {
+      "total": 13,
+      "all_url": "https://yadi.sk/d/x2tiYbks3SpC6X",
+      "items": {
+        "995_169554923.kt": "9d9383d79ca8c37974eab98b873c176f",
+        "908_098222933.kt": "501219b23efa03cb32337a018331867e",
+        "679_718858732.kt": "08b2482ad8399fd6f84a19aa1ae028d1",
+        "666_093862254.kt": "8e26e362c638bd11db7a69b9bb152f23"
+      }
+    }
+  },
+  "many_function_arguments": {
+    "cstExamples": {
+      "total": 17,
+      "all_url": "https://yadi.sk/d/AkRgNLdo3SpCCo",
+      "items": {
+        "9619_60767009.kt": "e41da15240b19c83394d366c1b068f32",
+        "934_279728986.kt": "1c5d2b61a1b9e79dd9b0ec5a0e845d8e",
+        "787_781482349.kt": "5eba165d3cbbb9bbb58905bd14ace270"
+      }
+    },
+    "bytecodeExamples": {
+      "total": 4,
+      "all_url": "https://yadi.sk/d/pSYsDytv3T4reV",
+      "items": [
+        {
+          "452_GLES20.kt": "70e3297a4245c51ba36a796e88629a3d",
+          "452_GLES20.class.json": "fb30bd625ee2b2559ffbfb4033b772f5"
+        }
+      ]
+    }
+  },
+  "many_generic_parameters": {
+    "cstExamples": {
+      "total": 6,
+      "all_url": "https://yadi.sk/d/8LaLMlqX3Sp8it",
+      "items": {
+        "600_498460165.kt": "6e693a9024fec693edb277312f59f144"
+      }
+    }
+  },
+  "many_if_statements": {
+    "cstExamples": {
+      "total": 38,
+      "all_url": "https://yadi.sk/d/xqzFZE_33Sp9Dt",
+      "items": {
+        "2413_79989814.kt": "b363cb1d53b039779d9a9d8a6aec6118",
+        "1741_0924744.kt": "fd0dd19a1a988c1a6153d55a47a76f03",
+        "1119_62992668.kt": "a8c5fa7bb73464de48cc61113956e4ca"
+      }
+    },
+    "bytecodeExamples": {
+      "total": 1,
+      "all_url": "https://yadi.sk/d/nsHvyY3d3T4s8r",
+      "items": [
+        {
+          "1239_EditorStage.kt": "204a907075c79bee420c1c177fed1dbc",
+          "1239_EditorStage.class.json": "8ad78edde02e84ed238404483ce28efa"
+        }
+      ]
+    }
+  },
+  "many_loops": {
+    "cstExamples": {
+      "total": 7,
+      "all_url": "https://yadi.sk/d/EWJ6bcsN3SpCGq",
+      "items": {
+        "2041_57944715.kt": "7612e9b81b277b7b9f6f04e652bc7157",
+        "1808_79882816.kt": "10a19069d6b179a7b8cbb3077f65040e",
+        "1069_46563454.kt": "861ed527a8ea0b7225825b12367ceb80"
+      }
+    },
+    "bytecodeExamples": {
+      "total": 1,
+      "all_url": "https://yadi.sk/d/6Hvtq-Y83T4tQ7",
+      "items": [
+        {
+          "359_inputNavigationAndFocus.kt": "1f173a37631a74d8e4501f1d9dbc8dcd",
+          "359_inputNavigationAndFocus.class.json": "f6c53fec446a3867042e5ffc3192cec5"
+        }
+      ]
+    }
+  },
+  "many_similar_call_expressions": {
+    "cstExamples": {
+      "total": 86,
+      "all_url": "https://yadi.sk/d/oy7fdVDS3Sp9s3",
+      "items": {
+        "14288_0148376.kt": "87d591a6702bf46f0ce87ff91904d0a6",
+        "13421_6491434.kt": "75c510080b5599edcc693389b67ab19a",
+        "6512_57228688.kt": "95839918e64210895c371129442dd754",
+        "2703_26722649.kt": "273a8aaa549c118732a23d9fcdf8404c"
+      }
+    },
+    "bytecodeExamples": {
+      "total": 17,
+      "all_url": "https://yadi.sk/d/3br1nT1Z3T4uTk",
+      "items": [
+        {
+          "3555_PackageApi.kt": "71ea0062d214904a5ee942308079e2a9",
+          "3555_PackageApi$CompanyInfo.class.json": "74e0541b5f94dbf4c48e321f8fa1c06b"
+        },
+        {
+          "796_CabalTokelTypes.kt": "ff593f45894f891b636fdf06417cbbdf",
+          "796_CabalTokelTypes.class.json": "4d1a7d79967aed39ccb454f474006ff3"
+        },
+        {
+          "359_inputNavigationAndFocus.kt": "627de4b3f91854061c27ac22000fc21a",
+          "359_inputNavigationAndFocus.class.json": "3650bb55aecf0cf21decadf45a9263d2"
+        }
+      ]
+    }
+  },
+  "many_var_or_fun_definitions": {
+    "cstExamples": {
+      "total": 14,
+      "all_url": "https://yadi.sk/d/iTTQJOFd3SpADb",
+      "items": {
+        "4891_63999481.kt": "4f04b991eb5a2d3a783df5932ff2b5e2",
+        "2740_93778153.kt": "915fb4b3b9a91e8402e5b887a69be5d4",
+        "2547_91645477.kt": "af66f92f3c43cb58a6ec280e13b73e63"
+      }
+    },
+    "bytecodeExamples": {
+      "total": 9,
+      "all_url": "https://yadi.sk/d/t406Jtx13T4KNS",
+      "items": [
+        {
+          "1821_CSS.kt": "c694d98ed69a7b5a02f0771f371066de",
+          "1821_Stylesheet$Companion.class.json": "e4c5f862b7d7054d1b653c19d9b9ab97"
+        },
+        {
+          "1814_CSS.kt": "4d161989baaa326f3b5e66c5f3f1568c",
+          "1814_PropertyHolder.class.json": "60ab0abbaa1c2fd54eb84ade2744b8cd"
+        }
+      ]
+    }
+  },
+  "nested_calls": {
+    "cstExamples": {
+      "total": 3,
+      "all_url": "https://yadi.sk/d/clEG8QbV3SpB6N",
+      "items": {
+        "2179_95451312.kt": "5a3e032ed5e6e2e4db89d4b37f8af101",
+        "1789_55786539.kt": "23d95b306437a158494472730a747d69",
+        "506_004230873.kt": "d388c2a77744d897cf74c07ed345d915"
+      }
+    }
+  },
+  "big_and_complex_enums": {
+    "bytecodeExamples": {
+      "total": 3,
+      "all_url": "https://yadi.sk/d/yyWj_N5N3T3wwd",
+      "items": [
+        {
+          "4168_Book.kt": "d24329380b308b672f37edfbb33386d6",
+          "4168_Book.class.json": "d3d567937029579a254735e14e9668f3"
+        },
+        {
+          "1985_LatexNoMathCommand.kt": "5e3b21d8a2d1f932ca3ad99c24d7fdd3",
+          "1985_LatexNoMathCommand.class.json": "7162bc04e58ae9840a25969afd11d47d"
+        }
+      ]
+    }
+  },
+  "big_companion_object": {
+    "bytecodeExamples": {
+      "total": 2,
+      "all_url": "https://yadi.sk/d/keDdiPKj3T45uh",
+      "items": [
+        {
+          "1814_CSS.kt": "03b7c57c8614e646886dbb6c0b71c5e4",
+          "1814_PropertyHolder.class.json": "4c285397769a1bef4e233e11a361edf0"
+        },
+        {
+          "366_JSONConverter.kt": "9fa7524220876a4a901646f8587a5936",
+          "366_JSONConverter$Companion.class.json": "7422a361c337190530a79564c5340d76"
+        }
+      ]
+    }
+  },
+  "big_constants_set": {
+    "bytecodeExamples": {
+      "total": 9,
+      "all_url": "https://yadi.sk/d/8WSRrHar3T4ESq",
+      "items": [
+        {
+          "958_GL11.kt": "4475633316a028ae51985ae52edf4a8c",
+          "958_GL11.class.json": "d6538a60e7a56a798a56269fa2f3cad5"
+        }
+      ]
+    }
+  },
+  "big_init_method_in_bytecode": {
+    "bytecodeExamples": {
+      "total": 2,
+      "all_url": "https://yadi.sk/d/xZyD09ZZ3T4JBz",
+      "items": [
+        {
+          "1351_Config.kt": "bb60ea6e9c9eb4dda353bf38eadb6404",
+          "1351_ConfigModel.class.json": "c544db710a1f865377440e7bbc050de3"
+        },
+        {
+          "796_CabalTokelTypes.kt": "37c12b1db74ca56b2e669cf4c9764e95",
+          "796_CabalTokelTypes.class.json": "de5683b1f0ff47831bc93c7c776a9e96"
+        }
+      ]
+    }
+  },
+  "many_consecutive_arithmetic_expressions": {
+    "bytecodeExamples": {
+      "total": 1,
+      "all_url": "https://yadi.sk/d/i0DbihEg3T4KA6",
+      "items": [
+        {
+          "1239_EditorStage.kt": "9d2785699334f5f829b808bf2b7a2380",
+          "1239_EditorStage.class.json": "047313bd178ca236e375fa1915775dcb"
+        }
+      ]
+    }
+  },
+  "many_delegate_properties": {
+    "bytecodeExamples": {
+      "total": 2,
+      "all_url": "https://yadi.sk/d/nlcB8Y763T4KD2",
+      "items": [
+        {
+          "1821_CSS.kt": "c694d98ed69a7b5a02f0771f371066de",
+          "1821_Stylesheet$Companion.class.json": "e4c5f862b7d7054d1b653c19d9b9ab97"
+        },
+        {
+          "1814_CSS.kt": "4d161989baaa326f3b5e66c5f3f1568c",
+          "1814_PropertyHolder.class.json": "60ab0abbaa1c2fd54eb84ade2744b8cd"
+        }
+      ]
+    }
+  },
+  "many_inline_functions": {
+    "bytecodeExamples": {
+      "total": 2,
+      "all_url": "https://yadi.sk/d/LVkgotGI3T4sQY",
+      "items": [
+        {
+          "2220_ViewModel.kt": "8c6736aecff99f14dbfe0b38cd6e1576",
+          "2220_ItemViewModel.class.json": "6e701d86333042e5b6e0df4fb66a6bb9"
+        }
+      ]
+    }
+  },
+  "many_root_function_definitions": {
+    "bytecodeExamples": {
+      "total": 3,
+      "all_url": "https://yadi.sk/d/2lk2YE7P3T4tqr",
+      "items": [
+        {
+          "4519_Generated.kt": "35c954983fdd1e57a42e669ca3846ef4",
+          "4519_KaliumPackage-Generated-42b15255.class.json": "ea7902d95a2ecdaa19f95494186fd79f"
+        },
+        {
+          "634_ViewModel.kt": "2c72a76ccc622185057449e151d3cdec",
+          "634_ViewModel.class.json": "f63f887bb76bd8f94ae4c2e5d53f8f13"
+        }
+      ]
+    }
+  },
+  "many_square_bracket_annotations": {
+    "bytecodeExamples": {
+      "total": 2,
+      "all_url": "https://yadi.sk/d/SCmMck273T4vPQ",
+      "items": [
+        {
+          "4519_Generated.kt": "688da7d12e0cf0447acc75b609ca0712",
+          "4519_KaliumPackage-Generated-42b15255.class.json": "6d8ee011068132d3b06ae63ac1d98c04"
+        },
+        {
+          "2962_Generated.kt": "293d6ecec633ab4c4c83114e64cd7a56",
+          "2962_PropertiesPackage-Generated-466c78cd.class.json": "5ccb928bafb229a4f54c4aa9bbfae4eb"
+        }
+      ]
+    }
+  },
+  "many_type_reified_params": {
+    "bytecodeExamples": {
+      "total": 1,
+      "all_url": "https://yadi.sk/d/E8QTHpFr3T4vrb",
+      "items": [
+        {
+          "2220_ViewModel.kt": "b011dfddef8e45d154e563cef4a21b07",
+          "2220_ItemViewModel.class.json": "9589b28614fc905eaa0362ffa999a91f"
+        }
+      ]
+    }
+  }
+}
