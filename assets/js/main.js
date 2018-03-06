@@ -124,8 +124,6 @@ $("#anomaly-classes .list-group-item").on("click", function() {
     }
 
     loadExamples(classInfo, source, sourceText, window.currentClassTitle);
-
-    return false;
 });
 
 $(".source-examples").on("click", function() {
