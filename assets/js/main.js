@@ -104,8 +104,8 @@ function loadExamples(classInfo, source, sourceText, title) {
 }
 
 $("#anomaly-classes .list-group-item").on("click", function() {
-    $(this).addClass("active");
     $("#anomaly-classes .list-group-item").removeClass("active");
+    $(this).addClass("active");
     $(".anomalies-block").show();
     var classId = $(this).attr("id");
     var classInfo = examplesMap[classId];
