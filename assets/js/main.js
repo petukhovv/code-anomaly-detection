@@ -126,7 +126,7 @@ $("#anomaly-classes .list-group-item").on("click", function() {
     loadExamples(classInfo, source, sourceText, window.currentClassTitle);
 
     $('html, body').animate({
-        scrollTop: $("#anomalies-block").offset().top
+        scrollTop: $("#anomalies-block").offset().top - 60
     }, 500);
 
     return false;
