@@ -124,6 +124,12 @@ $("#anomaly-classes .list-group-item").on("click", function() {
     }
 
     loadExamples(classInfo, source, sourceText, window.currentClassTitle);
+
+    $('html, body').animate({
+        scrollTop: $("#anomalies-block").offset().top
+    }, 500);
+
+    return false;
 });
 
 $(".source-examples").on("click", function() {
