@@ -2,6 +2,8 @@
 
 Program for anomaly detection in Kotlin source code.
 
+**[Go to code anomaly detection page](https://petukhovvictor.github.io/code-anomaly-detection/)**
+
 ## Description
 
 Anomaly is Kotlin source code file, witch according to machine learning algorithms deviates from the norm.
