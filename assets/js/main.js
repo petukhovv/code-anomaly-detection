@@ -1,151 +1,207 @@
-$(document.body).on("click", ".spoiler-trigger", function() {
-    $(this).parent().next().collapse('toggle');
-});
+var anomalyClasses = {};
 
-var examplesMap = {};
+function loadAnomalyClasses() {
+    $.getJSON("assets/data/anomaly_examples.json", function(anomalyClassesLoaded) {
+        anomalyClasses = anomalyClassesLoaded;
 
-$.getJSON("assets/data/anomaly_examples.json", function(examples) {
-    examplesMap = examples;
-});
+        for (var anomalyClass in anomalyClasses) {
+            var anomalyClassInfo = anomalyClasses[anomalyClass];
+            var cstAnomalies = anomalyClassInfo.examples.cst;
+            var bytecodeAnomalies = anomalyClassInfo.examples.bytecode;
+            var cstAnomaliesHtml = cstAnomalies ?
+                '<span class="badge badge-primary badge-pill float-right" style="margin-left: 5px;">' + cstAnomalies.total + '</span>' : '';
+            var bytecodeAnomaliesHtml = bytecodeAnomalies ?
+                '<span class="badge badge-info badge-pill float-right" style="margin-left: 5px;">' + bytecodeAnomalies.total + '</span>' : '';
 
-var content = '';
-document.write = function(s) {
-    content += s;
-};
-
-function loadExamples(classInfo, source, sourceText, title) {
-    if (classInfo.cstExamples) {
-        $("#cst-examples").show()
-        $("#cst-examples .total").text(classInfo.cstExamples.total);
-    } else {
-        $("#cst-examples").hide();
-    }
-    if (sourceText == "cst") {
-        $(".source-examples").removeClass("active");
-        $("#cst-examples").addClass("active");
-        $(".anomalies-list").hide();
-        $("#cst-anomalies").show().css("opacity", 1.0);
-    }
-    if (classInfo.bytecodeExamples) {
-        $("#bytecode-examples").show()
-        $("#bytecode-examples .total").text(classInfo.bytecodeExamples.total);
-    } else {
-        $("#bytecode-examples").hide();
-    }
-    if (sourceText == "bytecode") {
-        $(".source-examples").removeClass("active");
-        $("#bytecode-examples").addClass("active");
-        $(".anomalies-list").hide();
-        $("#bytecode-anomalies").show().css("opacity", 1.0);
-    }
-    var requested = 0;
-
-    if (sourceText == "cst") {
-        var contents = [];
-        $("#anomaly_examples").html('Loading examples...');
-        $("#all_examples_url").attr("href", source.all_url);
-        $("#cst-class-title").text(title);
-        var i = 1;
-        for (var key in source.items) {
-            var item = source.items[key];
-            requested++;
-            $.getScript('https://gist.github.com/PetukhovVictor/' + item + '.js', function(i, key, item) {
-                return function() {
-                    requested--;
-                    contents[i - 1] = '<div class="panel panel-default" style="margin-bottom: 24px;"><div class="panel-heading"><button type="button" style="background: #eee;border-bottom-left-radius: 0;border-bottom-right-radius: 0;display: block;width: 100%;text-align: left;" class="btn btn-default btn-xs spoiler-trigger" data-toggle="collapse">Example ' + i + ': <b>' + key + '</b></button></div><div class="panel-collapse collapse out"><div class="panel-body">' + content + '</div></div></div>';
-
-                    if (requested == 0) {
-                        $("#anomaly_examples").empty();
-                        contents.forEach(function(content) {
-                            $("#anomaly_examples").append(content);
-                        })
-                    }
-                    content = '';
-                }
-            }(i, key, item));
-            i++;
+            $("#anomaly-classes").append(
+                '<a href="#" id="' + anomalyClass + '" class="anomaly-class-item list-group-item list-group-item-action">' +
+                    '<span class="title">' + anomalyClassInfo.title + '</span>' + bytecodeAnomaliesHtml + cstAnomaliesHtml +
+                '</a>'
+            );
         }
-    } else if (sourceText == "bytecode") {
-        var contents = [];
-        $("#anomaly_examples_bytecode").html('Loading examples...');
-        $("#all_examples_url_bytecode").attr("href", source.all_url);
-        $("#bytecode-class-title").text(title);
-        var i = 1;
-        console.log(source.items);
-        for (var key in source.items) {
-            var item = source.items[key];
-            contents[i - 1] = [];
-            var j = 0;
-            for (var partKey in item) {
-                partItem = item[partKey];
-                requested++;
-                $.getScript('https://gist.github.com/PetukhovVictor/' + partItem + '.js', function(i, j, key, item) {
-                    return function() {
-                        requested--;
-                        contents[i - 1][j] = '<div class="panel panel-default" style="margin-bottom: 24px;"><div class="panel-heading"><button type="button" style="background: #eee;border-bottom-left-radius: 0;border-bottom-right-radius: 0;display: block;width: 100%;text-align: left;" class="btn btn-default btn-xs spoiler-trigger" data-toggle="collapse">Example ' + i + ': <b>' + key + '</b></button></div><div class="panel-collapse collapse out"><div class="panel-body">' + content + '</div></div></div>';
 
-                        if (requested == 0) {
-                            $("#anomaly_examples_bytecode").empty();
-                            contents.forEach(function(contentPart) {
-                                contentPart.forEach(function(content) {
-                                    $("#anomaly_examples_bytecode").append(content);
-                                })
-                                $("#anomaly_examples_bytecode").append("<hr />");
-                            })
-                        }
-                        content = '';
-                    }
-                }(i, j, partKey, partItem));
-                j++;
-            }
-            i++;
-        }
-    }
+        $("#anomaly-classes-loading").remove();
+    });
 }
 
-$("#anomaly-classes .list-group-item").on("click", function() {
-    $("#anomaly-classes .list-group-item").removeClass("active");
-    $(this).addClass("active");
-    $(".anomalies-block").show();
-    var classId = $(this).attr("id");
-    var classInfo = examplesMap[classId];
-    window.currentClassInfo = classInfo;
-    window.currentClassTitle = $(this).find(".title").text()
+function selectAnomalyExamplesBlock(selectedAnomalyType) {
+    var anomalyExampleTypeSelectorsMap = {
+        'cst': {
+            'block': '#anomaly-examples-by-cst',
+            'tab': '#anomaly-examples-by-cst-tab'
+        },
+        'bytecode': {
+            'block': '#anomaly-examples-by-bytecode',
+            'tab': '#anomaly-examples-by-bytecode-tab'
+        }
+    };
 
-    var source;
-    var sourceText;
-
-    if (classInfo.cstExamples) {
-        source = classInfo.cstExamples;
-        sourceText = "cst";
-    } else if (classInfo.bytecodeExamples) {
-        source = classInfo.bytecodeExamples;
-        sourceText = "bytecode";
+    for (var anomalyType in anomalyExampleTypeSelectorsMap) {
+        if (!anomalyExampleTypeSelectorsMap.hasOwnProperty(anomalyType)) {
+            continue;
+        }
+        $(anomalyExampleTypeSelectorsMap[anomalyType].tab).removeClass('active');
+        $(anomalyExampleTypeSelectorsMap[anomalyType].block).removeClass('show').hide();
     }
 
-    loadExamples(classInfo, source, sourceText, window.currentClassTitle);
+    $(anomalyExampleTypeSelectorsMap[selectedAnomalyType].tab).addClass('active');
+    $(anomalyExampleTypeSelectorsMap[selectedAnomalyType].block).addClass('show').show();
+}
 
-    $('html, body').animate({
-        scrollTop: $("#anomalies-block").offset().top - 60
-    }, 500);
+function selectAndShowAnomalyExamplesBlock(cstExamples, bytecodeExamples) {
+    var anomalyExampleTypes = [];
 
-    return false;
-});
-
-$(".source-examples").on("click", function() {
-    var source;
-    var sourceText;
-    var id = $(this).attr("id");
-
-    if (id == "cst-examples") {
-        source = window.currentClassInfo.cstExamples;
-        sourceText = "cst";
-    } else if (id == "bytecode-examples") {
-        source = window.currentClassInfo.bytecodeExamples;
-        sourceText = "bytecode";
+    if (cstExamples) {
+        $("#anomaly-examples-by-cst-number").text(cstExamples.total);
+        $("#anomaly-examples-by-cst-tab").show();
+        anomalyExampleTypes.push("cst");
+    } else {
+        $("#anomaly-examples-by-cst-tab").hide();
     }
 
-    loadExamples(window.currentClassInfo, source, sourceText, window.currentClassTitle);
+    if (bytecodeExamples) {
+        $("#anomaly-examples-by-bytecode-number").text(bytecodeExamples.total);
+        $("#anomaly-examples-by-bytecode-tab").show();
+        anomalyExampleTypes.push("bytecode");
+    } else {
+        $("#anomaly-examples-by-bytecode-tab").hide();
+    }
 
-    return false;
+    selectAnomalyExamplesBlock(anomalyExampleTypes[0]);
+
+    return anomalyExampleTypes[0];
+}
+
+function getAnomalyExampleFileBlock(number, filename, content) {
+    return (
+        '<div class="panel panel-default" style="margin-bottom: 24px;">' +
+            '<div class="panel-heading">' +
+                '<button type="button" style="background: #eee;border-bottom-left-radius: 0;border-bottom-right-radius: 0;display: block;width: 100%;text-align: left;" class="btn btn-default btn-xs spoiler-trigger" data-toggle="collapse">' +
+                    'Example ' + number + ': <b>' + filename + '</b>' +
+                '</button>' +
+            '</div>' +
+            '<div class="panel-collapse collapse out">' +
+                '<div class="panel-body">' + content + '</div>' +
+            '</div>' +
+        '</div>'
+    )
+}
+
+function showAnomalyExamples(selectedAnomaliesType, anomalyExamplesHtml) {
+    var anomalyExampleListSelector = "#anomaly-examples-by-" + selectedAnomaliesType + "-list";
+
+    $(anomalyExampleListSelector).empty();
+    anomalyExamplesHtml.forEach(function(anomalyExampleHtml, index) {
+        anomalyExampleHtml.forEach(function(anomalyExampleFileHtml) {
+            $(anomalyExampleListSelector).append(anomalyExampleFileHtml);
+        });
+        if (index !== anomalyExamplesHtml.length - 1) {
+            $(anomalyExampleListSelector).append("<hr />");
+        }
+    })
+}
+
+function loadAnomalyExamples(anomalyClassInfo, selectedAnomaliesType, callback) {
+    var anomalyExamples = anomalyClassInfo.examples[selectedAnomaliesType];
+
+    $("#anomaly-examples-by-" + selectedAnomaliesType + "-title").text(anomalyClassInfo.title);
+    $("#anomaly-examples-by-" + selectedAnomaliesType + "-all-url").attr("href", anomalyExamples.all_url);
+    $("#anomaly-examples-by-" + selectedAnomaliesType + "-list").text("Loading examples...");
+
+    var githubProfileUrl = 'https://gist.github.com/PetukhovVictor';
+    var requestNumber = 0;
+    var exampleNumber = 0;
+    var anomalyExamplesHtml = [];
+    var interceptedContent = '';
+    document.write = function(str) {
+        interceptedContent += str;
+    };
+
+    anomalyExamples.items.forEach(function (anomalyExample) {
+        anomalyExamplesHtml.push([]);
+        var anomalyExampleHtml = anomalyExamplesHtml[anomalyExamplesHtml.length - 1];
+        var fileNumber = 0;
+
+        for (var file in anomalyExample.files) {
+            if (!anomalyExample.files.hasOwnProperty(file)) {
+                continue;
+            }
+            requestNumber++;
+            var githubGistId = anomalyExample.files[file];
+            $.getScript(githubProfileUrl + '/' + githubGistId + '.js', function(anomalyExampleHtml, file, fileNumber, exampleNumber) {
+                return function () {
+                    requestNumber--;
+                    anomalyExampleHtml[fileNumber] = getAnomalyExampleFileBlock(exampleNumber + 1, file, interceptedContent);
+                    interceptedContent = '';
+
+                    if (requestNumber === 0) {
+                        showAnomalyExamples(selectedAnomaliesType, anomalyExamplesHtml);
+                        callback();
+                    }
+                }
+            }(anomalyExampleHtml, file, fileNumber, exampleNumber));
+            fileNumber++;
+        }
+        exampleNumber++;
+    });
+}
+
+function showAnomalyExamplesBlock(anomalyClass, callback) {
+    var anomalyClassInfo = anomalyClasses[anomalyClass];
+    var cstExamples = anomalyClassInfo.examples.cst;
+    var bytecodeExamples = anomalyClassInfo.examples.bytecode;
+    var activeAnomalyExamplesBlock = selectAndShowAnomalyExamplesBlock(cstExamples, bytecodeExamples);
+
+    loadAnomalyExamples(anomalyClassInfo, activeAnomalyExamplesBlock, callback);
+}
+
+$(document).ready(function() {
+    var anomalyClassesSelector = "#anomaly-classes .anomaly-class-item";
+    var anomalyExamplesSelector = "#anomaly-examples";
+    var isLoadingExamples = false;
+
+    $(document.body).on("click", anomalyClassesSelector, function() {
+        if (isLoadingExamples) {
+            return false;
+        }
+        var className = $(this).attr("id");
+
+        isLoadingExamples = true;
+        $(anomalyClassesSelector).removeClass("active");
+        $(this).addClass("active");
+        $(anomalyExamplesSelector).data("selectedClass", className);
+        $(anomalyExamplesSelector).show();
+
+        showAnomalyExamplesBlock(className, function () {
+            isLoadingExamples = false;
+        });
+
+        $('html, body').animate({
+            scrollTop: $(anomalyExamplesSelector).offset().top - 60
+        }, 500);
+
+        return false;
+    });
+
+    $(".anomaly-examples-type").on("click", function() {
+        if (isLoadingExamples) {
+            return false;
+        }
+        var anomaliesType = $(this).data("type");
+        var anomaliesClass = $("#anomaly-examples").data("selectedClass");
+
+        isLoadingExamples = true;
+        selectAnomalyExamplesBlock(anomaliesType);
+        loadAnomalyExamples(anomalyClasses[anomaliesClass], anomaliesType, function () {
+            isLoadingExamples = false;
+        });
+
+        return false;
+    });
+
+    $(document.body).on("click", ".spoiler-trigger", function() {
+        $(this).parent().next().collapse('toggle');
+    });
+
+    loadAnomalyClasses();
 });
