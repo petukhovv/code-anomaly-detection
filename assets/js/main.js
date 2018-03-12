@@ -28,7 +28,7 @@ function loadAnomalyClasses() {
                     '<span class="title">' + anomalyClassInfo.title + '</span>' + bytecodeAnomaliesHtml + cstAnomaliesHtml +
                 '</a>'
             );
-        })
+        });
 
         $("#anomaly-classes-loading").remove();
     });
@@ -135,10 +135,16 @@ function loadAnomalyExamples(anomalyClassInfo, selectedAnomaliesType, callback) 
         var anomalyExampleHtml = anomalyExamplesHtml[anomalyExamplesHtml.length - 1];
         var fileNumber = 0;
 
-        for (var file in anomalyExample.files) {
-            if (!anomalyExample.files.hasOwnProperty(file)) {
-                continue;
+        var anomalyFilesKeys = [];
+
+        for (var k in anomalyExample.files) {
+            if (anomalyExample.files.hasOwnProperty(k)) {
+                anomalyFilesKeys.push(k);
             }
+        }
+
+        anomalyFilesKeys.sort().reverse();
+        anomalyFilesKeys.forEach(function(file) {
             requestNumber++;
             var githubGistId = anomalyExample.files[file];
             $.getScript(githubProfileUrl + '/' + githubGistId + '.js', function(anomalyExampleHtml, file, fileNumber, exampleNumber) {
@@ -154,7 +160,7 @@ function loadAnomalyExamples(anomalyClassInfo, selectedAnomaliesType, callback) 
                 }
             }(anomalyExampleHtml, file, fileNumber, exampleNumber));
             fileNumber++;
-        }
+        });
         exampleNumber++;
     });
 }
