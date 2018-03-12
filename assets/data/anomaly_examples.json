@@ -122,6 +122,35 @@
       }
     }
   },
+  "big_methods": {
+    "title": "Big methods",
+    "examples": {
+      "bytecode": {
+        "total": 3,
+        "all_url": "https://yadi.sk/d/mlvKLzaT3TFjG5",
+        "items": [
+          {
+            "files": {
+              "398_DrawerLayout.class.json": "bde571760218a5b2608b5ff8eb5599f9",
+              "398_DrawerLayout.kt": "f910f849ed1d9e033242fb36144fd411"
+            }
+          },
+          {
+            "files": {
+              "456_BrowserActivity.class.json": "bae754340360d97fb640952c66bb0d3d",
+              "456_BrowserActivity.kt": "92cc8bca2044f8e52216af5d07eb55cf"
+            }
+          },
+          {
+            "files": {
+              "975_Editor.class.json": "48cf1b3286266c7952f0faaa819aa68c",
+              "975_Editor.kt": "dd04dfc5a77a034cb14f0a741cd0c0b9"
+            }
+          }
+        ]
+      }
+    }
+  },
   "many_var_or_fun_definitions": {
     "title": "Many var or fun definitions",
     "examples": {
@@ -421,20 +450,20 @@
           },
           {
             "files": {
-              "358_GL20.class.json": "8430cc8e9ef507304e4b4e21581b265a",
-              "358_GL20.kt": "fb249cd4b893fd23a5aca983f601fdaf"
+              "358_GL20.kt": "fb249cd4b893fd23a5aca983f601fdaf",
+              "358_GL20.class.json": "8430cc8e9ef507304e4b4e21581b265a"
             }
           },
           {
             "files": {
-              "414_GLES30.class.json": "c8e9379bce7a1bc69e36daa1fd0c2ec4",
-              "414_GLES30.kt": "22de6a616a42378fbcedc2cd46f4c740"
+              "414_GLES30.kt": "22de6a616a42378fbcedc2cd46f4c740",
+              "414_GLES30.class.json": "c8e9379bce7a1bc69e36daa1fd0c2ec4"
             }
           },
           {
             "files": {
-              "415_GLES30.class.json": "920a7aba6b1ca23bb0489ad6fd455cd7",
-              "415_GLES30.kt": "cc9fff7670ba61f4b659e97f2f13d49b"
+              "415_GLES30.kt": "cc9fff7670ba61f4b659e97f2f13d49b",
+              "415_GLES30.class.json": "920a7aba6b1ca23bb0489ad6fd455cd7"
             }
           },
           {
@@ -445,8 +474,8 @@
           },
           {
             "files": {
-              "451_GLES20.class.json": "a6773476c73491034d439ecce621250c",
-              "451_GLES20.kt": "5e1def6235f22d39c592f6cb482e9c4f"
+              "451_GLES20.kt": "5e1def6235f22d39c592f6cb482e9c4f",
+              "451_GLES20.class.json": "a6773476c73491034d439ecce621250c"
             }
           },
           {
@@ -463,14 +492,14 @@
           },
           {
             "files": {
-              "507_SQL.class.json": "e09d3b4c5ebbf714971ef4354454214a",
-              "507_SQL.kt": "48732a88dd6f6bf57c52f833231a34ad"
+              "507_SQL.kt": "48732a88dd6f6bf57c52f833231a34ad",
+              "507_SQL.class.json": "e09d3b4c5ebbf714971ef4354454214a"
             }
           },
           {
             "files": {
-              "681_CL10.class.json": "e96cecdaa94eb5893aba6f4d83718ffb",
-              "681_CL10.kt": "3f1a58b1d016e9c088a76f80b5459ea3"
+              "681_CL10.kt": "3f1a58b1d016e9c088a76f80b5459ea3",
+              "681_CL10.class.json": "e96cecdaa94eb5893aba6f4d83718ffb"
             }
           },
           {
@@ -481,8 +510,8 @@
           },
           {
             "files": {
-              "706_BGFX.class.json": "74a31b3d997112d527489c3a00b55b5c",
-              "706_BGFX.kt": "a864d8ffd811ece19fbbefcc2209aea0"
+              "706_BGFX.kt": "a864d8ffd811ece19fbbefcc2209aea0",
+              "706_BGFX.class.json": "74a31b3d997112d527489c3a00b55b5c"
             }
           },
           {
@@ -493,8 +522,8 @@
           },
           {
             "files": {
-              "848_VK10.class.json": "97b444aef46fa4ecc7ecdeba8225049c",
-              "848_VK10.kt": "062e01954aed4fc4c9266fcc931fd847"
+              "848_VK10.kt": "062e01954aed4fc4c9266fcc931fd847",
+              "848_VK10.class.json": "97b444aef46fa4ecc7ecdeba8225049c"
             }
           }
         ]
@@ -534,8 +563,8 @@
           },
           {
             "files": {
-              "466_IDLParser.class.json": "f122114a9d9765b27a50292f4ff5386b",
-              "466_IDLParser.kt": "93ca148983a3a17838f174d9e15a95e2"
+              "466_IDLParser.kt": "93ca148983a3a17838f174d9e15a95e2",
+              "466_IDLParser.class.json": "f122114a9d9765b27a50292f4ff5386b"
             }
           },
           {
@@ -700,8 +729,8 @@
           },
           {
             "files": {
-              "472_VROverlay.class.json": "8a026bc29a3ac26dcbfbb3543fbd98e9",
-              "472_VROverlay.kt": "959ef291fefab10fdd2fcbd01f4776d6"
+              "472_VROverlay.kt": "959ef291fefab10fdd2fcbd01f4776d6",
+              "472_VROverlay.class.json": "8a026bc29a3ac26dcbfbb3543fbd98e9"
             }
           },
           {
@@ -712,14 +741,14 @@
           },
           {
             "files": {
-              "848_VK10.class.json": "19d3877b7ad3eb4430168826cbf0f3c8",
-              "848_VK10.kt": "62be0f2e36bb41f595ec85fc8e7294bf"
+              "848_VK10.kt": "62be0f2e36bb41f595ec85fc8e7294bf",
+              "848_VK10.class.json": "19d3877b7ad3eb4430168826cbf0f3c8"
             }
           },
           {
             "files": {
-              "958_GL11.class.json": "eccd0aad5dfad2a72d5ecb0e75967171",
-              "958_GL11.kt": "f26cc04ca046a4567e5560ab1a9f71f0"
+              "958_GL11.kt": "f26cc04ca046a4567e5560ab1a9f71f0",
+              "958_GL11.class.json": "eccd0aad5dfad2a72d5ecb0e75967171"
             }
           }
         ]
@@ -789,13 +818,19 @@
     "title": "Many case in when",
     "examples": {
       "bytecode": {
-        "total": 1,
+        "total": 2,
         "all_url": "https://yadi.sk/d/XzXrz5Y93T4K3A",
         "items": [
           {
             "files": {
               "634_ViewModel.class.json": "a9c5856a5dc2c06323918897ad096057",
               "634_ViewModel.kt": "5c03635aa5843afee6484c871418a10d"
+            }
+          },
+          {
+            "files": {
+              "1148_Value.class.json": "8d2a17f7229a3069a83c9319c3842833",
+              "1148_Value.kt": "594af8519263c91d2c5e9f62cdd2619c"
             }
           }
         ]
@@ -899,6 +934,24 @@
             }
           }
         ]
+      },
+      "bytecode": {
+        "total": 2,
+        "all_url": "https://yadi.sk/d/qe-UHD3G3TGKFm",
+        "items": [
+          {
+            "files": {
+              "439_DiscordBridge.class.json": "355edea7119ac85d3bbbb19110ed0f7e",
+              "439_DiscordBridge.kt": "94d12b8365733d1e2aa72d5cf0fff3f2"
+            }
+          },
+          {
+            "files": {
+              "585_GraphQLSchemaBuilder.class.json": "bdae9a5d0d8efd20bd6379611774c175",
+              "585_GraphQLSchemaBuilder.kt": "a06d5aab69e6e91502c44c7b035b42f0"
+            }
+          }
+        ]
       }
     }
   },
@@ -950,14 +1003,14 @@
           },
           {
             "files": {
-              "1765_LatexMathCommand.class.json": "6bb6df0a1fcfde8930ded5aa18959d23",
-              "1765_LatexMathCommand.kt": "59f3e16166c281d18528e5792f17f807"
+              "1765_LatexMathCommand.kt": "59f3e16166c281d18528e5792f17f807",
+              "1765_LatexMathCommand.class.json": "6bb6df0a1fcfde8930ded5aa18959d23"
             }
           },
           {
             "files": {
-              "445_DefaultEnvironment.class.json": "a72b02055ca728f61f10e096f40e09a1",
-              "445_DefaultEnvironment.kt": "e0204016cc156fcc324cb4caaa33c15a"
+              "445_DefaultEnvironment.kt": "e0204016cc156fcc324cb4caaa33c15a",
+              "445_DefaultEnvironment.class.json": "a72b02055ca728f61f10e096f40e09a1"
             }
           },
           {
@@ -970,29 +1023,47 @@
       }
     }
   },
-  "big_methods": {
-    "title": "Big methods",
+  "many_assignement_statements": {
+    "title": "Many assignment statements",
     "examples": {
       "bytecode": {
-        "total": 3,
-        "all_url": "https://yadi.sk/d/mlvKLzaT3TFjG5",
+        "total": 6,
+        "all_url": "https://yadi.sk/d/pLr5vDuR3T4JqQ",
         "items": [
           {
             "files": {
-              "398_DrawerLayout.class.json": "bde571760218a5b2608b5ff8eb5599f9",
-              "398_DrawerLayout.kt": "f910f849ed1d9e033242fb36144fd411"
+              "1012_widgets.class.json": "d1e18cd397e88906d753aaf047897bc2",
+              "1012_widgets.kt": "471e34a536e9d4cdf62f5eadc4a898c9"
             }
           },
           {
             "files": {
-              "456_BrowserActivity.class.json": "bae754340360d97fb640952c66bb0d3d",
-              "456_BrowserActivity.kt": "92cc8bca2044f8e52216af5d07eb55cf"
+              "357_NoteStore.class.json": "2d79cbfd89b33a473b8d4af3b4a6aace",
+              "357_NoteStore.kt": "65e4266f9cfec502af0eb6b40bc1775e"
             }
           },
           {
             "files": {
-              "975_Editor.class.json": "48cf1b3286266c7952f0faaa819aa68c",
-              "975_Editor.kt": "dd04dfc5a77a034cb14f0a741cd0c0b9"
+              "366_JSONConverter$Companion.class.json": "9123c229b4a1538014809f167c09075d",
+              "366_JSONConverter.kt": "68357a8b4309c09208b01dd4fa896d6c"
+            }
+          },
+          {
+            "files": {
+              "367_TextEditState.class.json": "77765a8451167548fc2cd1c5bf5f868a",
+              "367_TextEditState.kt": "69f70c56204ae7251559ff1c1af560de"
+            }
+          },
+          {
+            "files": {
+              "422_EventActivity.class.json": "945b9a84e50808b142f6428726573401",
+              "422_EventActivity.kt": "103ba07d02adf436e36f57ea7f910a95"
+            }
+          },
+          {
+            "files": {
+              "651_Settings.class.json": "73642989afd72dba2e041c1e29f17c6d",
+              "651_Settings.kt": "66fc77b653abae5821dafb748ecc466b"
             }
           }
         ]
