@@ -105,7 +105,7 @@ function showAnomalyExamples(selectedAnomaliesType, anomalyExamplesHtml) {
     $(anomalyExampleListSelector).empty();
     anomalyExamplesHtml.forEach(function(anomalyExampleHtml, index) {
         anomalyExampleHtml.forEach(function(anomalyExampleFileHtml) {
-            $(anomalyExampleListSelector).append(anomalyExampleFileHtml.wrap);
+            $(anomalyExampleListSelector).append(anomalyExampleFileHtml);
         });
         if (index !== anomalyExamplesHtml.length - 1) {
             $(anomalyExampleListSelector).append("<hr />");
