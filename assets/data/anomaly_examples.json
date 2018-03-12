@@ -103,7 +103,7 @@
     "title": "Many root function definitions",
     "examples": {
       "bytecode": {
-        "total": 3,
+        "total": 4,
         "all_url": "https://yadi.sk/d/2lk2YE7P3T4tqr",
         "items": [
           {
@@ -116,6 +116,12 @@
             "files": {
               "634_ViewModel.class.json": "f63f887bb76bd8f94ae4c2e5d53f8f13",
               "634_ViewModel.kt": "2c72a76ccc622185057449e151d3cdec"
+            }
+          },
+          {
+            "files": {
+              "2962_PropertiesPackage-generated-466c78cd.class.json": "5a82042c9b1629883f82a8468778a592",
+              "2962_PropertiesPackage-generated-466c78cd.kt": "4d46d6710cbb7f6c5557928bf1196f36"
             }
           }
         ]
@@ -189,6 +195,41 @@
           {
             "files": {
               "2547_91645477.kt": "af66f92f3c43cb58a6ec280e13b73e63"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "many_literal_strings": {
+    "title": "Many literal strings",
+    "examples": {
+      "bytecode": {
+        "total": 4,
+        "all_url": "https://yadi.sk/d/1OOQppUp3TGLE2",
+        "items": [
+          {
+            "files": {
+              "3554_PackageApi.kt": "f3e5093f78a89971e35a147f8d5bf550",
+              "3554_PackageApi$CompanyInfo.class.json": "56845feafdaa0276bb97d033e2ec568f"
+            }
+          },
+          {
+            "files": {
+              "651_Settings.class.json": "e80a300d60ac94fea11828b0c39ae54d",
+              "651_Settings.kt": "351ed5251e0b3fb6c89bb5b741f88ec9"
+            }
+          },
+          {
+            "files": {
+              "681_CL10.kt": "9cd51a72c14f548522f70e5bd8f8cdcf",
+              "681_CL10.class.json": "7ccec700b6c11e5404147c29fc093803"
+            }
+          },
+          {
+            "files": {
+              "847_VK10.class.json": "a37e0d429dcb57b084e7293d49c992b7",
+              "847_VK10.kt": "4dc87d47989b58e35f809f7efc35b9ff"
             }
           }
         ]
@@ -307,8 +348,8 @@
           },
           {
             "files": {
-              "439_DiscordBridge.class.json": "e511b1f53f155950029dd3097bf04d32",
-              "439_DiscordBridge.kt": "266fd8d56b7ef81962cfbfb3c0c8c541"
+              "439_DiscordBridge.kt": "266fd8d56b7ef81962cfbfb3c0c8c541",
+              "439_DiscordBridge.class.json": "e511b1f53f155950029dd3097bf04d32"
             }
           },
           {
@@ -439,7 +480,7 @@
     "title": "Many similar call expressions",
     "examples": {
       "bytecode": {
-        "total": 17,
+        "total": 44,
         "all_url": "https://yadi.sk/d/3br1nT1Z3T4uTk",
         "items": [
           {
@@ -458,6 +499,168 @@
             "files": {
               "359_inputNavigationAndFocus.kt": "627de4b3f91854061c27ac22000fc21a",
               "359_inputNavigationAndFocus.class.json": "3650bb55aecf0cf21decadf45a9263d2"
+            }
+          },
+          {
+            "files": {
+              "1012_widgets.class.json": "40b5481ff50b7d0e19bb5c53bbd76c92",
+              "1012_widgets.kt": "baa3db26a43400a8bb92a9fc13543a9b"
+            }
+          },
+          {
+            "files": {
+              "1148_Value.class.json": "d3277444b4ff5c2a411cf0f9a2f286d3",
+              "1148_Value.kt": "14f2c8b698a898070f7aef123e312bd9"
+            }
+          },
+          {
+            "files": {
+              "1318_Nuklear.class.json": "4b2cba7e21c9b9f3586bc1ea9d8b72b7",
+              "1318_Nuklear.kt": "1cafa803d908e535ee5c684ba8721af5"
+            }
+          },
+          {
+            "files": {
+              "357_NoteStore.class.json": "63bbce7e6d4879cd03c1463558154414",
+              "357_NoteStore.kt": "ff54b65dd424b11e31e9a44c11536bdd"
+            }
+          },
+          {
+            "files": {
+              "358_GL20.class.json": "e1504c3b77429a9fa101a35d1bf4e790",
+              "358_GL20.kt": "a233fe926f6a6df6ce76c8feedb20847"
+            }
+          },
+          {
+            "files": {
+              "358_inputNavigationAndFocus.class.json": "e48dab89e59d8313a0c5f73d3047a261",
+              "358_inputNavigationAndFocus.kt": "61f47d326bccfa8f21b97180c6c6f161"
+            }
+          },
+          {
+            "files": {
+              "406_TitleManagerPlugin.class.json": "a513b3f99f04495b8fd7e14ef1dd4345",
+              "406_TitleManagerPlugin.kt": "625594264aa731c132b6a5132866624f"
+            }
+          },
+          {
+            "files": {
+              "414_GLES30.class.json": "8275bd701d6ecc5c53db2a385d23b18d",
+              "414_GLES30.kt": "302f93b91117434f026c77157d68ef4f"
+            }
+          },
+          {
+            "files": {
+              "415_GLES30.class.json": "dc33f088307d210f64fccdfc42826e5b",
+              "415_GLES30.kt": "7ac7171f8afdec5ec20953a3b5aab9a2"
+            }
+          },
+          {
+            "files": {
+              "422_EventActivity.class.json": "626aabc0e7e0bb788b94bfb72538e5bd",
+              "422_EventActivity.kt": "620eeb3b5892f3c9823bf056a2538581"
+            }
+          },
+          {
+            "files": {
+              "444_GLFW.class.json": "2b50e2fc3497fdbbecfe97993bf5ef9f",
+              "444_GLFW.kt": "2db104dfa765c1f4fc5bca753bc5f213"
+            }
+          },
+          {
+            "files": {
+              "451_GLES20.class.json": "f50eb9cf6a761340258e7726f4a6a378",
+              "451_GLES20.kt": "857326b092492c9cbb336471c47ec25b"
+            }
+          },
+          {
+            "files": {
+              "452_GLES20.class.json": "00ddccbc408acaf159e5767078cc0de3",
+              "452_GLES20.kt": "965507b313cef98b88b87eb2f701da62"
+            }
+          },
+          {
+            "files": {
+              "471_VROverlay.class.json": "069a09498e4a58b97485d2792689f336",
+              "471_VROverlay.kt": "9a6e45447c48ee782568e0223b70e580"
+            }
+          },
+          {
+            "files": {
+              "472_VROverlay.class.json": "54a052154b1acc208669891f222689c1",
+              "472_VROverlay.kt": "7fbf72b9a06246ded502ed54617247ad"
+            }
+          },
+          {
+            "files": {
+              "476_Yoga.class.json": "2846c85351f4e5b183847269f38d5439",
+              "476_Yoga.kt": "e8f6fb67abe35e90b9b276624d1ba902"
+            }
+          },
+          {
+            "files": {
+              "486_GL45.class.json": "af9efb90c921e130c1d8606e190b55dd",
+              "486_GL45.kt": "32371d344a04b84e2716273d3b0557c2"
+            }
+          },
+          {
+            "files": {
+              "487_GL45.class.json": "2d19cf5ca044d2e55e2bfeb8707a56e5",
+              "487_GL45.kt": "c2cc42fd87cc906ce2ca2c69be7a6020"
+            }
+          },
+          {
+            "files": {
+              "506_SQL.class.json": "70067436ffe7e127a86b91bbdb65e284",
+              "506_SQL.kt": "aff4e80791547bad89d6c21934f6e649"
+            }
+          },
+          {
+            "files": {
+              "507_SQL.class.json": "0e2ab76f7e1b184b17d1e79ec8a028a9",
+              "507_SQL.kt": "39b7aaba50fd0e8039c6d40e35486ac7"
+            }
+          },
+          {
+            "files": {
+              "651_Settings.class.json": "51ad5aeca7e0c20287498658959debc8",
+              "651_Settings.kt": "653fcc6d65d2fc0148dcc734c7b29f37"
+            }
+          },
+          {
+            "files": {
+              "681_CL10.class.json": "38c03b76a87f549306985f55e7db416c",
+              "681_CL10.kt": "8e8c003a5f79116f64b1febc2d6fc0e7"
+            }
+          },
+          {
+            "files": {
+              "682_CL10.class.json": "3178672591456c886033c73fef81bca9",
+              "682_CL10.kt": "ffaa5ad6dd9bf5915eb9095ffb5a9ca6"
+            }
+          },
+          {
+            "files": {
+              "706_BGFX.class.json": "463db2ec03ee360792c3d4ce6c819318",
+              "706_BGFX.kt": "e31d9cba0aa7f9ecb901ef46406e6fbe"
+            }
+          },
+          {
+            "files": {
+              "847_VK10.class.json": "1921d2e63d7c4ecf441758500b80c654",
+              "847_VK10.kt": "f2e07f13d2e9a2e7e4ebfed01fae5139"
+            }
+          },
+          {
+            "files": {
+              "848_VK10.class.json": "828666590a10e464ebea2c1f70f36840",
+              "848_VK10.kt": "a51964a443166b7e0f96543e5b4f6026"
+            }
+          },
+          {
+            "files": {
+              "958_GL11.class.json": "9880383082264ddeee0fc2581add9f8d",
+              "958_GL11.kt": "f788740f606dd0f72c5b4d3659bd3601"
             }
           }
         ]
@@ -868,14 +1071,14 @@
           },
           {
             "files": {
-              "358_GL20.class.json": "db9d149bfacff53b22fd8b6154fb8cf0",
-              "358_GL20.kt": "e06326a07611967752e4a924a04ce00a"
+              "358_GL20.kt": "e06326a07611967752e4a924a04ce00a",
+              "358_GL20.class.json": "db9d149bfacff53b22fd8b6154fb8cf0"
             }
           },
           {
             "files": {
-              "415_GLES30.class.json": "6f4497bf04b286944c3aab8aab60a07d",
-              "415_GLES30.kt": "cc83e4980b49d01058abc08377dd3a1a"
+              "415_GLES30.kt": "cc83e4980b49d01058abc08377dd3a1a",
+              "415_GLES30.class.json": "6f4497bf04b286944c3aab8aab60a07d"
             }
           },
           {
@@ -1062,6 +1265,29 @@
       }
     }
   },
+  "many_nested_structures": {
+    "title": "Many nested structures",
+    "examples": {
+      "bytecode": {
+        "total": 2,
+        "all_url": "https://yadi.sk/d/aZ2NomX53TGLL4",
+        "items": [
+          {
+            "files": {
+              "398_DrawerLayout.class.json": "1b9b91d49ccfb95e5ed6f0513876ab6d",
+              "398_DrawerLayout.kt": "51dbdb6285e6015c410e68caa861736e"
+            }
+          },
+          {
+            "files": {
+              "585_GraphQLSchemaBuilder.kt": "9f1fb7a63b0b900b5f9e0a6c9b322863",
+              "585_GraphQLSchemaBuilder.class.json": "9e98bf5951abc7b67a53647856aaf05e"
+            }
+          }
+        ]
+      }
+    }
+  },
   "long_enumerations": {
     "title": "Long enumerations",
     "examples": {
@@ -1130,58 +1356,34 @@
       }
     }
   },
-  "many_literal_strings": {
-    "title": "Many literal strings",
+  "many_not_null_assertion_operator": {
+    "title": "Many not null assertion operator",
     "examples": {
       "bytecode": {
-        "total": 4,
-        "all_url": "https://yadi.sk/d/1OOQppUp3TGLE2",
+        "total": 1,
+        "all_url": "https://yadi.sk/d/Gt1pPTTb3TGLRC",
         "items": [
           {
             "files": {
-              "3554_PackageApi$CompanyInfo.class.json": "56845feafdaa0276bb97d033e2ec568f",
-              "3554_PackageApi.kt": "f3e5093f78a89971e35a147f8d5bf550"
-            }
-          },
-          {
-            "files": {
-              "651_Settings.class.json": "e80a300d60ac94fea11828b0c39ae54d",
-              "651_Settings.kt": "351ed5251e0b3fb6c89bb5b741f88ec9"
-            }
-          },
-          {
-            "files": {
-              "681_CL10.class.json": "7ccec700b6c11e5404147c29fc093803",
-              "681_CL10.kt": "9cd51a72c14f548522f70e5bd8f8cdcf"
-            }
-          },
-          {
-            "files": {
-              "847_VK10.class.json": "a37e0d429dcb57b084e7293d49c992b7",
-              "847_VK10.kt": "4dc87d47989b58e35f809f7efc35b9ff"
+              "3554_PackageApi$CompanyInfo.class.json": "c2355aa1ea36f2e41111465fe9b58955",
+              "3554_PackageApi.kt": "b0a5aa0b14ada70403917e312a159a08"
             }
           }
         ]
       }
     }
   },
-  "many_nested_structures": {
-    "title": "Many nested structures",
+  "many_safe_calls": {
+    "title": "Many safe calls",
     "examples": {
       "bytecode": {
-        "total": 2,
-        "all_url": "https://yadi.sk/d/aZ2NomX53TGLL4",
+        "total": 1,
+        "all_url": "https://yadi.sk/d/8e4p_5u13TGLaZ",
         "items": [
           {
             "files": {
-              "398_DrawerLayout.class.json": "1b9b91d49ccfb95e5ed6f0513876ab6d",
-              "398_DrawerLayout.kt": "51dbdb6285e6015c410e68caa861736e"
-            }
-          },
-          {
-            "files": {
-              "585_GraphQLSchemaBuilder.class.json": "9e98bf5951abc7b67a53647856aaf05e",
-              "585_GraphQLSchemaBuilder.kt": "9f1fb7a63b0b900b5f9e0a6c9b322863"
+              "585_MainPresenterImpl.class.json": "a00636eb4a0ec56c68536dba0e37aab1",
+              "585_MainPresenterImpl.kt": "1e376e7ebd642ef9840963c73d61e9f9"
             }
           }
         ]
