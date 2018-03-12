@@ -227,4 +227,9 @@ $(document).ready(function() {
     });
 
     loadAnomalyClasses();
+
+    $('head').append(
+        $('<link rel="stylesheet" type="text/css" />')
+            .attr('href', 'https://assets-cdn.github.com/assets/gist-embed-6b59eceda837.css')
+    );
 });
