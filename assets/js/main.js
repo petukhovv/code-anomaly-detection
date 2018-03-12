@@ -27,7 +27,7 @@ function loadAnomalyClasses() {
                     '<span class="title">' + anomalyClassInfo.title + '</span>' + bytecodeAnomaliesHtml + cstAnomaliesHtml +
                 '</a>'
             );
-        }
+        })
 
         $("#anomaly-classes-loading").remove();
     });
