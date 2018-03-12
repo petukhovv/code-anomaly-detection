@@ -4,7 +4,16 @@ function loadAnomalyClasses() {
     $.getJSON("assets/data/anomaly_examples.json", function(anomalyClassesLoaded) {
         anomalyClasses = anomalyClassesLoaded;
 
-        for (var anomalyClass in anomalyClasses) {
+        var anomalyClassesKeys = [];
+
+        for (var k in anomalyClasses) {
+            if (anomalyClasses.hasOwnProperty(k)) {
+                anomalyClassesKeys.push(k);
+            }
+        }
+
+        anomalyClassesKeys.sort();
+        anomalyClassesKeys.forEach(function(anomalyClass) {
             var anomalyClassInfo = anomalyClasses[anomalyClass];
             var cstAnomalies = anomalyClassInfo.examples.cst;
             var bytecodeAnomalies = anomalyClassInfo.examples.bytecode;
