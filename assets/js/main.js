@@ -1,4 +1,5 @@
 var anomalyClasses = {};
+var anomalyExampleContents = {};
 
 function loadAnomalyClasses() {
     $.getJSON("assets/data/anomaly_examples.json", function(anomalyClassesLoaded) {
@@ -82,15 +83,17 @@ function selectAndShowAnomalyExamplesBlock(cstExamples, bytecodeExamples) {
 }
 
 function getAnomalyExampleFileBlock(number, filename, content) {
+    anomalyExampleContents[filename] = content;
+
     return (
-        '<div class="panel panel-default" style="margin-bottom: 24px;">' +
+        '<div class="panel panel-default anomaly-example-block" style="margin-bottom: 24px;">' +
             '<div class="panel-heading">' +
-                '<button type="button" style="background: #eee;border-bottom-left-radius: 0;border-bottom-right-radius: 0;display: block;width: 100%;text-align: left;" class="btn btn-default btn-xs spoiler-trigger" data-toggle="collapse">' +
+                '<button type="button" data-filename="' + filename + '" style="background: #eee;border-bottom-left-radius: 0;border-bottom-right-radius: 0;display: block;width: 100%;text-align: left;" class="btn btn-default btn-xs anomaly-example-spoiler" data-toggle="collapse">' +
                     'Example ' + number + ': <b>' + filename + '</b>' +
                 '</button>' +
             '</div>' +
             '<div class="panel-collapse collapse out">' +
-                '<div class="panel-body">' + content + '</div>' +
+                '<div class="panel-body anomaly-example-content"></div>' +
             '</div>' +
         '</div>'
     )
@@ -102,7 +105,7 @@ function showAnomalyExamples(selectedAnomaliesType, anomalyExamplesHtml) {
     $(anomalyExampleListSelector).empty();
     anomalyExamplesHtml.forEach(function(anomalyExampleHtml, index) {
         anomalyExampleHtml.forEach(function(anomalyExampleFileHtml) {
-            $(anomalyExampleListSelector).append(anomalyExampleFileHtml);
+            $(anomalyExampleListSelector).append(anomalyExampleFileHtml.wrap);
         });
         if (index !== anomalyExamplesHtml.length - 1) {
             $(anomalyExampleListSelector).append("<hr />");
@@ -112,6 +115,7 @@ function showAnomalyExamples(selectedAnomaliesType, anomalyExamplesHtml) {
 
 function loadAnomalyExamples(anomalyClassInfo, selectedAnomaliesType, callback) {
     var anomalyExamples = anomalyClassInfo.examples[selectedAnomaliesType];
+    anomalyExampleContents = {}
 
     $("#anomaly-examples-by-" + selectedAnomaliesType + "-title").text(anomalyClassInfo.title);
     $("#anomaly-examples-by-" + selectedAnomaliesType + "-all-url").attr("href", anomalyExamples.all_url);
@@ -208,7 +212,10 @@ $(document).ready(function() {
         return false;
     });
 
-    $(document.body).on("click", ".spoiler-trigger", function() {
+    $(document.body).on("click", ".anomaly-example-spoiler", function() {
+        var filename = $(this).data("filename");
+        $(this).parents(".anomaly-example-block").find(".anomaly-example-content").html(anomalyExampleContents[filename]);
+
         $(this).parent().next().collapse('toggle');
     });
 
