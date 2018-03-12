@@ -818,7 +818,7 @@
     "title": "Many case in when",
     "examples": {
       "bytecode": {
-        "total": 2,
+        "total": 3,
         "all_url": "https://yadi.sk/d/XzXrz5Y93T4K3A",
         "items": [
           {
@@ -829,8 +829,14 @@
           },
           {
             "files": {
-              "1148_Value.class.json": "8d2a17f7229a3069a83c9319c3842833",
-              "1148_Value.kt": "594af8519263c91d2c5e9f62cdd2619c"
+              "1148_Value.class.json": "8d130f11de848db0fd602ef5c0eacd5f",
+              "1148_Value.kt": "465188cda600cf121b7d9389b8ea9270"
+            }
+          },
+          {
+            "files": {
+              "374_EventListener$WhenMappings.class.json": "d87efe698d693d87ba2c2a416e2804fa",
+              "374_EventListener.kt": "53bbab49f5a3b7cd978656b75701b4c5"
             }
           }
         ]
@@ -941,14 +947,14 @@
         "items": [
           {
             "files": {
-              "439_DiscordBridge.class.json": "355edea7119ac85d3bbbb19110ed0f7e",
-              "439_DiscordBridge.kt": "94d12b8365733d1e2aa72d5cf0fff3f2"
+              "439_DiscordBridge.class.json": "fb28c0441f9161b4363c40ca0f68ec90",
+              "439_DiscordBridge.kt": "5ae3a1525d6aaf9093b9250b05bfe073"
             }
           },
           {
             "files": {
-              "585_GraphQLSchemaBuilder.class.json": "bdae9a5d0d8efd20bd6379611774c175",
-              "585_GraphQLSchemaBuilder.kt": "a06d5aab69e6e91502c44c7b035b42f0"
+              "585_GraphQLSchemaBuilder.class.json": "95cb1290f0b1e6a4dd73f4e265cf218a",
+              "585_GraphQLSchemaBuilder.kt": "04065c28fce01ea7def8b6fcee93e301"
             }
           }
         ]
@@ -1032,38 +1038,38 @@
         "items": [
           {
             "files": {
-              "1012_widgets.class.json": "d1e18cd397e88906d753aaf047897bc2",
-              "1012_widgets.kt": "471e34a536e9d4cdf62f5eadc4a898c9"
+              "1012_widgets.class.json": "6359b96e67d252c36b37bf0fc5dae5ee",
+              "1012_widgets.kt": "6d9347513a2edff1c009e0daf25f5d4d"
             }
           },
           {
             "files": {
-              "357_NoteStore.class.json": "2d79cbfd89b33a473b8d4af3b4a6aace",
-              "357_NoteStore.kt": "65e4266f9cfec502af0eb6b40bc1775e"
+              "357_NoteStore.class.json": "6ba8ff12e23b305cf533a46770bf8af4",
+              "357_NoteStore.kt": "1c196b32d543e3e9703bf1d03f96a8ba"
             }
           },
           {
             "files": {
-              "366_JSONConverter$Companion.class.json": "9123c229b4a1538014809f167c09075d",
-              "366_JSONConverter.kt": "68357a8b4309c09208b01dd4fa896d6c"
+              "366_JSONConverter$Companion.class.json": "870561669add80e012a433fc3a055c39",
+              "366_JSONConverter.kt": "87cac75020950c80a619371cd42864fd"
             }
           },
           {
             "files": {
-              "367_TextEditState.class.json": "77765a8451167548fc2cd1c5bf5f868a",
-              "367_TextEditState.kt": "69f70c56204ae7251559ff1c1af560de"
+              "367_TextEditState.class.json": "a39c481805dd6509e89f33b64c38c8a9",
+              "367_TextEditState.kt": "9f190ca6710edad33f71239fbc487870"
             }
           },
           {
             "files": {
-              "422_EventActivity.class.json": "945b9a84e50808b142f6428726573401",
-              "422_EventActivity.kt": "103ba07d02adf436e36f57ea7f910a95"
+              "422_EventActivity.class.json": "c99da01bd295e67c8b12b055622255ec",
+              "422_EventActivity.kt": "2f5cd496c91dc61cb9ed58e95ad6744f"
             }
           },
           {
             "files": {
-              "651_Settings.class.json": "73642989afd72dba2e041c1e29f17c6d",
-              "651_Settings.kt": "66fc77b653abae5821dafb748ecc466b"
+              "651_Settings.class.json": "09525722a996d5f51691d20fbd1d2a95",
+              "651_Settings.kt": "20605a5c19dee31f48c2f5bdc6acd7ec"
             }
           }
         ]
