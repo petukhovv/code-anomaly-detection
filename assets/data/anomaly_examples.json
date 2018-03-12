@@ -1,7 +1,551 @@
 {
+  "big_companion_object": {
+    "title": "Big companion object",
+    "examples": {
+      "bytecode": {
+        "total": 2,
+        "all_url": "https://yadi.sk/d/keDdiPKj3T45uh",
+        "items": [
+          {
+            "files": {
+              "1814_CSS.kt": "03b7c57c8614e646886dbb6c0b71c5e4",
+              "1814_PropertyHolder.class.json": "4c285397769a1bef4e233e11a361edf0"
+            }
+          },
+          {
+            "files": {
+              "366_JSONConverter.kt": "9fa7524220876a4a901646f8587a5936",
+              "366_JSONConverter$Companion.class.json": "7422a361c337190530a79564c5340d76"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "many_concatenations": {
+    "title": "Many concatenations",
+    "examples": {
+      "cst": {
+        "total": 13,
+        "all_url": "https://yadi.sk/d/x2tiYbks3SpC6X",
+        "items": [
+          {
+            "files": {
+              "995_169554923.kt": "9d9383d79ca8c37974eab98b873c176f"
+            }
+          },
+          {
+            "files": {
+              "908_098222933.kt": "501219b23efa03cb32337a018331867e"
+            }
+          },
+          {
+            "files": {
+              "679_718858732.kt": "08b2482ad8399fd6f84a19aa1ae028d1"
+            }
+          },
+          {
+            "files": {
+              "666_093862254.kt": "8e26e362c638bd11db7a69b9bb152f23"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "many_square_bracket_annotations": {
+    "title": "Many square bracket annotations",
+    "examples": {
+      "bytecode": {
+        "total": 2,
+        "all_url": "https://yadi.sk/d/SCmMck273T4vPQ",
+        "items": [
+          {
+            "files": {
+              "4519_Generated.kt": "688da7d12e0cf0447acc75b609ca0712",
+              "4519_KaliumPackage-Generated-42b15255.class.json": "6d8ee011068132d3b06ae63ac1d98c04"
+            }
+          },
+          {
+            "files": {
+              "2962_Generated.kt": "293d6ecec633ab4c4c83114e64cd7a56",
+              "2962_PropertiesPackage-Generated-466c78cd.class.json": "5ccb928bafb229a4f54c4aa9bbfae4eb"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "many_delegate_properties": {
+    "title": "Many delegate properties",
+    "examples": {
+      "bytecode": {
+        "total": 2,
+        "all_url": "https://yadi.sk/d/nlcB8Y763T4KD2",
+        "items": [
+          {
+            "files": {
+              "1821_Stylesheet$Companion.class.json": "e4c5f862b7d7054d1b653c19d9b9ab97",
+              "1821_CSS.kt": "c694d98ed69a7b5a02f0771f371066de"
+            }
+          },
+          {
+            "files": {
+              "1814_CSS.kt": "4d161989baaa326f3b5e66c5f3f1568c",
+              "1814_PropertyHolder.class.json": "60ab0abbaa1c2fd54eb84ade2744b8cd"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "many_root_function_definitions": {
+    "title": "Many root function definitions",
+    "examples": {
+      "bytecode": {
+        "total": 3,
+        "all_url": "https://yadi.sk/d/2lk2YE7P3T4tqr",
+        "items": [
+          {
+            "files": {
+              "4519_Generated.kt": "35c954983fdd1e57a42e669ca3846ef4",
+              "4519_KaliumPackage-Generated-42b15255.class.json": "ea7902d95a2ecdaa19f95494186fd79f"
+            }
+          },
+          {
+            "files": {
+              "634_ViewModel.class.json": "f63f887bb76bd8f94ae4c2e5d53f8f13",
+              "634_ViewModel.kt": "2c72a76ccc622185057449e151d3cdec"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "many_var_or_fun_definitions": {
+    "title": "Many var or fun definitions",
+    "examples": {
+      "bytecode": {
+        "total": 9,
+        "all_url": "https://yadi.sk/d/t406Jtx13T4KNS",
+        "items": [
+          {
+            "files": {
+              "1821_Stylesheet$Companion.class.json": "e4c5f862b7d7054d1b653c19d9b9ab97",
+              "1821_CSS.kt": "c694d98ed69a7b5a02f0771f371066de"
+            }
+          },
+          {
+            "files": {
+              "1814_CSS.kt": "4d161989baaa326f3b5e66c5f3f1568c",
+              "1814_PropertyHolder.class.json": "60ab0abbaa1c2fd54eb84ade2744b8cd"
+            }
+          }
+        ]
+      },
+      "cst": {
+        "total": 14,
+        "all_url": "https://yadi.sk/d/iTTQJOFd3SpADb",
+        "items": [
+          {
+            "files": {
+              "4891_63999481.kt": "4f04b991eb5a2d3a783df5932ff2b5e2"
+            }
+          },
+          {
+            "files": {
+              "2740_93778153.kt": "915fb4b3b9a91e8402e5b887a69be5d4"
+            }
+          },
+          {
+            "files": {
+              "2547_91645477.kt": "af66f92f3c43cb58a6ec280e13b73e63"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "many_assignment_statements": {
+    "title": "Many assignment statements",
+    "examples": {
+      "bytecode": {
+        "total": 3,
+        "all_url": "https://yadi.sk/d/pLr5vDuR3T4JqQ",
+        "items": [
+          {
+            "files": {
+              "1012_widgets.kt": "192dac21b2f2ef17ad2b4d058c435cbd",
+              "1012_widgets.class.json": "d9e30301b98da8b54ace91fa1fb55783"
+            }
+          },
+          {
+            "files": {
+              "367_TextEditState.class.json": "799d177612a571936086db788b621634",
+              "367_TextEditState.kt": "c3ed202002a1b5ad30cc1021a34d680c"
+            }
+          }
+        ]
+      },
+      "cst": {
+        "total": 57,
+        "all_url": "https://yadi.sk/d/jf5FdjE83SpAjD",
+        "items": [
+          {
+            "files": {
+              "4177_1494766.kt": "e1b0a656056130c04adb1b68c8598819"
+            }
+          },
+          {
+            "files": {
+              "1262_83299418.kt": "f5cfd5c6f15a43127653aaffa1a4de57"
+            }
+          },
+          {
+            "files": {
+              "957_169484679.kt": "00a45839580e6324bebaa827f096b1b4"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "many_if_statements": {
+    "title": "Many if statements",
+    "examples": {
+      "bytecode": {
+        "total": 1,
+        "all_url": "https://yadi.sk/d/nsHvyY3d3T4s8r",
+        "items": [
+          {
+            "files": {
+              "1239_EditorStage.kt": "204a907075c79bee420c1c177fed1dbc",
+              "1239_EditorStage.class.json": "8ad78edde02e84ed238404483ce28efa"
+            }
+          }
+        ]
+      },
+      "cst": {
+        "total": 38,
+        "all_url": "https://yadi.sk/d/xqzFZE_33Sp9Dt",
+        "items": [
+          {
+            "files": {
+              "2413_79989814.kt": "b363cb1d53b039779d9a9d8a6aec6118"
+            }
+          },
+          {
+            "files": {
+              "1741_0924744.kt": "fd0dd19a1a988c1a6153d55a47a76f03"
+            }
+          },
+          {
+            "files": {
+              "1119_62992668.kt": "a8c5fa7bb73464de48cc61113956e4ca"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "nested_calls": {
+    "title": "Nested calls",
+    "examples": {
+      "cst": {
+        "total": 3,
+        "all_url": "https://yadi.sk/d/clEG8QbV3SpB6N",
+        "items": [
+          {
+            "files": {
+              "2179_95451312.kt": "5a3e032ed5e6e2e4db89d4b37f8af101"
+            }
+          },
+          {
+            "files": {
+              "1789_55786539.kt": "23d95b306437a158494472730a747d69"
+            }
+          },
+          {
+            "files": {
+              "506_004230873.kt": "d388c2a77744d897cf74c07ed345d915"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "big_init_method_in_bytecode": {
+    "title": "Big init method in bytecode",
+    "examples": {
+      "bytecode": {
+        "total": 2,
+        "all_url": "https://yadi.sk/d/xZyD09ZZ3T4JBz",
+        "items": [
+          {
+            "files": {
+              "1351_ConfigModel.class.json": "c544db710a1f865377440e7bbc050de3",
+              "1351_Config.kt": "bb60ea6e9c9eb4dda353bf38eadb6404"
+            }
+          },
+          {
+            "files": {
+              "796_CabalTokelTypes.class.json": "de5683b1f0ff47831bc93c7c776a9e96",
+              "796_CabalTokelTypes.kt": "37c12b1db74ca56b2e669cf4c9764e95"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "many_loops": {
+    "title": "Many loops",
+    "examples": {
+      "bytecode": {
+        "total": 1,
+        "all_url": "https://yadi.sk/d/6Hvtq-Y83T4tQ7",
+        "items": [
+          {
+            "files": {
+              "359_inputNavigationAndFocus.kt": "1f173a37631a74d8e4501f1d9dbc8dcd",
+              "359_inputNavigationAndFocus.class.json": "f6c53fec446a3867042e5ffc3192cec5"
+            }
+          }
+        ]
+      },
+      "cst": {
+        "total": 7,
+        "all_url": "https://yadi.sk/d/EWJ6bcsN3SpCGq",
+        "items": [
+          {
+            "files": {
+              "2041_57944715.kt": "7612e9b81b277b7b9f6f04e652bc7157"
+            }
+          },
+          {
+            "files": {
+              "1808_79882816.kt": "10a19069d6b179a7b8cbb3077f65040e"
+            }
+          },
+          {
+            "files": {
+              "1069_46563454.kt": "861ed527a8ea0b7225825b12367ceb80"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "many_similar_call_expressions": {
+    "title": "Many similar call expressions",
+    "examples": {
+      "bytecode": {
+        "total": 17,
+        "all_url": "https://yadi.sk/d/3br1nT1Z3T4uTk",
+        "items": [
+          {
+            "files": {
+              "3555_PackageApi.kt": "71ea0062d214904a5ee942308079e2a9",
+              "3555_PackageApi$CompanyInfo.class.json": "74e0541b5f94dbf4c48e321f8fa1c06b"
+            }
+          },
+          {
+            "files": {
+              "796_CabalTokelTypes.class.json": "4d1a7d79967aed39ccb454f474006ff3",
+              "796_CabalTokelTypes.kt": "ff593f45894f891b636fdf06417cbbdf"
+            }
+          },
+          {
+            "files": {
+              "359_inputNavigationAndFocus.kt": "627de4b3f91854061c27ac22000fc21a",
+              "359_inputNavigationAndFocus.class.json": "3650bb55aecf0cf21decadf45a9263d2"
+            }
+          }
+        ]
+      },
+      "cst": {
+        "total": 86,
+        "all_url": "https://yadi.sk/d/oy7fdVDS3Sp9s3",
+        "items": [
+          {
+            "files": {
+              "14288_0148376.kt": "87d591a6702bf46f0ce87ff91904d0a6"
+            }
+          },
+          {
+            "files": {
+              "13421_6491434.kt": "75c510080b5599edcc693389b67ab19a"
+            }
+          },
+          {
+            "files": {
+              "6512_57228688.kt": "95839918e64210895c371129442dd754"
+            }
+          },
+          {
+            "files": {
+              "2703_26722649.kt": "273a8aaa549c118732a23d9fcdf8404c"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "many_generic_parameters": {
+    "title": "Many generic parameters",
+    "examples": {
+      "cst": {
+        "total": 6,
+        "all_url": "https://yadi.sk/d/8LaLMlqX3Sp8it",
+        "items": [
+          {
+            "files": {
+              "600_498460165.kt": "6e693a9024fec693edb277312f59f144"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "big_constants_set": {
+    "title": "Big constants set",
+    "examples": {
+      "bytecode": {
+        "total": 22,
+        "all_url": "https://yadi.sk/d/8WSRrHar3T4ESq",
+        "items": [
+          {
+            "files": {
+              "958_GL11.kt": "4475633316a028ae51985ae52edf4a8c",
+              "958_GL11.class.json": "d6538a60e7a56a798a56269fa2f3cad5"
+            }
+          },
+          {
+            "files": {
+              "358_GL20.class.json": "8430cc8e9ef507304e4b4e21581b265a",
+              "358_GL20.kt": "fb249cd4b893fd23a5aca983f601fdaf"
+            }
+          },
+          {
+            "files": {
+              "414_GLES30.class.json": "c8e9379bce7a1bc69e36daa1fd0c2ec4",
+              "414_GLES30.kt": "22de6a616a42378fbcedc2cd46f4c740"
+            }
+          },
+          {
+            "files": {
+              "415_GLES30.class.json": "920a7aba6b1ca23bb0489ad6fd455cd7",
+              "415_GLES30.kt": "cc9fff7670ba61f4b659e97f2f13d49b"
+            }
+          },
+          {
+            "files": {
+              "444_GLFW.class.json": "b44ffa781b66024fd60505bd5c03df41",
+              "444_GLFW.kt": "2cde050f42689b34fbc7fbdbecfd5b72"
+            }
+          },
+          {
+            "files": {
+              "451_GLES20.class.json": "a6773476c73491034d439ecce621250c",
+              "451_GLES20.kt": "5e1def6235f22d39c592f6cb482e9c4f"
+            }
+          },
+          {
+            "files": {
+              "452_GLES20.class.json": "43d217aa3248e5bd27863d3c58b2c46a",
+              "452_GLES20.kt": "8b4cade613044441b0e26de53c77b71b"
+            }
+          },
+          {
+            "files": {
+              "506_SQL.class.json": "0d11bba89dc0d3e82c12ecc358f7c804",
+              "506_SQL.kt": "1abb423dd6538513f33588d95c3fc353"
+            }
+          },
+          {
+            "files": {
+              "507_SQL.class.json": "e09d3b4c5ebbf714971ef4354454214a",
+              "507_SQL.kt": "48732a88dd6f6bf57c52f833231a34ad"
+            }
+          },
+          {
+            "files": {
+              "681_CL10.class.json": "e96cecdaa94eb5893aba6f4d83718ffb",
+              "681_CL10.kt": "3f1a58b1d016e9c088a76f80b5459ea3"
+            }
+          },
+          {
+            "files": {
+              "682_CL10.class.json": "394ebe50a442b15eb25279e8a801e5c1",
+              "682_CL10.kt": "aef554f4444b696f54f1ee7d5a361616"
+            }
+          },
+          {
+            "files": {
+              "706_BGFX.class.json": "74a31b3d997112d527489c3a00b55b5c",
+              "706_BGFX.kt": "a864d8ffd811ece19fbbefcc2209aea0"
+            }
+          },
+          {
+            "files": {
+              "847_VK10.class.json": "ff50191f2ae0fdc4e11c7f3e0cf52280",
+              "847_VK10.kt": "e2519a52ce87f1fc7d0711dca914fb8f"
+            }
+          },
+          {
+            "files": {
+              "848_VK10.class.json": "97b444aef46fa4ecc7ecdeba8225049c",
+              "848_VK10.kt": "062e01954aed4fc4c9266fcc931fd847"
+            }
+          }
+        ]
+      }
+    }
+  },
   "big_code_hierarchy": {
     "title": "Big code hierarchy",
     "examples": {
+      "bytecode": {
+        "total": 6,
+        "all_url": "https://yadi.sk/d/YCnuCJct3T458t",
+        "items": [
+          {
+            "files": {
+              "1239_EditorStage.kt": "32c2862d60e8a6dbdffde10c894eb0ee",
+              "1239_EditorStage.class.json": "23bf17aa90861ccf53bfaf64540c9f3e"
+            }
+          },
+          {
+            "files": {
+              "1012_widgets.kt": "3bfc65560dbe242770a197e4f70d6010",
+              "1012_widgets.class.json": "2acac35b52e41e10cd5f8ee7d9720ecb"
+            }
+          },
+          {
+            "files": {
+              "367_TextEditState.class.json": "f07d6a0bb71036edf3a9fcc0c478d194",
+              "367_TextEditState.kt": "1367d67f947a371b4cab7df9699e2ebe"
+            }
+          },
+          {
+            "files": {
+              "398_DrawerLayout.class.json": "bceb40463cb82e5ae93243f846cb32cd",
+              "398_DrawerLayout.kt": "31361e7d85f90c84d4d11d79a1318144"
+            }
+          },
+          {
+            "files": {
+              "466_IDLParser.class.json": "f122114a9d9765b27a50292f4ff5386b",
+              "466_IDLParser.kt": "93ca148983a3a17838f174d9e15a95e2"
+            }
+          },
+          {
+            "files": {
+              "975_Editor.class.json": "548bcdee06da17ea36fb98bae19ede3e",
+              "975_Editor.kt": "4c403623810ac667d23b00f853bacca3"
+            }
+          }
+        ]
+      },
       "cst": {
         "total": 30,
         "all_url": "https://yadi.sk/d/IrbdGxNE3Sp9Uv",
@@ -27,71 +571,37 @@
             }
           }
         ]
-      },
+      }
+    }
+  },
+  "many_inline_functions": {
+    "title": "Many inline functions",
+    "examples": {
       "bytecode": {
-        "total": 3,
-        "all_url": "https://yadi.sk/d/YCnuCJct3T458t",
+        "total": 2,
+        "all_url": "https://yadi.sk/d/LVkgotGI3T4sQY",
         "items": [
           {
             "files": {
-              "1239_EditorStage.kt": "32c2862d60e8a6dbdffde10c894eb0ee",
-              "1239_EditorStage.class.json": "23bf17aa90861ccf53bfaf64540c9f3e"
-            }
-          },
-          {
-            "files": {
-              "1012_widgets.kt": "3bfc65560dbe242770a197e4f70d6010",
-              "1012_widgets.class.json": "2acac35b52e41e10cd5f8ee7d9720ecb"
-            }
-          },
-          {
-            "files": {
-              "367_TextEditState.kt": "1367d67f947a371b4cab7df9699e2ebe",
-              "367_TextEditState.class.json": "f07d6a0bb71036edf3a9fcc0c478d194"
+              "2220_ItemViewModel.class.json": "6e701d86333042e5b6e0df4fb66a6bb9",
+              "2220_ViewModel.kt": "8c6736aecff99f14dbfe0b38cd6e1576"
             }
           }
         ]
       }
     }
   },
-  "big_multiline_strings": {
-    "title": "Big multiline strings",
+  "many_type_reified_params": {
+    "title": "Many type reified params",
     "examples": {
-      "cst": {
-        "total": 27,
-        "all_url": "https://yadi.sk/d/9Au__OYE3SpBCr",
-        "items": [
-          {
-            "files": {
-              "2186_41650207.kt": "002658e398499aba5af48079b757ee37"
-            }
-          },
-          {
-            "files": {
-              "1334_20790702.kt": "8f99a88a788a7df5527d353249b757b7"
-            }
-          },
-          {
-            "files": {
-              "1059_98046631.kt": "c1bce32a004307edc75c2b1b06e8741e"
-            }
-          }
-        ]
-      },
       "bytecode": {
-        "total": 8,
-        "all_url": "https://yadi.sk/d/w12QHeYe3T4JZ6",
+        "total": 1,
+        "all_url": "https://yadi.sk/d/E8QTHpFr3T4vrb",
         "items": [
           {
             "files": {
-              "1318_Nuklear.kt": "69f8449438004c9a44fb16ac83425953",
-              "1318_Nuklear.class.json": "019accb8655f3e82373d1307fd3dcb02"
-            }
-          },
-          {
-            "files": {
-              "476_Yoga.kt": "81902be30aa42bd0d9c06c490dbeb9f9",
-              "476_Yoga.class.json": "654a87b7b09c65e5560ce0f7858cfb99"
+              "2220_ItemViewModel.class.json": "9589b28614fc905eaa0362ffa999a91f",
+              "2220_ViewModel.kt": "b011dfddef8e45d154e563cef4a21b07"
             }
           }
         ]
@@ -101,6 +611,24 @@
   "big_static_arrays_or_map": {
     "title": "Big static arrays or map",
     "examples": {
+      "bytecode": {
+        "total": 3,
+        "all_url": "https://yadi.sk/d/P757gCM93T4Jhk",
+        "items": [
+          {
+            "files": {
+              "4593_font.kt": "d93b41874a6f3a8071cc8ed37c67f043",
+              "4593_FontAtlas$jap.class.json": "3decd6def7741376c04a6e8aa77a0e97"
+            }
+          },
+          {
+            "files": {
+              "651_Settings.class.json": "b6546620dc2364c85cfd004a1eed6a2e",
+              "651_Settings.kt": "76f01acc9d4238bdc639ff632ac5caf3"
+            }
+          }
+        ]
+      },
       "cst": {
         "total": 30,
         "all_url": "https://yadi.sk/d/maeusvha3SpBNz",
@@ -136,15 +664,181 @@
             }
           }
         ]
-      },
+      }
+    }
+  },
+  "big_multiline_strings": {
+    "title": "Big multiline strings",
+    "examples": {
       "bytecode": {
-        "total": 2,
-        "all_url": "https://yadi.sk/d/P757gCM93T4Jhk",
+        "total": 14,
+        "all_url": "https://yadi.sk/d/w12QHeYe3T4JZ6",
         "items": [
           {
             "files": {
-              "4593_font.kt": "d93b41874a6f3a8071cc8ed37c67f043",
-              "4593_FontAtlas$jap.class.json": "3decd6def7741376c04a6e8aa77a0e97"
+              "1318_Nuklear.kt": "69f8449438004c9a44fb16ac83425953",
+              "1318_Nuklear.class.json": "019accb8655f3e82373d1307fd3dcb02"
+            }
+          },
+          {
+            "files": {
+              "476_Yoga.class.json": "654a87b7b09c65e5560ce0f7858cfb99",
+              "476_Yoga.kt": "81902be30aa42bd0d9c06c490dbeb9f9"
+            }
+          },
+          {
+            "files": {
+              "444_GLFW.class.json": "ee50c456f44f07303e3ab814600ce277",
+              "444_GLFW.kt": "1d5aff1552925cf4b6ee68967939beed"
+            }
+          },
+          {
+            "files": {
+              "452_GLES20.class.json": "19db89d0c597471d98c3e5c2d4678a87",
+              "452_GLES20.kt": "a19ba673a76e7444dab5d3f404ab6bdb"
+            }
+          },
+          {
+            "files": {
+              "472_VROverlay.class.json": "8a026bc29a3ac26dcbfbb3543fbd98e9",
+              "472_VROverlay.kt": "959ef291fefab10fdd2fcbd01f4776d6"
+            }
+          },
+          {
+            "files": {
+              "682_CL10.class.json": "cc05b1f7084ad9ff926aacc338adc423",
+              "682_CL10.kt": "76b993389b22915b6ef3cfcb65f9863f"
+            }
+          },
+          {
+            "files": {
+              "848_VK10.class.json": "19d3877b7ad3eb4430168826cbf0f3c8",
+              "848_VK10.kt": "62be0f2e36bb41f595ec85fc8e7294bf"
+            }
+          },
+          {
+            "files": {
+              "958_GL11.class.json": "eccd0aad5dfad2a72d5ecb0e75967171",
+              "958_GL11.kt": "f26cc04ca046a4567e5560ab1a9f71f0"
+            }
+          }
+        ]
+      },
+      "cst": {
+        "total": 27,
+        "all_url": "https://yadi.sk/d/9Au__OYE3SpBCr",
+        "items": [
+          {
+            "files": {
+              "2186_41650207.kt": "002658e398499aba5af48079b757ee37"
+            }
+          },
+          {
+            "files": {
+              "1334_20790702.kt": "8f99a88a788a7df5527d353249b757b7"
+            }
+          },
+          {
+            "files": {
+              "1059_98046631.kt": "c1bce32a004307edc75c2b1b06e8741e"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "many_function_arguments": {
+    "title": "Many function arguments",
+    "examples": {
+      "bytecode": {
+        "total": 4,
+        "all_url": "https://yadi.sk/d/pSYsDytv3T4reV",
+        "items": [
+          {
+            "files": {
+              "452_GLES20.class.json": "fb30bd625ee2b2559ffbfb4033b772f5",
+              "452_GLES20.kt": "70e3297a4245c51ba36a796e88629a3d"
+            }
+          }
+        ]
+      },
+      "cst": {
+        "total": 17,
+        "all_url": "https://yadi.sk/d/AkRgNLdo3SpCCo",
+        "items": [
+          {
+            "files": {
+              "9619_60767009.kt": "e41da15240b19c83394d366c1b068f32"
+            }
+          },
+          {
+            "files": {
+              "934_279728986.kt": "1c5d2b61a1b9e79dd9b0ec5a0e845d8e"
+            }
+          },
+          {
+            "files": {
+              "787_781482349.kt": "5eba165d3cbbb9bbb58905bd14ace270"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "many_case_in_when": {
+    "title": "Many case in when",
+    "examples": {
+      "bytecode": {
+        "total": 1,
+        "all_url": "https://yadi.sk/d/XzXrz5Y93T4K3A",
+        "items": [
+          {
+            "files": {
+              "634_ViewModel.class.json": "a9c5856a5dc2c06323918897ad096057",
+              "634_ViewModel.kt": "5c03635aa5843afee6484c871418a10d"
+            }
+          }
+        ]
+      },
+      "cst": {
+        "total": 33,
+        "all_url": "https://yadi.sk/d/OFBOzJAD3Sp97x",
+        "items": [
+          {
+            "files": {
+              "9427_45911639.kt": "e181a0760133fc553f53009f73c54980"
+            }
+          },
+          {
+            "files": {
+              "2731_22781338.kt": "be00cb93e1a670b50778c4c88cb6446b"
+            }
+          },
+          {
+            "files": {
+              "2359_47083853.kt": "3b1971a3c1dcb80d724a728f0d562909"
+            }
+          },
+          {
+            "files": {
+              "2238_22719281.kt": "365a663c52112c79f3f9a754c201f2f5"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "many_consecutive_arithmetic_expressions": {
+    "title": "Many consecutive arithmetic expressions",
+    "examples": {
+      "bytecode": {
+        "total": 1,
+        "all_url": "https://yadi.sk/d/i0DbihEg3T4KA6",
+        "items": [
+          {
+            "files": {
+              "1239_EditorStage.kt": "9d2785699334f5f829b808bf2b7a2380",
+              "1239_EditorStage.class.json": "047313bd178ca236e375fa1915775dcb"
             }
           }
         ]
@@ -229,390 +923,17 @@
       }
     }
   },
-  "many_assignment_statements": {
-    "title": "Many assignment statements",
-    "examples": {
-      "cst": {
-        "total": 57,
-        "all_url": "https://yadi.sk/d/jf5FdjE83SpAjD",
-        "items": [
-          {
-            "files": {
-              "4177_1494766.kt": "e1b0a656056130c04adb1b68c8598819"
-            }
-          },
-          {
-            "files": {
-              "1262_83299418.kt": "f5cfd5c6f15a43127653aaffa1a4de57"
-            }
-          },
-          {
-            "files": {
-              "957_169484679.kt": "00a45839580e6324bebaa827f096b1b4"
-            }
-          }
-        ]
-      },
-      "bytecode": {
-        "total": 3,
-        "all_url": "https://yadi.sk/d/pLr5vDuR3T4JqQ",
-        "items": [
-          {
-            "files": {
-              "1012_widgets.kt": "192dac21b2f2ef17ad2b4d058c435cbd",
-              "1012_widgets.class.json": "d9e30301b98da8b54ace91fa1fb55783"
-            }
-          },
-          {
-            "files": {
-              "367_TextEditState.kt": "c3ed202002a1b5ad30cc1021a34d680c",
-              "367_TextEditState.class.json": "799d177612a571936086db788b621634"
-            }
-          }
-        ]
-      }
-    }
-  },
-  "many_case_in_when": {
-    "title": "Many case in when",
-    "examples": {
-      "cst": {
-        "total": 33,
-        "all_url": "https://yadi.sk/d/OFBOzJAD3Sp97x",
-        "items": [
-          {
-            "files": {
-              "9427_45911639.kt": "e181a0760133fc553f53009f73c54980"
-            }
-          },
-          {
-            "files": {
-              "2731_22781338.kt": "be00cb93e1a670b50778c4c88cb6446b"
-            }
-          },
-          {
-            "files": {
-              "2359_47083853.kt": "3b1971a3c1dcb80d724a728f0d562909"
-            }
-          },
-          {
-            "files": {
-              "2238_22719281.kt": "365a663c52112c79f3f9a754c201f2f5"
-            }
-          }
-        ]
-      },
-      "bytecode": {
-        "total": 1,
-        "all_url": "https://yadi.sk/d/XzXrz5Y93T4K3A",
-        "items": [
-          {
-            "files": {
-              "634_ViewModel.kt": "5c03635aa5843afee6484c871418a10d",
-              "634_ViewModel.class.json": "a9c5856a5dc2c06323918897ad096057"
-            }
-          }
-        ]
-      }
-    }
-  },
-  "many_concatenations": {
-    "title": "Many concatenations",
-    "examples": {
-      "cst": {
-        "total": 13,
-        "all_url": "https://yadi.sk/d/x2tiYbks3SpC6X",
-        "items": [
-          {
-            "files": {
-              "995_169554923.kt": "9d9383d79ca8c37974eab98b873c176f"
-            }
-          },
-          {
-            "files": {
-              "908_098222933.kt": "501219b23efa03cb32337a018331867e"
-            }
-          },
-          {
-            "files": {
-              "679_718858732.kt": "08b2482ad8399fd6f84a19aa1ae028d1"
-            }
-          },
-          {
-            "files": {
-              "666_093862254.kt": "8e26e362c638bd11db7a69b9bb152f23"
-            }
-          }
-        ]
-      }
-    }
-  },
-  "many_function_arguments": {
-    "title": "Many function arguments",
-    "examples": {
-      "cst": {
-        "total": 17,
-        "all_url": "https://yadi.sk/d/AkRgNLdo3SpCCo",
-        "items": [
-          {
-            "files": {
-              "9619_60767009.kt": "e41da15240b19c83394d366c1b068f32"
-            }
-          },
-          {
-            "files": {
-              "934_279728986.kt": "1c5d2b61a1b9e79dd9b0ec5a0e845d8e"
-            }
-          },
-          {
-            "files": {
-              "787_781482349.kt": "5eba165d3cbbb9bbb58905bd14ace270"
-            }
-          }
-        ]
-      },
-      "bytecode": {
-        "total": 4,
-        "all_url": "https://yadi.sk/d/pSYsDytv3T4reV",
-        "items": [
-          {
-            "files": {
-              "452_GLES20.kt": "70e3297a4245c51ba36a796e88629a3d",
-              "452_GLES20.class.json": "fb30bd625ee2b2559ffbfb4033b772f5"
-            }
-          }
-        ]
-      }
-    }
-  },
-  "many_generic_parameters": {
-    "title": "Many generic parameters",
-    "examples": {
-      "cst": {
-        "total": 6,
-        "all_url": "https://yadi.sk/d/8LaLMlqX3Sp8it",
-        "items": [
-          {
-            "files": {
-              "600_498460165.kt": "6e693a9024fec693edb277312f59f144"
-            }
-          }
-        ]
-      }
-    }
-  },
-  "many_if_statements": {
-    "title": "Many if statements",
-    "examples": {
-      "cst": {
-        "total": 38,
-        "all_url": "https://yadi.sk/d/xqzFZE_33Sp9Dt",
-        "items": [
-          {
-            "files": {
-              "2413_79989814.kt": "b363cb1d53b039779d9a9d8a6aec6118"
-            }
-          },
-          {
-            "files": {
-              "1741_0924744.kt": "fd0dd19a1a988c1a6153d55a47a76f03"
-            }
-          },
-          {
-            "files": {
-              "1119_62992668.kt": "a8c5fa7bb73464de48cc61113956e4ca"
-            }
-          }
-        ]
-      },
-      "bytecode": {
-        "total": 1,
-        "all_url": "https://yadi.sk/d/nsHvyY3d3T4s8r",
-        "items": [
-          {
-            "files": {
-              "1239_EditorStage.kt": "204a907075c79bee420c1c177fed1dbc",
-              "1239_EditorStage.class.json": "8ad78edde02e84ed238404483ce28efa"
-            }
-          }
-        ]
-      }
-    }
-  },
-  "many_loops": {
-    "title": "Many loops",
-    "examples": {
-      "cst": {
-        "total": 7,
-        "all_url": "https://yadi.sk/d/EWJ6bcsN3SpCGq",
-        "items": [
-          {
-            "files": {
-              "2041_57944715.kt": "7612e9b81b277b7b9f6f04e652bc7157"
-            }
-          },
-          {
-            "files": {
-              "1808_79882816.kt": "10a19069d6b179a7b8cbb3077f65040e"
-            }
-          },
-          {
-            "files": {
-              "1069_46563454.kt": "861ed527a8ea0b7225825b12367ceb80"
-            }
-          }
-        ]
-      },
-      "bytecode": {
-        "total": 1,
-        "all_url": "https://yadi.sk/d/6Hvtq-Y83T4tQ7",
-        "items": [
-          {
-            "files": {
-              "359_inputNavigationAndFocus.kt": "1f173a37631a74d8e4501f1d9dbc8dcd",
-              "359_inputNavigationAndFocus.class.json": "f6c53fec446a3867042e5ffc3192cec5"
-            }
-          }
-        ]
-      }
-    }
-  },
-  "many_similar_call_expressions": {
-    "title": "Many similar call expressions",
-    "examples": {
-      "cst": {
-        "total": 86,
-        "all_url": "https://yadi.sk/d/oy7fdVDS3Sp9s3",
-        "items": [
-          {
-            "files": {
-              "14288_0148376.kt": "87d591a6702bf46f0ce87ff91904d0a6"
-            }
-          },
-          {
-            "files": {
-              "13421_6491434.kt": "75c510080b5599edcc693389b67ab19a"
-            }
-          },
-          {
-            "files": {
-              "6512_57228688.kt": "95839918e64210895c371129442dd754"
-            }
-          },
-          {
-            "files": {
-              "2703_26722649.kt": "273a8aaa549c118732a23d9fcdf8404c"
-            }
-          }
-        ]
-      },
-      "bytecode": {
-        "total": 17,
-        "all_url": "https://yadi.sk/d/3br1nT1Z3T4uTk",
-        "items": [
-          {
-            "files": {
-              "3555_PackageApi.kt": "71ea0062d214904a5ee942308079e2a9",
-              "3555_PackageApi$CompanyInfo.class.json": "74e0541b5f94dbf4c48e321f8fa1c06b"
-            }
-          },
-          {
-            "files": {
-              "796_CabalTokelTypes.kt": "ff593f45894f891b636fdf06417cbbdf",
-              "796_CabalTokelTypes.class.json": "4d1a7d79967aed39ccb454f474006ff3"
-            }
-          },
-          {
-            "files": {
-              "359_inputNavigationAndFocus.kt": "627de4b3f91854061c27ac22000fc21a",
-              "359_inputNavigationAndFocus.class.json": "3650bb55aecf0cf21decadf45a9263d2"
-            }
-          }
-        ]
-      }
-    }
-  },
-  "many_var_or_fun_definitions": {
-    "title": "Many var or fun definitions",
-    "examples": {
-      "cst": {
-        "total": 14,
-        "all_url": "https://yadi.sk/d/iTTQJOFd3SpADb",
-        "items": [
-          {
-            "files": {
-              "4891_63999481.kt": "4f04b991eb5a2d3a783df5932ff2b5e2"
-            }
-          },
-          {
-            "files": {
-              "2740_93778153.kt": "915fb4b3b9a91e8402e5b887a69be5d4"
-            }
-          },
-          {
-            "files": {
-              "2547_91645477.kt": "af66f92f3c43cb58a6ec280e13b73e63"
-            }
-          }
-        ]
-      },
-      "bytecode": {
-        "total": 9,
-        "all_url": "https://yadi.sk/d/t406Jtx13T4KNS",
-        "items": [
-          {
-            "files": {
-              "1821_CSS.kt": "c694d98ed69a7b5a02f0771f371066de",
-              "1821_Stylesheet$Companion.class.json": "e4c5f862b7d7054d1b653c19d9b9ab97"
-            }
-          },
-          {
-            "files": {
-              "1814_CSS.kt": "4d161989baaa326f3b5e66c5f3f1568c",
-              "1814_PropertyHolder.class.json": "60ab0abbaa1c2fd54eb84ade2744b8cd"
-            }
-          }
-        ]
-      }
-    }
-  },
-  "nested_calls": {
-    "title": "Nested calls",
-    "examples": {
-      "cst": {
-        "total": 3,
-        "all_url": "https://yadi.sk/d/clEG8QbV3SpB6N",
-        "items": [
-          {
-            "files": {
-              "2179_95451312.kt": "5a3e032ed5e6e2e4db89d4b37f8af101"
-            }
-          },
-          {
-            "files": {
-              "1789_55786539.kt": "23d95b306437a158494472730a747d69"
-            }
-          },
-          {
-            "files": {
-              "506_004230873.kt": "d388c2a77744d897cf74c07ed345d915"
-            }
-          }
-        ]
-      }
-    }
-  },
   "big_and_complex_enums": {
     "title": "Big and complex enums",
     "examples": {
       "bytecode": {
-        "total": 3,
+        "total": 7,
         "all_url": "https://yadi.sk/d/yyWj_N5N3T3wwd",
         "items": [
           {
             "files": {
-              "4168_Book.kt": "d24329380b308b672f37edfbb33386d6",
-              "4168_Book.class.json": "d3d567937029579a254735e14e9668f3"
+              "4168_Book.class.json": "d3d567937029579a254735e14e9668f3",
+              "4168_Book.kt": "d24329380b308b672f37edfbb33386d6"
             }
           },
           {
@@ -620,188 +941,58 @@
               "1985_LatexNoMathCommand.kt": "5e3b21d8a2d1f932ca3ad99c24d7fdd3",
               "1985_LatexNoMathCommand.class.json": "7162bc04e58ae9840a25969afd11d47d"
             }
-          }
-        ]
-      }
-    }
-  },
-  "big_companion_object": {
-    "title": "Big companion object",
-    "examples": {
-      "bytecode": {
-        "total": 2,
-        "all_url": "https://yadi.sk/d/keDdiPKj3T45uh",
-        "items": [
+          },
           {
             "files": {
-              "1814_CSS.kt": "03b7c57c8614e646886dbb6c0b71c5e4",
-              "1814_PropertyHolder.class.json": "4c285397769a1bef4e233e11a361edf0"
+              "1764_LatexMathCommand.class.json": "a728e585d10c7838553d82c170be12f8",
+              "1764_LatexMathCommand.kt": "7c0c96bf45a1cf1ef1e9b36f4e27fc10"
             }
           },
           {
             "files": {
-              "366_JSONConverter.kt": "9fa7524220876a4a901646f8587a5936",
-              "366_JSONConverter$Companion.class.json": "7422a361c337190530a79564c5340d76"
-            }
-          }
-        ]
-      }
-    }
-  },
-  "big_constants_set": {
-    "title": "Big constants set",
-    "examples": {
-      "bytecode": {
-        "total": 9,
-        "all_url": "https://yadi.sk/d/8WSRrHar3T4ESq",
-        "items": [
-          {
-            "files": {
-              "958_GL11.kt": "4475633316a028ae51985ae52edf4a8c",
-              "958_GL11.class.json": "d6538a60e7a56a798a56269fa2f3cad5"
-            }
-          }
-        ]
-      }
-    }
-  },
-  "big_init_method_in_bytecode": {
-    "title": "Big init method in bytecode",
-    "examples": {
-      "bytecode": {
-        "total": 2,
-        "all_url": "https://yadi.sk/d/xZyD09ZZ3T4JBz",
-        "items": [
-          {
-            "files": {
-              "1351_Config.kt": "bb60ea6e9c9eb4dda353bf38eadb6404",
-              "1351_ConfigModel.class.json": "c544db710a1f865377440e7bbc050de3"
+              "1765_LatexMathCommand.class.json": "6bb6df0a1fcfde8930ded5aa18959d23",
+              "1765_LatexMathCommand.kt": "59f3e16166c281d18528e5792f17f807"
             }
           },
           {
             "files": {
-              "796_CabalTokelTypes.kt": "37c12b1db74ca56b2e669cf4c9764e95",
-              "796_CabalTokelTypes.class.json": "de5683b1f0ff47831bc93c7c776a9e96"
-            }
-          }
-        ]
-      }
-    }
-  },
-  "many_consecutive_arithmetic_expressions": {
-    "title": "Many consecutive arithmetic expressions",
-    "examples": {
-      "bytecode": {
-        "total": 1,
-        "all_url": "https://yadi.sk/d/i0DbihEg3T4KA6",
-        "items": [
-          {
-            "files": {
-              "1239_EditorStage.kt": "9d2785699334f5f829b808bf2b7a2380",
-              "1239_EditorStage.class.json": "047313bd178ca236e375fa1915775dcb"
-            }
-          }
-        ]
-      }
-    }
-  },
-  "many_delegate_properties": {
-    "title": "Many delegate properties",
-    "examples": {
-      "bytecode": {
-        "total": 2,
-        "all_url": "https://yadi.sk/d/nlcB8Y763T4KD2",
-        "items": [
-          {
-            "files": {
-              "1821_CSS.kt": "c694d98ed69a7b5a02f0771f371066de",
-              "1821_Stylesheet$Companion.class.json": "e4c5f862b7d7054d1b653c19d9b9ab97"
+              "445_DefaultEnvironment.class.json": "a72b02055ca728f61f10e096f40e09a1",
+              "445_DefaultEnvironment.kt": "e0204016cc156fcc324cb4caaa33c15a"
             }
           },
           {
             "files": {
-              "1814_CSS.kt": "4d161989baaa326f3b5e66c5f3f1568c",
-              "1814_PropertyHolder.class.json": "60ab0abbaa1c2fd54eb84ade2744b8cd"
+              "482_Lang.class.json": "6192b13417f223b1b3f3fa650152cfd0",
+              "482_Lang.kt": "79512c46934ec6736af10a341df46172"
             }
           }
         ]
       }
     }
   },
-  "many_inline_functions": {
-    "title": "Many inline functions",
-    "examples": {
-      "bytecode": {
-        "total": 2,
-        "all_url": "https://yadi.sk/d/LVkgotGI3T4sQY",
-        "items": [
-          {
-            "files": {
-              "2220_ViewModel.kt": "8c6736aecff99f14dbfe0b38cd6e1576",
-              "2220_ItemViewModel.class.json": "6e701d86333042e5b6e0df4fb66a6bb9"
-            }
-          }
-        ]
-      }
-    }
-  },
-  "many_root_function_definitions": {
-    "title": "Many root function definitions",
+  "big_methods": {
+    "title": "Big methods",
     "examples": {
       "bytecode": {
         "total": 3,
-        "all_url": "https://yadi.sk/d/2lk2YE7P3T4tqr",
+        "all_url": "https://yadi.sk/d/mlvKLzaT3TFjG5",
         "items": [
           {
             "files": {
-              "4519_Generated.kt": "35c954983fdd1e57a42e669ca3846ef4",
-              "4519_KaliumPackage-Generated-42b15255.class.json": "ea7902d95a2ecdaa19f95494186fd79f"
+              "398_DrawerLayout.class.json": "bde571760218a5b2608b5ff8eb5599f9",
+              "398_DrawerLayout.kt": "f910f849ed1d9e033242fb36144fd411"
             }
           },
           {
             "files": {
-              "634_ViewModel.kt": "2c72a76ccc622185057449e151d3cdec",
-              "634_ViewModel.class.json": "f63f887bb76bd8f94ae4c2e5d53f8f13"
-            }
-          }
-        ]
-      }
-    }
-  },
-  "many_square_bracket_annotations": {
-    "title": "Many square bracket annotations",
-    "examples": {
-      "bytecode": {
-        "total": 2,
-        "all_url": "https://yadi.sk/d/SCmMck273T4vPQ",
-        "items": [
-          {
-            "files": {
-              "4519_Generated.kt": "688da7d12e0cf0447acc75b609ca0712",
-              "4519_KaliumPackage-Generated-42b15255.class.json": "6d8ee011068132d3b06ae63ac1d98c04"
+              "456_BrowserActivity.class.json": "bae754340360d97fb640952c66bb0d3d",
+              "456_BrowserActivity.kt": "92cc8bca2044f8e52216af5d07eb55cf"
             }
           },
           {
             "files": {
-              "2962_Generated.kt": "293d6ecec633ab4c4c83114e64cd7a56",
-              "2962_PropertiesPackage-Generated-466c78cd.class.json": "5ccb928bafb229a4f54c4aa9bbfae4eb"
-            }
-          }
-        ]
-      }
-    }
-  },
-  "many_type_reified_params": {
-    "title": "Many type reified params",
-    "examples": {
-      "bytecode": {
-        "total": 1,
-        "all_url": "https://yadi.sk/d/E8QTHpFr3T4vrb",
-        "items": [
-          {
-            "files": {
-              "2220_ViewModel.kt": "b011dfddef8e45d154e563cef4a21b07",
-              "2220_ItemViewModel.class.json": "9589b28614fc905eaa0362ffa999a91f"
+              "975_Editor.class.json": "48cf1b3286266c7952f0faaa819aa68c",
+              "975_Editor.kt": "dd04dfc5a77a034cb14f0a741cd0c0b9"
             }
           }
         ]
