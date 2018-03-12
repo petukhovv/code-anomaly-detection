@@ -239,17 +239,88 @@
       }
     }
   },
+  "many_assignement_statements": {
+    "title": "Many assignment statements",
+    "examples": {
+      "bytecode": {
+        "total": 6,
+        "all_url": "https://yadi.sk/d/pLr5vDuR3T4JqQ",
+        "items": [
+          {
+            "files": {
+              "1012_widgets.kt": "6d9347513a2edff1c009e0daf25f5d4d",
+              "1012_widgets.class.json": "6359b96e67d252c36b37bf0fc5dae5ee"
+            }
+          },
+          {
+            "files": {
+              "357_NoteStore.class.json": "6ba8ff12e23b305cf533a46770bf8af4",
+              "357_NoteStore.kt": "1c196b32d543e3e9703bf1d03f96a8ba"
+            }
+          },
+          {
+            "files": {
+              "366_JSONConverter.kt": "87cac75020950c80a619371cd42864fd",
+              "366_JSONConverter$Companion.class.json": "870561669add80e012a433fc3a055c39"
+            }
+          },
+          {
+            "files": {
+              "367_TextEditState.class.json": "a39c481805dd6509e89f33b64c38c8a9",
+              "367_TextEditState.kt": "9f190ca6710edad33f71239fbc487870"
+            }
+          },
+          {
+            "files": {
+              "422_EventActivity.kt": "2f5cd496c91dc61cb9ed58e95ad6744f",
+              "422_EventActivity.class.json": "c99da01bd295e67c8b12b055622255ec"
+            }
+          },
+          {
+            "files": {
+              "651_Settings.class.json": "09525722a996d5f51691d20fbd1d2a95",
+              "651_Settings.kt": "20605a5c19dee31f48c2f5bdc6acd7ec"
+            }
+          }
+        ]
+      }
+    }
+  },
   "many_if_statements": {
     "title": "Many if statements",
     "examples": {
       "bytecode": {
-        "total": 1,
+        "total": 5,
         "all_url": "https://yadi.sk/d/nsHvyY3d3T4s8r",
         "items": [
           {
             "files": {
               "1239_EditorStage.kt": "204a907075c79bee420c1c177fed1dbc",
               "1239_EditorStage.class.json": "8ad78edde02e84ed238404483ce28efa"
+            }
+          },
+          {
+            "files": {
+              "406_TitleManagerPlugin.class.json": "45160c5a652827f4e8eeef96d126b3fd",
+              "406_TitleManagerPlugin.kt": "52a592844514ce38b35e78174deb2fed"
+            }
+          },
+          {
+            "files": {
+              "439_DiscordBridge.class.json": "208728d71d5fa65b903e54fd624b605d",
+              "439_DiscordBridge.kt": "ae165183b69fecf66802eb8fc31fe5c5"
+            }
+          },
+          {
+            "files": {
+              "456_BrowserActivity.class.json": "38d016138647e8d669b847c6f3865603",
+              "456_BrowserActivity.kt": "fae291e55e1d1000eb24d724ade39d76"
+            }
+          },
+          {
+            "files": {
+              "975_Editor.class.json": "4913eb8f883d26bc8e6710709faf84ac",
+              "975_Editor.kt": "3205577f51ec6579acf33916f37392c3"
             }
           }
         ]
@@ -607,13 +678,19 @@
     "title": "Many inline functions",
     "examples": {
       "bytecode": {
-        "total": 2,
+        "total": 3,
         "all_url": "https://yadi.sk/d/LVkgotGI3T4sQY",
         "items": [
           {
             "files": {
               "2220_ItemViewModel.class.json": "6e701d86333042e5b6e0df4fb66a6bb9",
               "2220_ViewModel.kt": "8c6736aecff99f14dbfe0b38cd6e1576"
+            }
+          },
+          {
+            "files": {
+              "634_ViewModel.class.json": "5dcecd2baa11c2de3b4ddd8553030022",
+              "634_ViewModel.kt": "52b040e75cb43c0d91ef48fb9de1983f"
             }
           }
         ]
@@ -780,13 +857,37 @@
     "title": "Many function arguments",
     "examples": {
       "bytecode": {
-        "total": 4,
+        "total": 8,
         "all_url": "https://yadi.sk/d/pSYsDytv3T4reV",
         "items": [
           {
             "files": {
               "452_GLES20.class.json": "fb30bd625ee2b2559ffbfb4033b772f5",
               "452_GLES20.kt": "70e3297a4245c51ba36a796e88629a3d"
+            }
+          },
+          {
+            "files": {
+              "358_GL20.class.json": "7dd7077d128b5e04fae340207a218bc6",
+              "358_GL20.kt": "8853e82c39f102324c88453e375ec25d"
+            }
+          },
+          {
+            "files": {
+              "415_GLES30.class.json": "941cf28be796b36ab9041f708370f926",
+              "415_GLES30.kt": "b08fe244687f89b93fd698f23c8d09af"
+            }
+          },
+          {
+            "files": {
+              "444_GLFW.class.json": "9db72cfe9bce076cf203bc446748c6f6",
+              "444_GLFW.kt": "4890cce6bb9b39ae06f4e3d2f655126d"
+            }
+          },
+          {
+            "files": {
+              "651_Settings.class.json": "87df9a140f1633940c5b05c969589bd2",
+              "651_Settings.kt": "07453e9410a3ca6cb16a0af2870e3441"
             }
           }
         ]
@@ -835,8 +936,8 @@
           },
           {
             "files": {
-              "374_EventListener$WhenMappings.class.json": "d87efe698d693d87ba2c2a416e2804fa",
-              "374_EventListener.kt": "53bbab49f5a3b7cd978656b75701b4c5"
+              "374_EventListener.kt": "53bbab49f5a3b7cd978656b75701b4c5",
+              "374_EventListener$WhenMappings.class.json": "d87efe698d693d87ba2c2a416e2804fa"
             }
           }
         ]
@@ -915,6 +1016,24 @@
   "long_calls_chain": {
     "title": "Long calls chain",
     "examples": {
+      "bytecode": {
+        "total": 2,
+        "all_url": "https://yadi.sk/d/qe-UHD3G3TGKFm",
+        "items": [
+          {
+            "files": {
+              "439_DiscordBridge.kt": "5ae3a1525d6aaf9093b9250b05bfe073",
+              "439_DiscordBridge.class.json": "fb28c0441f9161b4363c40ca0f68ec90"
+            }
+          },
+          {
+            "files": {
+              "585_GraphQLSchemaBuilder.kt": "04065c28fce01ea7def8b6fcee93e301",
+              "585_GraphQLSchemaBuilder.class.json": "95cb1290f0b1e6a4dd73f4e265cf218a"
+            }
+          }
+        ]
+      },
       "cst": {
         "total": 5,
         "all_url": "https://yadi.sk/d/W8eMX2-O3SpBVD",
@@ -937,24 +1056,6 @@
           {
             "files": {
               "461_072377513.kt": "5f7dea7728ddbd95f2f776de019dc5d5"
-            }
-          }
-        ]
-      },
-      "bytecode": {
-        "total": 2,
-        "all_url": "https://yadi.sk/d/qe-UHD3G3TGKFm",
-        "items": [
-          {
-            "files": {
-              "439_DiscordBridge.class.json": "fb28c0441f9161b4363c40ca0f68ec90",
-              "439_DiscordBridge.kt": "5ae3a1525d6aaf9093b9250b05bfe073"
-            }
-          },
-          {
-            "files": {
-              "585_GraphQLSchemaBuilder.class.json": "95cb1290f0b1e6a4dd73f4e265cf218a",
-              "585_GraphQLSchemaBuilder.kt": "04065c28fce01ea7def8b6fcee93e301"
             }
           }
         ]
@@ -1029,47 +1130,29 @@
       }
     }
   },
-  "many_assignement_statements": {
-    "title": "Many assignment statements",
+  "many_literal_strings": {
+    "title": "Many literal strings",
     "examples": {
       "bytecode": {
-        "total": 6,
-        "all_url": "https://yadi.sk/d/pLr5vDuR3T4JqQ",
+        "total": 3,
+        "all_url": "https://yadi.sk/d/1OOQppUp3TGLE2",
         "items": [
           {
             "files": {
-              "1012_widgets.class.json": "6359b96e67d252c36b37bf0fc5dae5ee",
-              "1012_widgets.kt": "6d9347513a2edff1c009e0daf25f5d4d"
+              "651_Settings.class.json": "a6aaa8217b8855f7ef7d443b5795e903",
+              "651_Settings.kt": "69b3ed5bba72452d025800265ffa025e"
             }
           },
           {
             "files": {
-              "357_NoteStore.class.json": "6ba8ff12e23b305cf533a46770bf8af4",
-              "357_NoteStore.kt": "1c196b32d543e3e9703bf1d03f96a8ba"
+              "681_CL10.class.json": "105bd4102ecf55da530d1a1fae1b873a",
+              "681_CL10.kt": "48bce9dc893fdd6f4a0fb1d46a2f1171"
             }
           },
           {
             "files": {
-              "366_JSONConverter$Companion.class.json": "870561669add80e012a433fc3a055c39",
-              "366_JSONConverter.kt": "87cac75020950c80a619371cd42864fd"
-            }
-          },
-          {
-            "files": {
-              "367_TextEditState.class.json": "a39c481805dd6509e89f33b64c38c8a9",
-              "367_TextEditState.kt": "9f190ca6710edad33f71239fbc487870"
-            }
-          },
-          {
-            "files": {
-              "422_EventActivity.class.json": "c99da01bd295e67c8b12b055622255ec",
-              "422_EventActivity.kt": "2f5cd496c91dc61cb9ed58e95ad6744f"
-            }
-          },
-          {
-            "files": {
-              "651_Settings.class.json": "09525722a996d5f51691d20fbd1d2a95",
-              "651_Settings.kt": "20605a5c19dee31f48c2f5bdc6acd7ec"
+              "847_VK10.class.json": "70a4d023e7a6d5727de6c27111aae65d",
+              "847_VK10.kt": "c3bdca5808d88a081abf25413370634b"
             }
           }
         ]
