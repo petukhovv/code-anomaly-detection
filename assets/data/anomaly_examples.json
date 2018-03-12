@@ -120,8 +120,8 @@
           },
           {
             "files": {
-              "2962_PropertiesPackage-generated-466c78cd.class.json": "5a82042c9b1629883f82a8468778a592",
-              "2962_PropertiesPackage-generated-466c78cd.kt": "4d46d6710cbb7f6c5557928bf1196f36"
+              "2962_PropertiesPackage-generated-466c78cd.class.json": "ac77f73ad843cc1eaeea5e4098333c55",
+              "2962_PropertiesPackage-generated-466c78cd.kt": "6a324101b640c2b7ea52fda7f88e5d3c"
             }
           }
         ]
@@ -503,164 +503,164 @@
           },
           {
             "files": {
-              "1012_widgets.class.json": "40b5481ff50b7d0e19bb5c53bbd76c92",
-              "1012_widgets.kt": "baa3db26a43400a8bb92a9fc13543a9b"
+              "1012_widgets.class.json": "5f254eb78168f55620ac148f1b1f6cbd",
+              "1012_widgets.kt": "353a909295c2aa9cb9fea223ce63c9cc"
             }
           },
           {
             "files": {
-              "1148_Value.class.json": "d3277444b4ff5c2a411cf0f9a2f286d3",
-              "1148_Value.kt": "14f2c8b698a898070f7aef123e312bd9"
+              "1148_Value.class.json": "1750cb1d91888c2c538419c7d985640e",
+              "1148_Value.kt": "12dd265c383205ce8c9545b1b1247d5f"
             }
           },
           {
             "files": {
-              "1318_Nuklear.class.json": "4b2cba7e21c9b9f3586bc1ea9d8b72b7",
-              "1318_Nuklear.kt": "1cafa803d908e535ee5c684ba8721af5"
+              "1318_Nuklear.class.json": "4b653ea74fe876e2aeb8106a46e6f7f1",
+              "1318_Nuklear.kt": "99e2d4639f1bd270002a845d275a5f13"
             }
           },
           {
             "files": {
-              "357_NoteStore.class.json": "63bbce7e6d4879cd03c1463558154414",
-              "357_NoteStore.kt": "ff54b65dd424b11e31e9a44c11536bdd"
+              "357_NoteStore.class.json": "de00e64a607bfd53cfb7eb76961fe093",
+              "357_NoteStore.kt": "7a5027f68880733ec9b00c43f16e80c0"
             }
           },
           {
             "files": {
-              "358_GL20.class.json": "e1504c3b77429a9fa101a35d1bf4e790",
-              "358_GL20.kt": "a233fe926f6a6df6ce76c8feedb20847"
+              "358_GL20.class.json": "c5da38b03ca4233dd3fea01b2dfe9296",
+              "358_GL20.kt": "9e1186374f66fc639bf8f930735aa320"
             }
           },
           {
             "files": {
-              "358_inputNavigationAndFocus.class.json": "e48dab89e59d8313a0c5f73d3047a261",
-              "358_inputNavigationAndFocus.kt": "61f47d326bccfa8f21b97180c6c6f161"
+              "358_inputNavigationAndFocus.class.json": "bb124274178bce89890b96ebbde92b69",
+              "358_inputNavigationAndFocus.kt": "a97f919ff9664067548e24bd602b1987"
             }
           },
           {
             "files": {
-              "406_TitleManagerPlugin.class.json": "a513b3f99f04495b8fd7e14ef1dd4345",
-              "406_TitleManagerPlugin.kt": "625594264aa731c132b6a5132866624f"
+              "406_TitleManagerPlugin.class.json": "5b748057bbc0c2224355dab6268195a9",
+              "406_TitleManagerPlugin.kt": "79da60c0d2653ad3f1efbdd8739379cb"
             }
           },
           {
             "files": {
-              "414_GLES30.class.json": "8275bd701d6ecc5c53db2a385d23b18d",
-              "414_GLES30.kt": "302f93b91117434f026c77157d68ef4f"
+              "414_GLES30.class.json": "97b6ca220b48305841ff9dd166debf06",
+              "414_GLES30.kt": "9c65bad69a765d724ea43fbeb5ddaf27"
             }
           },
           {
             "files": {
-              "415_GLES30.class.json": "dc33f088307d210f64fccdfc42826e5b",
-              "415_GLES30.kt": "7ac7171f8afdec5ec20953a3b5aab9a2"
+              "415_GLES30.class.json": "654d5e29e7d75da999727bfb2b823e1b",
+              "415_GLES30.kt": "70f6f313a88c6f84ba96e8b1503c2f27"
             }
           },
           {
             "files": {
-              "422_EventActivity.class.json": "626aabc0e7e0bb788b94bfb72538e5bd",
-              "422_EventActivity.kt": "620eeb3b5892f3c9823bf056a2538581"
+              "422_EventActivity.class.json": "554b882bfc01438b82c805c151106513",
+              "422_EventActivity.kt": "c19c62a94d9aa1a062bfc7258acc4026"
             }
           },
           {
             "files": {
-              "444_GLFW.class.json": "2b50e2fc3497fdbbecfe97993bf5ef9f",
-              "444_GLFW.kt": "2db104dfa765c1f4fc5bca753bc5f213"
+              "444_GLFW.class.json": "1074b46081155fb233711d4ad5cb5e5d",
+              "444_GLFW.kt": "611ba8d7fd847d7341121723d3069295"
             }
           },
           {
             "files": {
-              "451_GLES20.class.json": "f50eb9cf6a761340258e7726f4a6a378",
-              "451_GLES20.kt": "857326b092492c9cbb336471c47ec25b"
+              "451_GLES20.class.json": "4d7d3dcd7785f514a4f7e72c2768bb6e",
+              "451_GLES20.kt": "3c326a1ef963fcfeb895cccd4005efb6"
             }
           },
           {
             "files": {
-              "452_GLES20.class.json": "00ddccbc408acaf159e5767078cc0de3",
-              "452_GLES20.kt": "965507b313cef98b88b87eb2f701da62"
+              "452_GLES20.class.json": "0583306307123873f68cabd8ece3b6bd",
+              "452_GLES20.kt": "5b5aeefa2e706493cf1aeda710c76458"
             }
           },
           {
             "files": {
-              "471_VROverlay.class.json": "069a09498e4a58b97485d2792689f336",
-              "471_VROverlay.kt": "9a6e45447c48ee782568e0223b70e580"
+              "471_VROverlay.class.json": "624047c8929ce3a2bcb1c24057d5ab85",
+              "471_VROverlay.kt": "f8876a0862de070c1adeaa5eec00bcdb"
             }
           },
           {
             "files": {
-              "472_VROverlay.class.json": "54a052154b1acc208669891f222689c1",
-              "472_VROverlay.kt": "7fbf72b9a06246ded502ed54617247ad"
+              "472_VROverlay.class.json": "d6d19d272dd89546f0aade241d350f82",
+              "472_VROverlay.kt": "c5c2b855724804b476a4ef3097e0d3e3"
             }
           },
           {
             "files": {
-              "476_Yoga.class.json": "2846c85351f4e5b183847269f38d5439",
-              "476_Yoga.kt": "e8f6fb67abe35e90b9b276624d1ba902"
+              "476_Yoga.class.json": "e4c5231da3f27aa7b4471dce3a0a4214",
+              "476_Yoga.kt": "18633a126a16a4fa909e165c7556892e"
             }
           },
           {
             "files": {
-              "486_GL45.class.json": "af9efb90c921e130c1d8606e190b55dd",
-              "486_GL45.kt": "32371d344a04b84e2716273d3b0557c2"
+              "486_GL45.class.json": "e4e102ab572384b2d9b1ab95b1628e2c",
+              "486_GL45.kt": "40e2130782a5bcace598b01c00d4dd9c"
             }
           },
           {
             "files": {
-              "487_GL45.class.json": "2d19cf5ca044d2e55e2bfeb8707a56e5",
-              "487_GL45.kt": "c2cc42fd87cc906ce2ca2c69be7a6020"
+              "487_GL45.class.json": "22e60017742fb37d2a4634cec7e90fb0",
+              "487_GL45.kt": "23840b250b708226a0d120c786ca7ff1"
             }
           },
           {
             "files": {
-              "506_SQL.class.json": "70067436ffe7e127a86b91bbdb65e284",
-              "506_SQL.kt": "aff4e80791547bad89d6c21934f6e649"
+              "506_SQL.class.json": "35923b140647925739c673b35fef3bb8",
+              "506_SQL.kt": "e88a22516b766b7f2402ee17cdf78f5e"
             }
           },
           {
             "files": {
-              "507_SQL.class.json": "0e2ab76f7e1b184b17d1e79ec8a028a9",
-              "507_SQL.kt": "39b7aaba50fd0e8039c6d40e35486ac7"
+              "507_SQL.class.json": "377788bf634fc41669be9c650837c901",
+              "507_SQL.kt": "bc561dd5e521b7b1deb0950d03112376"
             }
           },
           {
             "files": {
-              "651_Settings.class.json": "51ad5aeca7e0c20287498658959debc8",
-              "651_Settings.kt": "653fcc6d65d2fc0148dcc734c7b29f37"
+              "651_Settings.class.json": "87efd9cc2afd85292b648cb3ef0148d6",
+              "651_Settings.kt": "446036fc93de03f5d066727308d2233c"
             }
           },
           {
             "files": {
-              "681_CL10.class.json": "38c03b76a87f549306985f55e7db416c",
-              "681_CL10.kt": "8e8c003a5f79116f64b1febc2d6fc0e7"
+              "681_CL10.class.json": "a31829c9154c9b74a82a80629ed6fbe5",
+              "681_CL10.kt": "4a85c67b4920d49b9ffeee3e20eb7f92"
             }
           },
           {
             "files": {
-              "682_CL10.class.json": "3178672591456c886033c73fef81bca9",
-              "682_CL10.kt": "ffaa5ad6dd9bf5915eb9095ffb5a9ca6"
+              "682_CL10.class.json": "834d918a727774691acb4f89f1c140eb",
+              "682_CL10.kt": "1e845b3145db8e7b4cae17f487a301ed"
             }
           },
           {
             "files": {
-              "706_BGFX.class.json": "463db2ec03ee360792c3d4ce6c819318",
-              "706_BGFX.kt": "e31d9cba0aa7f9ecb901ef46406e6fbe"
+              "706_BGFX.class.json": "09a70c31633e38aa346c78e22f963826",
+              "706_BGFX.kt": "af80e84d5a3a699c38c41f27fcf93581"
             }
           },
           {
             "files": {
-              "847_VK10.class.json": "1921d2e63d7c4ecf441758500b80c654",
-              "847_VK10.kt": "f2e07f13d2e9a2e7e4ebfed01fae5139"
+              "847_VK10.class.json": "d7195f9935e6d4cc1845a820c5b25b90",
+              "847_VK10.kt": "1dc73e1cf9d56a9110151dc9ce773e6e"
             }
           },
           {
             "files": {
-              "848_VK10.class.json": "828666590a10e464ebea2c1f70f36840",
-              "848_VK10.kt": "a51964a443166b7e0f96543e5b4f6026"
+              "848_VK10.class.json": "d76e0d1ac3190ce0e2e14d382a102f1b",
+              "848_VK10.kt": "b8a91d290c54b6d7a6911a7c664c47d7"
             }
           },
           {
             "files": {
-              "958_GL11.class.json": "9880383082264ddeee0fc2581add9f8d",
-              "958_GL11.kt": "f788740f606dd0f72c5b4d3659bd3601"
+              "958_GL11.class.json": "426534baccfedbbff2ddfb7886b1ec3c",
+              "958_GL11.kt": "38ee23af5d56d4c4e0d11addbd492f57"
             }
           }
         ]
@@ -1365,8 +1365,8 @@
         "items": [
           {
             "files": {
-              "3554_PackageApi$CompanyInfo.class.json": "c2355aa1ea36f2e41111465fe9b58955",
-              "3554_PackageApi.kt": "b0a5aa0b14ada70403917e312a159a08"
+              "3554_PackageApi$CompanyInfo.class.json": "4ccbfbed629967d636fd601eef244733",
+              "3554_PackageApi.kt": "a59674bfbb4eea008a51c0401b1e5e8e"
             }
           }
         ]
@@ -1382,8 +1382,8 @@
         "items": [
           {
             "files": {
-              "585_MainPresenterImpl.class.json": "a00636eb4a0ec56c68536dba0e37aab1",
-              "585_MainPresenterImpl.kt": "1e376e7ebd642ef9840963c73d61e9f9"
+              "585_MainPresenterImpl.class.json": "c38ff350fa0ba6f1a3478049df84a6c8",
+              "585_MainPresenterImpl.kt": "7c77e712873264f206a3964d22bbb8d5"
             }
           }
         ]
