@@ -213,9 +213,11 @@ $(document).ready(function() {
     });
 
     $(document.body).on("click", ".anomaly-example-spoiler", function() {
-        var filename = $(this).data("filename");
-        $(this).parents(".anomaly-example-block").find(".anomaly-example-content").html(anomalyExampleContents[filename]);
-
+        if (!$(this).hasClass("collapsed")) {
+            var filename = $(this).data("filename");
+            $(this).parents(".anomaly-example-block").find(".anomaly-example-content").html(anomalyExampleContents[filename]);
+        }
+        $(this).toggleClass("collapsed");
         $(this).parent().next().collapse('toggle');
     });
 
