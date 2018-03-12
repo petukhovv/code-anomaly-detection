@@ -223,7 +223,7 @@ $(document).ready(function() {
             $anomalyExampleContent.empty();
         }
         $this.toggleClass("collapsed");
-        $this.parent().next().collapse('toggle');
+        $this.parent().next().toggle();
     });
 
     loadAnomalyClasses();
