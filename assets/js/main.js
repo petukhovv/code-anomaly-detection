@@ -213,12 +213,17 @@ $(document).ready(function() {
     });
 
     $(document.body).on("click", ".anomaly-example-spoiler", function() {
-        if (!$(this).hasClass("collapsed")) {
-            var filename = $(this).data("filename");
-            $(this).parents(".anomaly-example-block").find(".anomaly-example-content").html(anomalyExampleContents[filename]);
+        var $this = $(this);
+        var $anomalyExampleContent = $(this).parents(".anomaly-example-block").find(".anomaly-example-content");
+
+        if (!$this.hasClass("collapsed")) {
+            var filename = $this.data("filename");
+            $anomalyExampleContent.html(anomalyExampleContents[filename]);
+        } else {
+            $anomalyExampleContent.empty();
         }
-        $(this).toggleClass("collapsed");
-        $(this).parent().next().collapse('toggle');
+        $this.toggleClass("collapsed");
+        $this.parent().next().collapse('toggle');
     });
 
     loadAnomalyClasses();
