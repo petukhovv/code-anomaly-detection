@@ -10,7 +10,7 @@ Anomaly is Kotlin source code file, witch according to machine learning algorith
 
 Program consist of four top-level parts:
 - parsing Kotlin source codes: Kotlin compiler run ([kotlin-academic](https://github.com/PetukhovVictor/kotlin-academic), which instead of compiling into jvm-bytecode outputs the result of the parsing program - concrete suntax tree (CST), also referred to in intellij platform as PSI);
-- CST (concrete syntax tree) extraction and factorization: CSTs transformation to a vectors by specified features configuration;
+- CST extraction and factorization: CSTs transformation to a vectors by specified features configuration;
 - autoencoding: run autoencoder neural network on the dataset obtained from the previous stage (vector set);
 - anomaly selection based on the decoding losses obtained from the autoencoder (DBScan or 3/5-sigma deviation).
 
