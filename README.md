@@ -22,7 +22,7 @@ You run the program on the project you are interested in by specifying the proje
 
 If the program finds anomalies, then it is written to the specified file.
 
-Before run program, you need to initialize and update the git submodules:
+Before run program, you need to initialize the git submodules:
 ```
 git submodule update --init --recursive --remote
 ```
