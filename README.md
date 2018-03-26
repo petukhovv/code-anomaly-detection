@@ -14,6 +14,7 @@ Program consist of four top-level parts:
 - autoencoding: run autoencoder neural network on the dataset obtained from the previous stage (vector set);
 - anomaly selection based on the decoding losses obtained from the autoencoder (DBScan or 3/5-sigma deviation).
 
+### Submodules
 These parts correspond to three tools included in code-anomaly-detection as submodules:
 - [kotlin2psi](https://github.com/PetukhovVictor/kotlin2psi),
 - [ast-set2matrix](https://github.com/PetukhovVictor/ast-set2matrix),
@@ -74,7 +75,4 @@ You can change extracting features configuration. See more: [ast2vec readme](htt
 ## Configure algorithm parameters
 
 To configure the parameters of the algorithms you can use the tools used in the `code-anomaly-decetion` yourself.
-See:
-- [kotlin-source2ast](https://github.com/PetukhovVictor/kotlin-source2ast),
-- [ast-set2matrix](https://github.com/PetukhovVictor/ast-set2matrix),
-- [anomaly-detectyion](https://github.com/PetukhovVictor/anomaly-detection).
+See submodules section.
