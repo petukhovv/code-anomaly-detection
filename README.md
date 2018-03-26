@@ -75,4 +75,4 @@ You can change extracting features configuration. See more: [ast2vec readme](htt
 ## Configure algorithm parameters
 
 To configure the parameters of the algorithms you can use the tools used in the `code-anomaly-decetion` yourself.
-See submodules section.
+See [submodules section](https://github.com/PetukhovVictor/code-anomaly-detection/blob/master/README.md#submodules).
