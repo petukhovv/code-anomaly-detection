@@ -2,7 +2,7 @@ var anomalyClasses = {};
 var anomalyExampleContents = {};
 
 function loadAnomalyClasses() {
-    $.getJSON("assets/data/anomaly_examples.json?v=0.4.2", function(anomalyClassesLoaded) {
+    $.getJSON("./assets/data/anomaly_examples.json?v=0.4.3", function(anomalyClassesLoaded) {
         anomalyClasses = anomalyClassesLoaded;
 
         var anomalyClassesKeys = [];
@@ -121,7 +121,6 @@ function loadAnomalyExamples(anomalyClassInfo, selectedAnomaliesType, callback) 
     $("#anomaly-examples-by-" + selectedAnomaliesType + "-all-url").attr("href", anomalyExamples.all_url);
     $("#anomaly-examples-by-" + selectedAnomaliesType + "-list").text("Loading examples...");
 
-    var githubProfileUrl = 'https://gist.github.com/PetukhovVictor';
     var requestNumber = 0;
     var exampleNumber = 0;
     var anomalyExamplesHtml = [];
@@ -146,8 +145,8 @@ function loadAnomalyExamples(anomalyClassInfo, selectedAnomaliesType, callback) 
         anomalyFilesKeys.sort().reverse();
         anomalyFilesKeys.forEach(function(file) {
             requestNumber++;
-            var githubGistId = anomalyExample.files[file];
-            $.getScript(githubProfileUrl + '/' + githubGistId + '.js', function(anomalyExampleHtml, file, fileNumber, exampleNumber) {
+            var githubGistUrl = anomalyExample.files[file];
+            $.getScript(githubGistUrl + '.js', function(anomalyExampleHtml, file, fileNumber, exampleNumber) {
                 return function () {
                     requestNumber--;
                     anomalyExampleHtml[fileNumber] = getAnomalyExampleFileBlock(exampleNumber + 1, file, interceptedContent);
