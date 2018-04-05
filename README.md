@@ -4,4 +4,4 @@ Assets and data to anomalies presentation found using [code-anomaly-detection](h
 
 Repo content used by Github Pages.
 
-**[Go to code anomaly detection page](https://petukhovvictor.github.io/code-anomaly-detection/)**
+**[Go to the fork's web page](https://ksmirenko.github.io/code-anomaly-detection/)**
