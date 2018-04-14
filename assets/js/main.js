@@ -2,7 +2,7 @@ var anomalyClasses = {};
 var anomalyExampleContents = {};
 
 function loadAnomalyClasses() {
-    $.getJSON("./assets/data/anomaly_examples.json?v=0.4.3", function(anomalyClassesLoaded) {
+    $.getJSON("./assets/data/anomaly_examples.json?v=0.4.4", function(anomalyClassesLoaded) {
         anomalyClasses = anomalyClassesLoaded;
 
         var anomalyClassesKeys = [];
