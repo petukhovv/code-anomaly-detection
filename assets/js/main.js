@@ -18,14 +18,18 @@ function loadAnomalyClasses() {
             var anomalyClassInfo = anomalyClasses[anomalyClass];
             var cstAnomalies = anomalyClassInfo.examples.cst;
             var bytecodeAnomalies = anomalyClassInfo.examples.bytecode;
+            var hwmAnomalies = anomalyClassInfo.examples.hwm;
             var cstAnomaliesHtml = cstAnomalies ?
                 '<span class="badge badge-primary badge-pill float-right" style="margin-left: 5px;">' + cstAnomalies.total + '</span>' : '';
             var bytecodeAnomaliesHtml = bytecodeAnomalies ?
                 '<span class="badge badge-info badge-pill float-right" style="margin-left: 5px;">' + bytecodeAnomalies.total + '</span>' : '';
+            var hwmAnomaliesHtml = hwmAnomalies ?
+                '<span class="badge badge-success badge-pill float-right" style="margin-left: 5px;">' + hwmAnomalies.total + '</span>' : '';
 
             $("#anomaly-classes").append(
                 '<a href="#" id="' + anomalyClass + '" class="anomaly-class-item list-group-item list-group-item-action">' +
                     '<span class="title">' + anomalyClassInfo.title + '</span>' + bytecodeAnomaliesHtml + cstAnomaliesHtml +
+                    hwmAnomaliesHtml +
                 '</a>'
             );
         });
@@ -43,6 +47,10 @@ function selectAnomalyExamplesBlock(selectedAnomalyType) {
         'bytecode': {
             'block': '#anomaly-examples-by-bytecode',
             'tab': '#anomaly-examples-by-bytecode-tab'
+        },
+        'hwm': {
+            'block': '#anomaly-examples-by-hwm',
+            'tab': '#anomaly-examples-by-hwm-tab'
         }
     };
 
@@ -58,7 +66,7 @@ function selectAnomalyExamplesBlock(selectedAnomalyType) {
     $(anomalyExampleTypeSelectorsMap[selectedAnomalyType].block).addClass('show').show();
 }
 
-function selectAndShowAnomalyExamplesBlock(cstExamples, bytecodeExamples) {
+function selectAndShowAnomalyExamplesBlock(cstExamples, bytecodeExamples, hwmExamples) {
     var anomalyExampleTypes = [];
 
     if (cstExamples) {
@@ -75,6 +83,14 @@ function selectAndShowAnomalyExamplesBlock(cstExamples, bytecodeExamples) {
         anomalyExampleTypes.push("bytecode");
     } else {
         $("#anomaly-examples-by-bytecode-tab").hide();
+    }
+
+    if (hwmExamples) {
+        $("#anomaly-examples-by-hwm-number").text(hwmExamples.total);
+        $("#anomaly-examples-by-hwm-tab").show();
+        anomalyExampleTypes.push("hwm");
+    } else {
+        $("#anomaly-examples-by-hwm-tab").hide();
     }
 
     selectAnomalyExamplesBlock(anomalyExampleTypes[0]);
@@ -168,7 +184,8 @@ function showAnomalyExamplesBlock(anomalyClass, callback) {
     var anomalyClassInfo = anomalyClasses[anomalyClass];
     var cstExamples = anomalyClassInfo.examples.cst;
     var bytecodeExamples = anomalyClassInfo.examples.bytecode;
-    var activeAnomalyExamplesBlock = selectAndShowAnomalyExamplesBlock(cstExamples, bytecodeExamples);
+    var hwmExamples = anomalyClassInfo.examples.hwm;
+    var activeAnomalyExamplesBlock = selectAndShowAnomalyExamplesBlock(cstExamples, bytecodeExamples, hwmExamples);
 
     loadAnomalyExamples(anomalyClassInfo, activeAnomalyExamplesBlock, callback);
 }
