@@ -3,13 +3,18 @@
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/ace/1.3.3/ace.js"></script>
 <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/gist-embed/2.7.1/gist-embed.min.js"></script>
+<script type="text/javascript">import Button from 'material-ui/Button';</script>
 
 <div id="gistZone"></div>
 
-<div style="display: flex;">
-  <button onclick="label('want_more')">Want more</button>
-  <button onclick="label('enough')">Enough</button>
-  <button onclick="label('useless')">Useless</button>
+<div style={{display: 'flex', flexGrow: '1'}}>
+  <FormControl component="fieldset" required style={{display: 'flex', flexGrow: '1'}}>
+    <div style={{display: 'flex', flexGrow: '1', justifyContent: 'space-between', marginTop: '20px'}}>
+      <Button onClick={label('want_more')} raised={true} style={{margin: '10px'}}>Want more</Button>
+      <Button onClick={label('enough')} raised={true} style={{margin: '10px'}}>Enough</Button>
+      <Button onClick={label('useless')} raised={true} style={{margin: '10px'}}>Useless</Button>
+    </div>
+  </FormControl>
 </div>
 
 <script>
@@ -48,12 +53,6 @@ Labelbox.currentAsset().subscribe((asset) => {
     gistFrameDoc.open();
     gistFrameDoc.writeln(gistFrameHTML);
     gistFrameDoc.close();
-
-    // var gistId = asset.data.split(/[/ ]+/).pop();
-    // debug.innerHTML = gistId;
-    // contentArea.innerHTML = '<code data-gist-id="' + gistId + '"></code>';
-    // contentArea.gist();
-    // debug.innerHTML = gistId + '<br><pre>' + contentArea.innerHTML + '</pre>';
   }
 })
 
