@@ -1,0 +1,59 @@
+<!-- Custom code anomaly labelling interface for Labelbox -->
+<script src="https://api.labelbox.io/client/v0.1/labeling-api.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/ace/1.3.3/ace.js"></script>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/gist-embed/2.7.1/gist-embed.min.js"></script>
+<script type="text/javascript">import Button from 'material-ui/Button';</script>
+
+<div id="gistZone"></div>
+
+<div style={{display: 'flex', flexGrow: '1'}}>
+  <FormControl component="fieldset" required style={{display: 'flex', flexGrow: '1'}}>
+    <div style={{display: 'flex', flexGrow: '1', justifyContent: 'space-between', marginTop: '20px'}}>
+      <Button onClick={label('want_more')} raised={true} style={{margin: '10px'}}>Want more</Button>
+      <Button onClick={label('enough')} raised={true} style={{margin: '10px'}}>Enough</Button>
+      <Button onClick={label('useless')} raised={true} style={{margin: '10px'}}>Useless</Button>
+    </div>
+  </FormControl>
+</div>
+
+<script>
+
+function label(label) {
+  Labelbox.setLabelForAsset(label).then(() => {
+    Labelbox.fetchNextAssetToLabel();
+  });
+}
+
+Labelbox.currentAsset().subscribe((asset) => {
+  if (asset) {
+    // Create an iframe, append it to this document where specified
+    var gistFrame = document.createElement("iframe");
+    gistFrame.setAttribute("width", "100%");
+    gistFrame.setAttribute("height", "70%");
+    gistFrame.id = "gistFrame";
+
+    var zone = document.getElementById("gistZone");
+    zone.innerHTML = "";
+    zone.appendChild(gistFrame);
+
+    // Create the iframe's document
+    var gistFrameHTML = '<html><body><scr' +
+        'ipt type="text/javascript" src="' + asset.data + '.js"></sc' + 'ript></body></html>';
+
+    // Set iframe's document with a trigger for this document to adjust the height
+    var gistFrameDoc = gistFrame.document;
+
+    if (gistFrame.contentDocument) {
+      gistFrameDoc = gistFrame.contentDocument;
+    } else if (gistFrame.contentWindow) {
+      gistFrameDoc = gistFrame.contentWindow.document;
+    }
+
+    gistFrameDoc.open();
+    gistFrameDoc.writeln(gistFrameHTML);
+    gistFrameDoc.close();
+  }
+})
+
+</script>

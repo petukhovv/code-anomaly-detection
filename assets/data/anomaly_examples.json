@@ -82,6 +82,15 @@
             "1814_PropertyHolde.class.json" : "https://gist.github.com/PetukhovVictor/60ab0abbaa1c2fd54eb84ade2744b8cd"
           }
         } ]
+      },
+      "hwm" : {
+        "total" : 1,
+        "all_url" : "https://yadi.sk/d/CsHbavOA3UgZQT",
+        "items" : [ {
+          "files" : {
+            "105117.kt" : "https://gist.github.com/ksmirenko/78c40db8e87ab4c3f48507083ce66fb7"
+          }
+        } ]
       }
     }
   },
@@ -132,6 +141,19 @@
             "398_DrawerLayout.kt" : "https://gist.github.com/PetukhovVictor/f910f849ed1d9e033242fb36144fd411"
           }
         } ]
+      },
+      "hwm" : {
+        "total" : 2,
+        "all_url" : "https://yadi.sk/d/Qnn_CLrU3UgZBs",
+        "items" : [ {
+          "files" : {
+            "1977086.kt" : "https://gist.github.com/ksmirenko/5589d4a033ad6118259e89340ab01daa"
+          }
+        }, {
+          "files" : {
+            "2004953.kt" : "https://gist.github.com/ksmirenko/b9b3cf1f9c1d84b5a9e408fbfb730e53"
+          }
+        } ]
       }
     }
   },
@@ -160,15 +182,6 @@
           "files" : {
             "585_MainPresenterImpl.kt" : "https://gist.github.com/PetukhovVictor/7c77e712873264f206a3964d22bbb8d5",
             "585_MainPresenterImp.class.json" : "https://gist.github.com/PetukhovVictor/c38ff350fa0ba6f1a3478049df84a6c8"
-          }
-        } ]
-      },
-      "hwm" : {
-        "total" : 1,
-        "all_url" : "https://yadi.sk/d/t4TRXFVh3UL3fa",
-        "items" : [ {
-          "files" : {
-            "946978.kt" : "https://gist.github.com/ksmirenko/68da89f620797c78914a61a03fababba"
           }
         } ]
       }
@@ -213,15 +226,6 @@
             "2547_91645477.kt" : "https://gist.github.com/PetukhovVictor/af66f92f3c43cb58a6ec280e13b73e63"
           }
         } ]
-      },
-      "hwm" : {
-        "total" : 1,
-        "all_url" : "https://yadi.sk/d/xJteyUWY3UL3s9",
-        "items" : [ {
-          "files" : {
-            "67732.kt" : "https://gist.github.com/ksmirenko/0261f7d601f763d59f9bb21dd10a958c"
-          }
-        } ]
       }
     }
   },
@@ -245,14 +249,14 @@
       },
       "hwm" : {
         "total" : 2,
-        "all_url" : "https://yadi.sk/d/5cJRSYG03UL3Db",
+        "all_url" : "https://yadi.sk/d/vO4TOHP03UgZfg",
         "items" : [ {
           "files" : {
-            "210579.kt" : "https://gist.github.com/ksmirenko/21def88e7d1256a43a3354cde44b6012"
+            "1514679.kt" : "https://gist.github.com/ksmirenko/2764569c10e7dac7c380d8959d244e07"
           }
         }, {
           "files" : {
-            "879744.kt" : "https://gist.github.com/ksmirenko/949f8df7cc65f435d5ab11798c2f642d"
+            "2880935.kt" : "https://gist.github.com/ksmirenko/6f5b7a053ade36008eaed802ef458bde"
           }
         } ]
       }
@@ -356,15 +360,15 @@
         } ]
       },
       "hwm" : {
-        "total" : 4,
-        "all_url" : "https://yadi.sk/d/JbovrlBZ3UL3Ce",
+        "total" : 2,
+        "all_url" : "https://yadi.sk/d/z57_ovIk3UgZZg",
         "items" : [ {
           "files" : {
-            "3196389.kt" : "https://gist.github.com/ksmirenko/985c1a7b3f2ac7624bad6769ec11f89e"
+            "937603.kt" : "https://gist.github.com/ksmirenko/0e32c42e68e0b58c2b76b56efb9c2386"
           }
         }, {
           "files" : {
-            "937603.kt" : "https://gist.github.com/ksmirenko/d285725f47274f86a4804fb542866830"
+            "2423735.kt" : "https://gist.github.com/ksmirenko/17d5445208398e3ca8eacf474762119b"
           }
         } ]
       }
@@ -443,15 +447,11 @@
         } ]
       },
       "hwm" : {
-        "total" : 4,
-        "all_url" : "https://yadi.sk/d/4aJXfhLl3UL3Zr",
+        "total" : 1,
+        "all_url" : "https://yadi.sk/d/lP5f8VS63UgZms",
         "items" : [ {
           "files" : {
-            "2044199.kt" : "https://gist.github.com/ksmirenko/7b9e5d4af61d75cdd6d26a0b90d55abd"
-          }
-        }, {
-          "files" : {
-            "12436.kt" : "https://gist.github.com/ksmirenko/d77b7b31961366c9c0b4f0da08f9836b"
+            "1774807.kt" : "https://gist.github.com/ksmirenko/1941587eeb8e4ee310c964acfe3f7ffb"
           }
         } ]
       }
@@ -508,14 +508,14 @@
       },
       "hwm" : {
         "total" : 2,
-        "all_url" : "https://yadi.sk/d/y8QH5N1b3UL3gh",
+        "all_url" : "https://yadi.sk/d/gkWLp2Or3UgZqG",
         "items" : [ {
           "files" : {
-            "671203.kt" : "https://gist.github.com/ksmirenko/2a28d5009b588513bf4e35d1424180f6"
+            "727144.kt" : "https://gist.github.com/ksmirenko/7cefdafd04d4ca8b6b9904f5423637fe"
           }
         }, {
           "files" : {
-            "671121.kt" : "https://gist.github.com/ksmirenko/b31930b1ccb1bf19bee59b958365034e"
+            "2365505.kt" : "https://gist.github.com/ksmirenko/cd7c8b8a3f518044342206d3c9f52d4e"
           }
         } ]
       }
@@ -534,15 +534,15 @@
         } ]
       },
       "hwm" : {
-        "total" : 16,
-        "all_url" : "https://yadi.sk/d/8GNGJEWu3UL3Bb",
+        "total" : 2,
+        "all_url" : "https://yadi.sk/d/rvMpLTxM3UgZWj",
         "items" : [ {
           "files" : {
-            "3789994.kt" : "https://gist.github.com/ksmirenko/167d16d50200b05f8f5d30ab049d1c0b"
+            "1091547.kt" : "https://gist.github.com/ksmirenko/5d5b79a3f38193652f466732394d7e40"
           }
         }, {
           "files" : {
-            "1561450.kt" : "https://gist.github.com/ksmirenko/cd4331efc8e2130ec850166981c87b3e"
+            "1561450.kt" : "https://gist.github.com/ksmirenko/4752c73276eac9b014b8f90b034ba228"
           }
         } ]
       }
@@ -608,11 +608,15 @@
         } ]
       },
       "hwm" : {
-        "total" : 1,
-        "all_url" : "https://yadi.sk/d/NlkzTr9i3UL2tT",
+        "total" : 2,
+        "all_url" : "https://yadi.sk/d/NEqdAsMf3UgZAW",
         "items" : [ {
           "files" : {
-            "3522955.kt" : "https://gist.github.com/ksmirenko/c005e642397fab05015f11de5c9f5047"
+            "3136509.kt" : "https://gist.github.com/ksmirenko/22fe21d87a841fb45ff0beb4e63fa420"
+          }
+        }, {
+          "files" : {
+            "43270.kt" : "https://gist.github.com/ksmirenko/19f5514ce84740b6a871536ae977298c"
           }
         } ]
       }
@@ -696,11 +700,15 @@
         } ]
       },
       "hwm" : {
-        "total" : 10,
-        "all_url" : "https://yadi.sk/d/Cfw6ccVx3UL2vm",
+        "total" : 2,
+        "all_url" : "https://yadi.sk/d/Mj_K01DI3UgZDX",
         "items" : [ {
           "files" : {
-            "1091544.kt" : "https://gist.github.com/ksmirenko/44cd792ffbb5c92a250ed9faaec00952"
+            "1422320.kt" : "https://gist.github.com/ksmirenko/3b45537c9f8fceac5f319716e7375b17"
+          }
+        }, {
+          "files" : {
+            "2525952.kt" : "https://gist.github.com/ksmirenko/c2668eeb0b9a4bb89fa08f5cbbc63a4b"
           }
         } ]
       }
@@ -777,19 +785,6 @@
             "787_781482349.kt" : "https://gist.github.com/PetukhovVictor/5eba165d3cbbb9bbb58905bd14ace270"
           }
         } ]
-      },
-      "hwm" : {
-        "total" : 5,
-        "all_url" : "https://yadi.sk/d/BOyiwYR13UL35s",
-        "items" : [ {
-          "files" : {
-            "2642937.kt" : "https://gist.github.com/ksmirenko/94f2c91c5e8e7bf6a3305e521a462137"
-          }
-        }, {
-          "files" : {
-            "3497109.kt" : "https://gist.github.com/ksmirenko/bee1732f387ec7217b453839f5eb4b34"
-          }
-        } ]
       }
     }
   },
@@ -834,6 +829,19 @@
         }, {
           "files" : {
             "2238_22719281.kt" : "https://gist.github.com/PetukhovVictor/365a663c52112c79f3f9a754c201f2f5"
+          }
+        } ]
+      },
+      "hwm" : {
+        "total" : 2,
+        "all_url" : "https://yadi.sk/d/S2NzQCYR3UgZJa",
+        "items" : [ {
+          "files" : {
+            "3357776.kt" : "https://gist.github.com/ksmirenko/3251b9aee8a40107e0e335bf2e0a90cd"
+          }
+        }, {
+          "files" : {
+            "2570270.kt" : "https://gist.github.com/ksmirenko/1a8c90b93dad5828b708b2c5bf460a49"
           }
         } ]
       }
@@ -984,15 +992,47 @@
     "title" : "Many nested functions",
     "examples" : {
       "hwm" : {
-        "total" : 4,
-        "all_url" : "https://yadi.sk/d/yxjK4mz73UL3bQ",
+        "total" : 2,
+        "all_url" : "https://yadi.sk/d/v_uM7BKY3UgZoG",
         "items" : [ {
           "files" : {
-            "1684377.kt" : "https://gist.github.com/ksmirenko/1c9812936cb89253194dff7151dab1d4"
+            "3001141.kt" : "https://gist.github.com/ksmirenko/936c88c349ad31610889100d98b08e70"
           }
         }, {
           "files" : {
-            "2982143.kt" : "https://gist.github.com/ksmirenko/d2dc53c96e1f2579693bb035815c1d9a"
+            "742727.kt" : "https://gist.github.com/ksmirenko/81bd9260a3a82c07a6d02fc9a1f2d8a8"
+          }
+        } ]
+      }
+    }
+  },
+  "many_try_catch" : {
+    "title" : "Many try-catch",
+    "examples" : {
+      "hwm" : {
+        "total" : 1,
+        "all_url" : "https://yadi.sk/d/uAEs7yM23UgZwn",
+        "items" : [ {
+          "files" : {
+            "114899.kt" : "https://gist.github.com/ksmirenko/08bbe0cb4c1abab98a4838e4866d8928"
+          }
+        } ]
+      }
+    }
+  },
+  "kotlin_tutorials" : {
+    "title" : "Kotlin tutorials",
+    "examples" : {
+      "hwm" : {
+        "total" : 2,
+        "all_url" : "https://yadi.sk/d/ovdM0ANU3UgZGr",
+        "items" : [ {
+          "files" : {
+            "3353018.kt" : "https://gist.github.com/ksmirenko/ff82149a6f3a7be3fce9e7db50c3d675"
+          }
+        }, {
+          "files" : {
+            "2269110.kt" : "https://gist.github.com/ksmirenko/533f06d36acc2b05754505dcaed3bca2"
           }
         } ]
       }
@@ -1002,15 +1042,37 @@
     "title" : "Complex annotation",
     "examples" : {
       "hwm" : {
-        "total" : 3,
-        "all_url" : "https://yadi.sk/d/LnsqITmx3UL2yD",
+        "total" : 2,
+        "all_url" : "https://yadi.sk/d/FEqBLJmY3UgZEy",
         "items" : [ {
           "files" : {
-            "2550686.kt" : "https://gist.github.com/ksmirenko/17fb0a67a444bb24a6effe6e3a151d29"
+            "669372.kt" : "https://gist.github.com/ksmirenko/7fa84f4a2363cafd3acbac7c36d93bdc"
           }
         }, {
           "files" : {
-            "4031605.kt" : "https://gist.github.com/ksmirenko/b96450ce0ef9c5a76b5de4da17e56d86"
+            "4031605.kt" : "https://gist.github.com/ksmirenko/1e940e97bc4596b05c042a64a2fd70c6"
+          }
+        } ]
+      }
+    }
+  },
+  "strange_code_constructs" : {
+    "title" : "Strange code constructs",
+    "examples" : {
+      "hwm" : {
+        "total" : 3,
+        "all_url" : "https://yadi.sk/d/11fAO0Kv3Uga68",
+        "items" : [ {
+          "files" : {
+            "2404669.kt" : "https://gist.github.com/ksmirenko/d3056493729ba66ab11cb8c17d40b9ca"
+          }
+        }, {
+          "files" : {
+            "2473197.kt" : "https://gist.github.com/ksmirenko/b55464356a53510ab8f74de0b1863e92"
+          }
+        }, {
+          "files" : {
+            "2457263.kt" : "https://gist.github.com/ksmirenko/a6ba2736a6a28c06b311437f75177722"
           }
         } ]
       }
@@ -1020,25 +1082,33 @@
     "title" : "Many throws",
     "examples" : {
       "hwm" : {
-        "total" : 8,
-        "all_url" : "https://yadi.sk/d/J5eyWA8P3UL3im",
+        "total" : 2,
+        "all_url" : "https://yadi.sk/d/H1-9nFU_3UgZvK",
         "items" : [ {
           "files" : {
-            "1465279.kt" : "https://gist.github.com/ksmirenko/e803b13a00f82dc7baa745d331c3cfa8"
+            "899075.kt" : "https://gist.github.com/ksmirenko/2138eda2a3af23c835fc2a36a353a81b"
+          }
+        }, {
+          "files" : {
+            "1708358.kt" : "https://gist.github.com/ksmirenko/e7918aadf6121a5134d5b0420c7dc39e"
           }
         } ]
       }
     }
   },
-  "many_returns" : {
-    "title" : "Many returns",
+  "many_similar_code_fragments" : {
+    "title" : "Many similar code fragments",
     "examples" : {
       "hwm" : {
-        "total" : 4,
-        "all_url" : "https://yadi.sk/d/XxSZm3-_3UL3dN",
+        "total" : 2,
+        "all_url" : "https://yadi.sk/d/wk3Z54W53UgZtK",
         "items" : [ {
           "files" : {
-            "1422934.kt" : "https://gist.github.com/ksmirenko/2d24583a0bde827cb98d0a5385d3c006"
+            "897928.kt" : "https://gist.github.com/ksmirenko/c6e36d57b0244eb0831bd3c86a8e9cbf"
+          }
+        }, {
+          "files" : {
+            "3624092.kt" : "https://gist.github.com/ksmirenko/fabd2f9d8618eed07f8cce9dfe95dd0f"
           }
         } ]
       }
@@ -1048,11 +1118,33 @@
     "title" : "Many type casts",
     "examples" : {
       "hwm" : {
-        "total" : 1,
-        "all_url" : "https://yadi.sk/d/191fuwjf3UL3rL",
+        "total" : 2,
+        "all_url" : "https://yadi.sk/d/xBJvwdp33Uga2G",
         "items" : [ {
           "files" : {
-            "2470912.kt" : "https://gist.github.com/ksmirenko/7a874cdefb198351f5b1eb08a262ab9e"
+            "2649698.kt" : "https://gist.github.com/ksmirenko/b66be69971b0c291dd207035bd0e0f75"
+          }
+        }, {
+          "files" : {
+            "2930817.kt" : "https://gist.github.com/ksmirenko/1be72de8dfbdcd0b2a931dd22bf7c1b2"
+          }
+        } ]
+      }
+    }
+  },
+  "many_class_references" : {
+    "title" : "Many class references",
+    "examples" : {
+      "hwm" : {
+        "total" : 2,
+        "all_url" : "https://yadi.sk/d/JwstHRsY3UgZMJ",
+        "items" : [ {
+          "files" : {
+            "1565566.kt" : "https://gist.github.com/ksmirenko/b4128d8dfbc9fdcbf2988c7d004ae0e6"
+          }
+        }, {
+          "files" : {
+            "717538.kt" : "https://gist.github.com/ksmirenko/8cb46476ea0829bcffda912e268c8f90"
           }
         } ]
       }
@@ -1063,14 +1155,64 @@
     "examples" : {
       "hwm" : {
         "total" : 2,
-        "all_url" : "https://yadi.sk/d/ffbSI8bC3UL2yi",
+        "all_url" : "https://yadi.sk/d/G7h22EcR3UgZSQ",
         "items" : [ {
           "files" : {
-            "1533063.kt" : "https://gist.github.com/ksmirenko/0bdd77c0c870029eefe2494f60831544"
+            "1533063.kt" : "https://gist.github.com/ksmirenko/01c226958a881ab056e5caa2761ebd28"
           }
         }, {
           "files" : {
-            "3403879.kt" : "https://gist.github.com/ksmirenko/0b053f140117c0a5fa8537d2b85c7abe"
+            "1533066.kt" : "https://gist.github.com/ksmirenko/df925f24dc3983c005904c7e9e285ffc"
+          }
+        } ]
+      }
+    }
+  },
+  "many_lambdas" : {
+    "title" : "Many lambdas",
+    "examples" : {
+      "hwm" : {
+        "total" : 2,
+        "all_url" : "https://yadi.sk/d/myXso9lS3UgZbG",
+        "items" : [ {
+          "files" : {
+            "1829273.kt" : "https://gist.github.com/ksmirenko/a4b6edd26007a5a5ec8331bb979feb34"
+          }
+        }, {
+          "files" : {
+            "2935568.kt" : "https://gist.github.com/ksmirenko/45b496d837807befd27f7090fdc6bae7"
+          }
+        } ]
+      }
+    }
+  },
+  "many_local_variables" : {
+    "title" : "Many local variables",
+    "examples" : {
+      "hwm" : {
+        "total" : 2,
+        "all_url" : "https://yadi.sk/d/cU95MsEO3UgZhb",
+        "items" : [ {
+          "files" : {
+            "856872.kt" : "https://gist.github.com/ksmirenko/7f8390067b6ce9b6985d05d997a17ef9"
+          }
+        }, {
+          "files" : {
+            "2723480.kt" : "https://gist.github.com/ksmirenko/6eba871def8aecee74d76a76ee7036f3"
+          }
+        } ]
+      }
+    }
+  },
+  "many_assertions" : {
+    "title" : "Many assertions",
+    "examples" : {
+      "hwm" : {
+        "total" : 1,
+        "all_url" : "https://yadi.sk/d/S2NzQCYR3UgZJa",
+        "items" : [ {
+          "files" : {
+            "1740251.kt" : "https://gist.github.com/ksmirenko/d4a1bfb5e327a2095e433fbb6a840bc1"
           }
         } ]
       }
