@@ -1,195 +1,3 @@
-var anomalyClasses = {};
-var anomalyExampleContents = {};
-
-function loadAnomalyClasses() {
-    $.getJSON("./assets/data/anomaly_examples.json?v=0.4.4", function(anomalyClassesLoaded) {
-        anomalyClasses = anomalyClassesLoaded;
-
-        var anomalyClassesKeys = [];
-
-        for (var k in anomalyClasses) {
-            if (anomalyClasses.hasOwnProperty(k)) {
-                anomalyClassesKeys.push(k);
-            }
-        }
-
-        anomalyClassesKeys.sort();
-        anomalyClassesKeys.forEach(function(anomalyClass) {
-            var anomalyClassInfo = anomalyClasses[anomalyClass];
-            var cstAnomalies = anomalyClassInfo.examples.cst;
-            var bytecodeAnomalies = anomalyClassInfo.examples.bytecode;
-            var hwmAnomalies = anomalyClassInfo.examples.hwm;
-            var cstAnomaliesHtml = cstAnomalies ?
-                '<span class="badge badge-primary badge-pill float-right" style="margin-left: 5px;">' + cstAnomalies.total + '</span>' : '';
-            var bytecodeAnomaliesHtml = bytecodeAnomalies ?
-                '<span class="badge badge-info badge-pill float-right" style="margin-left: 5px;">' + bytecodeAnomalies.total + '</span>' : '';
-            var hwmAnomaliesHtml = hwmAnomalies ?
-                '<span class="badge badge-success badge-pill float-right" style="margin-left: 5px;">' + hwmAnomalies.total + '</span>' : '';
-
-            $("#anomaly-classes").append(
-                '<a href="#" id="' + anomalyClass + '" class="anomaly-class-item list-group-item list-group-item-action">' +
-                    '<span class="title">' + anomalyClassInfo.title + '</span>' + bytecodeAnomaliesHtml + cstAnomaliesHtml +
-                    hwmAnomaliesHtml +
-                '</a>'
-            );
-        });
-
-        $("#anomaly-classes-loading").remove();
-    });
-}
-
-function selectAnomalyExamplesBlock(selectedAnomalyType) {
-    var anomalyExampleTypeSelectorsMap = {
-        'cst': {
-            'block': '#anomaly-examples-by-cst',
-            'tab': '#anomaly-examples-by-cst-tab'
-        },
-        'bytecode': {
-            'block': '#anomaly-examples-by-bytecode',
-            'tab': '#anomaly-examples-by-bytecode-tab'
-        },
-        'hwm': {
-            'block': '#anomaly-examples-by-hwm',
-            'tab': '#anomaly-examples-by-hwm-tab'
-        }
-    };
-
-    for (var anomalyType in anomalyExampleTypeSelectorsMap) {
-        if (!anomalyExampleTypeSelectorsMap.hasOwnProperty(anomalyType)) {
-            continue;
-        }
-        $(anomalyExampleTypeSelectorsMap[anomalyType].tab).removeClass('active');
-        $(anomalyExampleTypeSelectorsMap[anomalyType].block).removeClass('show').hide();
-    }
-
-    $(anomalyExampleTypeSelectorsMap[selectedAnomalyType].tab).addClass('active');
-    $(anomalyExampleTypeSelectorsMap[selectedAnomalyType].block).addClass('show').show();
-}
-
-function selectAndShowAnomalyExamplesBlock(cstExamples, bytecodeExamples, hwmExamples) {
-    var anomalyExampleTypes = [];
-
-    if (cstExamples) {
-        $("#anomaly-examples-by-cst-number").text(cstExamples.total);
-        $("#anomaly-examples-by-cst-tab").show();
-        anomalyExampleTypes.push("cst");
-    } else {
-        $("#anomaly-examples-by-cst-tab").hide();
-    }
-
-    if (bytecodeExamples) {
-        $("#anomaly-examples-by-bytecode-number").text(bytecodeExamples.total);
-        $("#anomaly-examples-by-bytecode-tab").show();
-        anomalyExampleTypes.push("bytecode");
-    } else {
-        $("#anomaly-examples-by-bytecode-tab").hide();
-    }
-
-    if (hwmExamples) {
-        $("#anomaly-examples-by-hwm-number").text(hwmExamples.total);
-        $("#anomaly-examples-by-hwm-tab").show();
-        anomalyExampleTypes.push("hwm");
-    } else {
-        $("#anomaly-examples-by-hwm-tab").hide();
-    }
-
-    selectAnomalyExamplesBlock(anomalyExampleTypes[0]);
-
-    return anomalyExampleTypes[0];
-}
-
-function getAnomalyExampleFileBlock(number, filename, content) {
-    anomalyExampleContents[filename] = content;
-
-    return (
-        '<div class="panel panel-default anomaly-example-block" style="margin-bottom: 24px;">' +
-            '<div class="panel-heading">' +
-                '<button type="button" data-filename="' + filename + '" style="background: #eee;border-bottom-left-radius: 0;border-bottom-right-radius: 0;display: block;width: 100%;text-align: left;" class="btn btn-default btn-xs anomaly-example-spoiler" data-toggle="collapse">' +
-                    'Example ' + number + ': <b>' + filename + '</b>' +
-                '</button>' +
-            '</div>' +
-            '<div class="panel-collapse collapse out">' +
-                '<div class="panel-body anomaly-example-content"></div>' +
-            '</div>' +
-        '</div>'
-    )
-}
-
-function showAnomalyExamples(selectedAnomaliesType, anomalyExamplesHtml) {
-    var anomalyExampleListSelector = "#anomaly-examples-by-" + selectedAnomaliesType + "-list";
-
-    $(anomalyExampleListSelector).empty();
-    anomalyExamplesHtml.forEach(function(anomalyExampleHtml, index) {
-        anomalyExampleHtml.forEach(function(anomalyExampleFileHtml) {
-            $(anomalyExampleListSelector).append(anomalyExampleFileHtml);
-        });
-        if (index !== anomalyExamplesHtml.length - 1) {
-            $(anomalyExampleListSelector).append("<hr />");
-        }
-    })
-}
-
-function loadAnomalyExamples(anomalyClassInfo, selectedAnomaliesType, callback) {
-    var anomalyExamples = anomalyClassInfo.examples[selectedAnomaliesType];
-    anomalyExampleContents = {}
-
-    $("#anomaly-examples-by-" + selectedAnomaliesType + "-title").text(anomalyClassInfo.title);
-    $("#anomaly-examples-by-" + selectedAnomaliesType + "-all-url").attr("href", anomalyExamples.all_url);
-    $("#anomaly-examples-by-" + selectedAnomaliesType + "-list").text("Loading examples...");
-
-    var requestNumber = 0;
-    var exampleNumber = 0;
-    var anomalyExamplesHtml = [];
-    var interceptedContent = '';
-    document.write = function(str) {
-        interceptedContent += str;
-    };
-
-    anomalyExamples.items.forEach(function (anomalyExample) {
-        anomalyExamplesHtml.push([]);
-        var anomalyExampleHtml = anomalyExamplesHtml[anomalyExamplesHtml.length - 1];
-        var fileNumber = 0;
-
-        var anomalyFilesKeys = [];
-
-        for (var k in anomalyExample.files) {
-            if (anomalyExample.files.hasOwnProperty(k)) {
-                anomalyFilesKeys.push(k);
-            }
-        }
-
-        anomalyFilesKeys.sort().reverse();
-        anomalyFilesKeys.forEach(function(file) {
-            requestNumber++;
-            var githubGistUrl = anomalyExample.files[file];
-            $.getScript(githubGistUrl + '.js', function(anomalyExampleHtml, file, fileNumber, exampleNumber) {
-                return function () {
-                    requestNumber--;
-                    anomalyExampleHtml[fileNumber] = getAnomalyExampleFileBlock(exampleNumber + 1, file, interceptedContent);
-                    interceptedContent = '';
-
-                    if (requestNumber === 0) {
-                        showAnomalyExamples(selectedAnomaliesType, anomalyExamplesHtml);
-                        callback();
-                    }
-                }
-            }(anomalyExampleHtml, file, fileNumber, exampleNumber));
-            fileNumber++;
-        });
-        exampleNumber++;
-    });
-}
-
-function showAnomalyExamplesBlock(anomalyClass, callback) {
-    var anomalyClassInfo = anomalyClasses[anomalyClass];
-    var cstExamples = anomalyClassInfo.examples.cst;
-    var bytecodeExamples = anomalyClassInfo.examples.bytecode;
-    var hwmExamples = anomalyClassInfo.examples.hwm;
-    var activeAnomalyExamplesBlock = selectAndShowAnomalyExamplesBlock(cstExamples, bytecodeExamples, hwmExamples);
-
-    loadAnomalyExamples(anomalyClassInfo, activeAnomalyExamplesBlock, callback);
-}
-
 $(document).ready(function() {
     var anomalyClassesSelector = "#anomaly-classes .anomaly-class-item";
     var anomalyExamplesSelector = "#anomaly-examples";
@@ -254,4 +62,58 @@ $(document).ready(function() {
         $('<link rel="stylesheet" type="text/css" />')
             .attr('href', 'https://assets-cdn.github.com/assets/gist-embed-6b59eceda837.css')
     );
+
+	check_auth(function(isLogged, data) {
+	    if (isLogged) {
+			auth_info_show(data.email, data.code);
+        } else {
+			auth_main_form_show();
+        }
+	});
+
+	$(document.body).on("keyup", "#auth-email", function() {
+	    if ($(this).val().length) {
+			$("#auth-check").removeClass("disabled");
+        } else {
+			$("#auth-check").addClass("disabled");
+        }
+	});
+
+	$(document.body).on("keyup", "#auth-access-code", function() {
+	    if ($(this).val().length) {
+			$("#auth-access-code-confirm").removeClass("disabled");
+        } else {
+			$("#auth-access-code-confirm").addClass("disabled");
+        }
+	});
+
+	$(document.body).on("click", "#auth-check, #auth-access-code-confirm", function() {
+	    var $this = $(this);
+	    var email = $("#auth-email").val();
+	    var access_code = $("#auth-access-code").val();
+
+	    if ($this.hasClass("disabled")) {
+	        return false;
+        }
+
+		$this.html("Waiting...").addClass("disabled");
+		auth({
+            email: email,
+			access_code: access_code
+        }, function(response) {
+		    var status = response.status_code;
+
+			if (status === 0) {
+				auth_info_show(response.data.email, response.data.code);
+            } else if (status === -3) {
+				auth_confirm_form_show(email);
+            } else {
+				$this.html(access_code ? "Confirm" : "Authorize").removeClass("disabled");
+            }
+		});
+	});
+
+	$(document.body).on("click", "#auth-confirm-cancel", auth_main_form_show);
+
+	$(document.body).on("click", "#auth-logout", auth_logout);
 });
