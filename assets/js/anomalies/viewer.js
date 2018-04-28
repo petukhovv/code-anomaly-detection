@@ -58,19 +58,20 @@ function selectAndShowAnomalyExamplesBlock(cstExamples, bytecodeExamples, hwmExa
 	return anomalyExampleTypes[0];
 }
 
-function getAnomalyExampleFileBlock(number, filename, content) {
+function getAnomalyExampleFileBlock(number, filename, githubGistUrl, anomalyClass, selectedAnomaliesType, content) {
 	anomalyExampleContents[filename] = content;
 
 	return (
-		'<div class="panel panel-default anomaly-example-block" style="margin-bottom: 24px;">' +
-		'<div class="panel-heading">' +
-		'<button type="button" data-filename="' + filename + '" style="background: #eee;border-bottom-left-radius: 0;border-bottom-right-radius: 0;display: block;width: 100%;text-align: left;" class="btn btn-default btn-xs anomaly-example-spoiler" data-toggle="collapse">' +
-		'Example ' + number + ': <b>' + filename + '</b>' +
-		'</button>' +
-		'</div>' +
-		'<div class="panel-collapse collapse out">' +
-		'<div class="panel-body anomaly-example-content"></div>' +
-		'</div>' +
+		'<div class="panel panel-default anomaly-example-block" data-gist="' + githubGistUrl + '" style="margin-bottom: 24px;">' +
+			'<div class="panel-heading">' +
+				'<button type="button" data-filename="' + filename + '" style="background: #eee;border-bottom-left-radius: 0;border-bottom-right-radius: 0;display: block;width: 100%;text-align: left;" class="btn btn-default btn-xs anomaly-example-spoiler" data-toggle="collapse">' +
+					getStars(filename, githubGistUrl, anomalyClass, selectedAnomaliesType) +
+					'Example ' + number + ': <b>' + filename + '</b>' +
+				'</button>' +
+			'</div>' +
+			'<div class="panel-collapse collapse out">' +
+				'<div class="panel-body anomaly-example-content"></div>' +
+			'</div>' +
 		'</div>'
 	)
 }
@@ -96,5 +97,5 @@ function showAnomalyExamplesBlock(anomalyClass, callback) {
 	var hwmExamples = anomalyClassInfo.examples.hwm;
 	var activeAnomalyExamplesBlock = selectAndShowAnomalyExamplesBlock(cstExamples, bytecodeExamples, hwmExamples);
 
-	loadAnomalyExamples(anomalyClassInfo, activeAnomalyExamplesBlock, callback);
+	loadAnomalyExamples(anomalyClassInfo, anomalyClass, activeAnomalyExamplesBlock, callback);
 }

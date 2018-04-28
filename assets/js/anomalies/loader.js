@@ -40,7 +40,7 @@ function loadAnomalyClasses() {
 	});
 }
 
-function loadAnomalyExamples(anomalyClassInfo, selectedAnomaliesType, callback) {
+function loadAnomalyExamples(anomalyClassInfo, anomalyClass, selectedAnomaliesType, callback) {
 	var anomalyExamples = anomalyClassInfo.examples[selectedAnomaliesType];
 	anomalyExampleContents = {};
 
@@ -76,12 +76,13 @@ function loadAnomalyExamples(anomalyClassInfo, selectedAnomaliesType, callback) 
 			$.getScript(githubGistUrl + '.js', function(anomalyExampleHtml, file, fileNumber, exampleNumber) {
 				return function () {
 					requestNumber--;
-					anomalyExampleHtml[fileNumber] = getAnomalyExampleFileBlock(exampleNumber + 1, file, interceptedContent);
+					anomalyExampleHtml[fileNumber] = getAnomalyExampleFileBlock(exampleNumber + 1, file, githubGistUrl, anomalyClass, selectedAnomaliesType, interceptedContent);
 					interceptedContent = '';
 
 					if (requestNumber === 0) {
 						showAnomalyExamples(selectedAnomaliesType, anomalyExamplesHtml);
 						callback();
+						loadVotes(anomalyClass, selectedAnomaliesType);
 					}
 				}
 			}(anomalyExampleHtml, file, fileNumber, exampleNumber));

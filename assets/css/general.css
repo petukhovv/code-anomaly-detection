@@ -1,0 +1,7 @@
+.fa-star {
+	padding-left: 3px;
+}
+
+.fa-star.checked {
+	color: orange;
+}

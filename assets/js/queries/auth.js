@@ -1,3 +1,5 @@
+var isLogged = false;
+
 function auth(data, callback) {
 	$.ajax({
 		type: "POST",
@@ -7,7 +9,12 @@ function auth(data, callback) {
 			withCredentials: true
 		},
 		url: server + "/" + path + "/auth.php",
-		success: callback
+		success: function(response) {
+			callback(response);
+			if (response.status_code === 0) {
+				$(".anomaly-examples-type.active").click();
+			}
+		}
 	})
 }
 
@@ -26,15 +33,16 @@ function check_auth(callback) {
 }
 
 function auth_info_show(email, code) {
+	isLogged = true;
 	$("#auth-info").html(
-		'<div class="alert alert-success" style="margin-bottom: 0;margin-top: -10px;">Hello, <b>' + email + '</b> (<a href="#" id="auth-logout">logout</a>). Your access code: <b>' + code + '</b></div>'
+		'<div class="alert alert-success float-center" style="margin-bottom: 0;text-align: center;display: inline-block;"><b>' + email + '</b> (<a href="#" id="auth-logout">logout</a>). Your access code: <b>' + code + '</b></div>'
 	);
 }
 
 function auth_confirm_form_show(email) {
 	$("#auth-info").html(
 		'<div class="input-group">' +
-			'<input placeholder="Access code" id="auth-access-code" class="form-control" />' +
+			'<input placeholder="Access code" id="auth-access-code" type="number" class="form-control" />' +
 			'<input type="hidden" id="auth-email" value="' + email + '" />' +
 			'<div class="input-group-btn">' +
 				'<button type="button" class="btn btn-primary disabled" id="auth-access-code-confirm" style="border-radius: 0;">Confirm</button>' +
@@ -42,12 +50,13 @@ function auth_confirm_form_show(email) {
 			'</div>' +
 		'</div>'
 	);
+	$("#auth-access-code").focus();
 }
 
 function auth_main_form_show() {
 	$("#auth-info").html(
 		'<div class="input-group">' +
-			'<input placeholder="E-mail" id="auth-email" class="form-control" style="width: 300px;" />' +
+			'<input type="email" placeholder="E-mail" id="auth-email" class="form-control" />' +
 			'<div class="input-group-btn">' +
 				'<button type="button" class="btn btn-primary disabled" id="auth-check" style="border-top-left-radius: 0;border-bottom-left-radius: 0;">Authorize</button>' +
 			'</div>' +
@@ -64,7 +73,9 @@ function auth_logout() {
 			withCredentials: true
 		},
 		complete: function() {
-			location.reload();
+			auth_main_form_show();
+			isLogged = false;
+			$(".anomaly-examples-type.active").click();
 		}
 	});
 

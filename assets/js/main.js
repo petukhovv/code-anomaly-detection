@@ -35,15 +35,20 @@ $(document).ready(function() {
 
         isLoadingExamples = true;
         selectAnomalyExamplesBlock(anomaliesType);
-        loadAnomalyExamples(anomalyClasses[anomaliesClass], anomaliesType, function () {
+        loadAnomalyExamples(anomalyClasses[anomaliesClass], anomaliesClass, anomaliesType, function () {
             isLoadingExamples = false;
         });
 
         return false;
     });
 
-    $(document.body).on("click", ".anomaly-example-spoiler", function() {
+    $(document.body).on("click", ".anomaly-example-spoiler", function(e) {
         var $this = $(this);
+
+        if ($(e.target).hasClass("fa-star")) {
+        	return;
+		}
+
         var $anomalyExampleContent = $(this).parents(".anomaly-example-block").find(".anomaly-example-content");
 
         if (!$this.hasClass("collapsed")) {
@@ -71,49 +76,73 @@ $(document).ready(function() {
         }
 	});
 
-	$(document.body).on("keyup", "#auth-email", function() {
+	$(document.body).on("keyup", "#auth-email", function(e) {
 	    if ($(this).val().length) {
 			$("#auth-check").removeClass("disabled");
         } else {
 			$("#auth-check").addClass("disabled");
         }
+
+		if (e.keyCode === 13) {
+			auth_check_handle($("#auth-check"));
+		}
 	});
 
-	$(document.body).on("keyup", "#auth-access-code", function() {
+	$(document.body).on("keyup", "#auth-access-code", function(e) {
 	    if ($(this).val().length) {
 			$("#auth-access-code-confirm").removeClass("disabled");
         } else {
 			$("#auth-access-code-confirm").addClass("disabled");
         }
+
+		if (e.keyCode === 13) {
+			auth_check_handle($("#auth-access-code-confirm"));
+		}
 	});
 
 	$(document.body).on("click", "#auth-check, #auth-access-code-confirm", function() {
-	    var $this = $(this);
-	    var email = $("#auth-email").val();
-	    var access_code = $("#auth-access-code").val();
+		auth_check_handle($(this));
+	});
 
-	    if ($this.hasClass("disabled")) {
-	        return false;
-        }
+	$(document.body).on("click", ".rating .fa-star", function() {
+		var $this = $(this);
+		var $parent = $this.parent(".rating");
 
-		$this.html("Waiting...").addClass("disabled");
-		auth({
-            email: email,
-			access_code: access_code
-        }, function(response) {
-		    var status = response.status_code;
+		var voteValue = $this.data("value");
+		var filename = $parent.data("filename");
+		var gist = $parent.data("gist");
+		var className = $parent.data("class");
+		var typeName = $parent.data("type");
 
-			if (status === 0) {
-				auth_info_show(response.data.email, response.data.code);
-            } else if (status === -3) {
-				auth_confirm_form_show(email);
-            } else {
-				$this.html(access_code ? "Confirm" : "Authorize").removeClass("disabled");
-            }
-		});
+		vote($parent, voteValue, filename, gist, className, typeName);
 	});
 
 	$(document.body).on("click", "#auth-confirm-cancel", auth_main_form_show);
 
 	$(document.body).on("click", "#auth-logout", auth_logout);
 });
+
+function auth_check_handle($button) {
+	var email = $("#auth-email").val();
+	var access_code = $("#auth-access-code").val();
+
+	if ($button.hasClass("disabled")) {
+		return false;
+	}
+
+	$button.html("Waiting...").addClass("disabled");
+	auth({
+		email: email,
+		access_code: access_code
+	}, function(response) {
+		var status = response.status_code;
+
+		if (status === 0) {
+			auth_info_show(response.data.email, response.data.code);
+		} else if (status === -3) {
+			auth_confirm_form_show(email);
+		} else {
+			$button.html(access_code ? "Confirm" : "Authorize").removeClass("disabled");
+		}
+	});
+}
