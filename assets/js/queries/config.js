@@ -1,2 +1,2 @@
-var server = "http://victor.am";
+var server = "https://victor.am";
 var path = "code-anomaly-detection";
