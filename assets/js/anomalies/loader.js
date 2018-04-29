@@ -108,6 +108,7 @@ function loadAnomalyExamples(anomalyClassInfo, anomalyClass, selectedAnomaliesTy
 	var anomalyExamples = anomalyClassInfo.examples[selectedAnomaliesType];
 	anomalyExampleContents = {};
 
+    $(".class-rating").hide();
 	$("#anomaly-examples-by-" + selectedAnomaliesType + "-title").text(anomalyClassInfo.title);
 	$("#anomaly-examples-by-" + selectedAnomaliesType + "-all-url").attr("href", anomalyExamples.all_url);
 	$("#anomaly-examples-by-" + selectedAnomaliesType + "-list").text("Loading examples...");

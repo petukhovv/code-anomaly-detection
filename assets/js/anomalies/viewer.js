@@ -113,5 +113,10 @@ function showAnomalyExamplesBlock(anomalyClass, callback) {
 		activeAnomalyExamplesBlock = selectAndShowAnomalyExamplesBlock(cstExamples, bytecodeExamples, hwmExamples);
     }
 
+    if (isLogged) {
+        $(".class-rating").remove();
+        $(".all_url").after(getStarsForClass(anomalyClass));
+    }
+
 	loadAnomalyExamples(anomalyClassInfo, anomalyClass, activeAnomalyExamplesBlock, callback);
 }

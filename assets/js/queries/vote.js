@@ -11,6 +11,19 @@ function voteRequest(data, callback) {
 	})
 }
 
+function voteClassRequest(data, callback) {
+	$.ajax({
+		type: "POST",
+		data: data,
+		dataType: "JSON",
+		xhrFields: {
+			withCredentials: true
+		},
+		url: server + "/" + path + "/vote_class.php",
+		success: callback
+	})
+}
+
 function getVotesRequest(data, callback) {
 	$.ajax({
 		type: "POST",

@@ -117,8 +117,17 @@ $(document).ready(function() {
 		vote($parent, voteValue, filename, gist, className, typeName);
 	});
 
-	$(document.body).on("click", "#auth-confirm-cancel", auth_main_form_show);
+	$(document.body).on("click", ".class-rating .fa-star", function() {
+		var $this = $(this);
+		var $parent = $this.parent(".class-rating");
 
+		var voteValue = $this.data("value");
+		var className = $parent.data("class");
+
+        vote_class($parent, voteValue, className);
+	});
+
+	$(document.body).on("click", "#auth-confirm-cancel", auth_main_form_show);
 	$(document.body).on("click", "#auth-logout", auth_logout);
 });
 

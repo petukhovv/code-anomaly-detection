@@ -1,5 +1,6 @@
 .fa-star {
 	padding-left: 3px;
+	cursor: pointer;
 }
 
 .fa-star.checked {
