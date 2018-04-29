@@ -12,7 +12,11 @@ function auth(data, callback) {
 		success: function(response) {
 			callback(response);
 			if (response.status_code === 0) {
-				$(".anomaly-examples-type.active").click();
+                if ($(".anomaly-examples-type.active:visible").length) {
+                    $(".anomaly-examples-type.active").click();
+                } else {
+                    $(".anomaly-class-item.active").click();
+                }
 			}
 		}
 	})
@@ -75,7 +79,11 @@ function auth_logout() {
 		complete: function() {
 			auth_main_form_show();
 			isLogged = false;
-			$(".anomaly-examples-type.active").click();
+			if ($(".anomaly-examples-type.active:visible").length) {
+				$(".anomaly-examples-type.active").click();
+            } else {
+				$(".anomaly-class-item.active").click();
+			}
 		}
 	});
 

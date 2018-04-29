@@ -1,18 +1,26 @@
 function selectAnomalyExamplesBlock(selectedAnomalyType) {
-	var anomalyExampleTypeSelectorsMap = {
-		'cst': {
-			'block': '#anomaly-examples-by-cst',
-			'tab': '#anomaly-examples-by-cst-tab'
-		},
-		'bytecode': {
-			'block': '#anomaly-examples-by-bytecode',
-			'tab': '#anomaly-examples-by-bytecode-tab'
-		},
-		'hwm': {
-			'block': '#anomaly-examples-by-hwm',
-			'tab': '#anomaly-examples-by-hwm-tab'
-		}
-	};
+    var anomalyExampleTypeSelectorsMap = {
+        'cst': {
+            'block': '#anomaly-examples-by-cst',
+            'tab': '#anomaly-examples-by-cst-tab'
+        },
+        'bytecode': {
+            'block': '#anomaly-examples-by-bytecode',
+            'tab': '#anomaly-examples-by-bytecode-tab'
+        },
+        'hwm': {
+            'block': '#anomaly-examples-by-hwm',
+            'tab': '#anomaly-examples-by-hwm-tab'
+        },
+        'all': {
+            'block': '#anomaly-examples-all'
+        }
+    };
+
+	if (mode === 'all') {
+        $(anomalyExampleTypeSelectorsMap[selectedAnomalyType].block).addClass('show').show();
+		return;
+	}
 
 	for (var anomalyType in anomalyExampleTypeSelectorsMap) {
 		if (!anomalyExampleTypeSelectorsMap.hasOwnProperty(anomalyType)) {
@@ -58,14 +66,14 @@ function selectAndShowAnomalyExamplesBlock(cstExamples, bytecodeExamples, hwmExa
 	return anomalyExampleTypes[0];
 }
 
-function getAnomalyExampleFileBlock(number, filename, githubGistUrl, anomalyClass, selectedAnomaliesType, content) {
+function getAnomalyExampleFileBlock(number, filename, githubGistUrl, anomalyClass, selectedAnomaliesType, originalType, content) {
 	anomalyExampleContents[filename] = content;
 
 	return (
 		'<div class="panel panel-default anomaly-example-block" data-gist="' + githubGistUrl + '" style="margin-bottom: 24px;">' +
 			'<div class="panel-heading">' +
 				'<button type="button" data-filename="' + filename + '" style="background: #eee;border-bottom-left-radius: 0;border-bottom-right-radius: 0;display: block;width: 100%;text-align: left;" class="btn btn-default btn-xs anomaly-example-spoiler" data-toggle="collapse">' +
-					getStars(filename, githubGistUrl, anomalyClass, selectedAnomaliesType) +
+					getStars(filename, githubGistUrl, anomalyClass, originalType) +
 					'Example ' + number + ': <b>' + filename + '</b>' +
 				'</button>' +
 			'</div>' +
@@ -87,15 +95,23 @@ function showAnomalyExamples(selectedAnomaliesType, anomalyExamplesHtml) {
 		if (index !== anomalyExamplesHtml.length - 1) {
 			$(anomalyExampleListSelector).append("<hr />");
 		}
-	})
+	});
 }
 
 function showAnomalyExamplesBlock(anomalyClass, callback) {
-	var anomalyClassInfo = anomalyClasses[anomalyClass];
-	var cstExamples = anomalyClassInfo.examples.cst;
-	var bytecodeExamples = anomalyClassInfo.examples.bytecode;
-	var hwmExamples = anomalyClassInfo.examples.hwm;
-	var activeAnomalyExamplesBlock = selectAndShowAnomalyExamplesBlock(cstExamples, bytecodeExamples, hwmExamples);
+    var anomalyClassInfo = anomalyClasses[anomalyClass];
+    var activeAnomalyExamplesBlock;
+
+    if (mode === 'all') {
+    	selectAnomalyExamplesBlock('all');
+        activeAnomalyExamplesBlock = 'all';
+		$("#anomaly-examples > .nav-tabs").hide();
+    } else {
+		var cstExamples = anomalyClassInfo.examples.cst;
+		var bytecodeExamples = anomalyClassInfo.examples.bytecode;
+		var hwmExamples = anomalyClassInfo.examples.hwm;
+		activeAnomalyExamplesBlock = selectAndShowAnomalyExamplesBlock(cstExamples, bytecodeExamples, hwmExamples);
+    }
 
 	loadAnomalyExamples(anomalyClassInfo, anomalyClass, activeAnomalyExamplesBlock, callback);
 }

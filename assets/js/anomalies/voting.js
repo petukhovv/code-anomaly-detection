@@ -4,13 +4,13 @@ var anomalyTypes = {
 	hwm: 3
 };
 
-function getStars(filename, githubGistUrl, anomalyClass, selectedAnomaliesType) {
+function getStars(filename, githubGistUrl, anomalyClass, originalType) {
 	var fileExt = filename.split('.');
 	fileExt = fileExt[fileExt.length - 1];
 
-	var showCond = isLogged && (selectedAnomaliesType !== "bytecode" || fileExt !== "kt");
+	var showCond = isLogged && (originalType !== "bytecode" || fileExt !== "kt");
 
-	return showCond ? '<div style="float: right; position: relative; background: rgba(255,255,255,0.6);padding: 0 8px 0 5px;border-radius: 5px; z-index: 2;" class="rating" data-filename="' + filename + '" data-gist="' + githubGistUrl + '" data-class="' + anomalyClass + '" data-type="' + selectedAnomaliesType + '">' +
+	return showCond ? '<div style="float: right; position: relative; background: rgba(255,255,255,0.6);padding: 0 8px 0 5px;border-radius: 5px; z-index: 2;" class="rating" data-filename="' + filename + '" data-gist="' + githubGistUrl + '" data-class="' + anomalyClass + '" data-type="' + originalType + '">' +
 		'<span class="fa fa-star" data-value="1"></span>' +
 		'<span class="fa fa-star" data-value="2"></span>' +
 		'<span class="fa fa-star" data-value="3"></span>' +
@@ -36,7 +36,7 @@ function vote($rating, vote, filename, gist, className, typeName) {
 }
 
 function loadVotes(className, typeName) {
-	votesRequest({
+	getVotesRequest({
 		anomaly_class_name: className,
 		anomaly_type_id: anomalyTypes[typeName]
 	}, function (response) {

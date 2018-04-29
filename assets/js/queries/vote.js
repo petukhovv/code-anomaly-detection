@@ -11,7 +11,7 @@ function voteRequest(data, callback) {
 	})
 }
 
-function votesRequest(data, callback) {
+function getVotesRequest(data, callback) {
 	$.ajax({
 		type: "POST",
 		data: data,
