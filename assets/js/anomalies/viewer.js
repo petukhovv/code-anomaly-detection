@@ -73,7 +73,7 @@ function getAnomalyExampleFileBlock(number, filename, githubGistUrl, anomalyClas
 		'<div class="panel panel-default anomaly-example-block" data-gist="' + githubGistUrl + '" style="margin-bottom: 24px;">' +
 			'<div class="panel-heading">' +
 				'<button type="button" data-filename="' + filename + '" style="background: #eee;border-bottom-left-radius: 0;border-bottom-right-radius: 0;display: block;width: 100%;text-align: left;" class="btn btn-default btn-xs anomaly-example-spoiler" data-toggle="collapse">' +
-					getStars(filename, githubGistUrl, anomalyClass, originalType) +
+					getStars(filename, githubGistUrl, anomalyClass, originalType || selectedAnomaliesType) +
 					'Example ' + number + ': <b>' + filename + '</b>' +
 				'</button>' +
 			'</div>' +

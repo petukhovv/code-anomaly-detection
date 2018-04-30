@@ -1,4 +1,4 @@
-var anomalyExamplesPath = "./assets/data/anomaly_examples.json?v=0.4.4";
+var anomalyExamplesPath = "./assets/data/anomaly_examples.json?v=0.5.6";
 
 var anomalyClasses = {};
 var anomalyExampleContents = {};
@@ -28,9 +28,9 @@ function showAnomalyTypes() {
 	$("#anomaly-classes").prepend(
         mode === 'all' ? '' : (
             '<div style="padding: 10px 0 15px 0; text-align: center;border-left: 1px solid rgba(0,0,0,0.125);border-right: 1px solid rgba(0,0,0,0.125);">' +
-				'<span class="badge badge-primary badge-pill" style="margin-left: 5px; display: inline-block;">CST anomalies w/autoencoder</span>' +
+				'<span class="badge badge-primary badge-pill" style="margin-left: 5px; display: inline-block;">PSI anomalies w/autoencoder</span>' +
 				'<span class="badge badge-info badge-pill" style="margin-left: 5px; display: inline-block;">JVM-bytecode anomalies</span>' +
-				'<span class="badge badge-success badge-pill" style="margin-left: 5px; display: inline-block;">CST anomalies w/HWM</span>' +
+				'<span class="badge badge-success badge-pill" style="margin-left: 5px; display: inline-block;">PSI anomalies w/HWM</span>' +
 			'</div>'
 		)
 	);

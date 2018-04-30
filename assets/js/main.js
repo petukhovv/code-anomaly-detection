@@ -39,6 +39,11 @@ $(document).ready(function() {
             isLoadingExamples = false;
         });
 
+        if (isLogged) {
+            $(".class-rating").remove();
+            $(".all_url").after(getStarsForClass(anomaliesClass));
+        }
+
         return false;
     });
 
