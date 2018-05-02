@@ -1,4 +1,4 @@
-var anomalyExamplesPath = "./assets/data/anomaly_examples.json?v=0.5.6";
+var anomalyExamplesPath = "./assets/data/anomaly_examples.json?v=0.5.7";
 
 var anomalyClasses = {};
 var anomalyExampleContents = {};
