@@ -141,7 +141,16 @@ function loadAnomalyExamples(anomalyClassInfo, anomalyClass, selectedAnomaliesTy
 			$.getScript(githubGistUrl + '.js', function(anomalyExampleHtml, file, fileNumber, exampleNumber, originalType) {
 				return function () {
 					requestNumber--;
-					anomalyExampleHtml[fileNumber] = getAnomalyExampleFileBlock(exampleNumber + 1, file, githubGistUrl, anomalyClass, selectedAnomaliesType, originalType, interceptedContent);
+					anomalyExampleHtml[fileNumber] = getAnomalyExampleFileBlock(
+						exampleNumber + 1,
+						file,
+						githubGistUrl,
+						anomalyClass,
+						selectedAnomaliesType,
+						originalType,
+						interceptedContent,
+                        anomalyExample.old
+					);
 					interceptedContent = '';
 
 					if (requestNumber === 0) {
