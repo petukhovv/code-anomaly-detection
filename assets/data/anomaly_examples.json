@@ -6,17 +6,17 @@
         "total" : 2,
         "all_url" : "https://yadi.sk/d/keDdiPKj3T45uh",
         "items" : [ {
-          "is_old" : true,
           "files" : {
             "1814_PropertyHolder.class.json" : "https://gist.github.com/PetukhovVictor/4c285397769a1bef4e233e11a361edf0",
             "1814_PropertyHolder.kt" : "https://gist.github.com/PetukhovVictor/03b7c57c8614e646886dbb6c0b71c5e4"
-          }
+          },
+          "old" : true
         }, {
-          "is_old" : true,
           "files" : {
             "366_JSONConverter$Companion.class.json" : "https://gist.github.com/PetukhovVictor/7422a361c337190530a79564c5340d76",
             "366_JSONConverter.kt" : "https://gist.github.com/PetukhovVictor/9fa7524220876a4a901646f8587a5936"
-          }
+          },
+          "old" : true
         } ]
       }
     }
@@ -28,25 +28,25 @@
         "total" : 13,
         "all_url" : "https://yadi.sk/d/x2tiYbks3SpC6X",
         "items" : [ {
-          "is_old" : true,
           "files" : {
             "995_169554923.kt" : "https://gist.github.com/PetukhovVictor/9d9383d79ca8c37974eab98b873c176f"
-          }
+          },
+          "old" : true
         }, {
-          "is_old" : true,
           "files" : {
             "908_098222933.kt" : "https://gist.github.com/PetukhovVictor/501219b23efa03cb32337a018331867e"
-          }
+          },
+          "old" : true
         }, {
-          "is_old" : true,
           "files" : {
             "679_718858732.kt" : "https://gist.github.com/PetukhovVictor/08b2482ad8399fd6f84a19aa1ae028d1"
-          }
+          },
+          "old" : true
         }, {
-          "is_old" : true,
           "files" : {
             "666_093862254.kt" : "https://gist.github.com/PetukhovVictor/8e26e362c638bd11db7a69b9bb152f23"
-          }
+          },
+          "old" : true
         } ]
       }
     }
@@ -58,17 +58,17 @@
         "total" : 3,
         "all_url" : "https://yadi.sk/d/SCmMck273T4vPQ",
         "items" : [ {
-          "is_old" : true,
           "files" : {
             "4519_Generated.kt" : "https://gist.github.com/PetukhovVictor/688da7d12e0cf0447acc75b609ca0712",
             "4519_KaliumPackage-Generated-42b15255.class.json" : "https://gist.github.com/PetukhovVictor/6d8ee011068132d3b06ae63ac1d98c04"
-          }
+          },
+          "old" : true
         }, {
-          "is_old" : true,
           "files" : {
             "2962_PropertiesPackage-generated-466c78cd.class.json" : "https://gist.github.com/PetukhovVictor/cfe3ff1f9d0def71225083df116e2ed9",
             "2962_PropertiesPackage-generated-466c78cd.kt" : "https://gist.github.com/PetukhovVictor/e16cfb1d1dd54ca5777e838916a9e7c9"
-          }
+          },
+          "old" : true
         } ]
       }
     }
@@ -80,27 +80,27 @@
         "total" : 2,
         "all_url" : "https://yadi.sk/d/nlcB8Y763T4KD2",
         "items" : [ {
-          "is_old" : true,
           "files" : {
             "1821_Stylesheet$Companion.class.json" : "https://gist.github.com/PetukhovVictor/e4c5f862b7d7054d1b653c19d9b9ab97",
             "1821_CSS.kt" : "https://gist.github.com/PetukhovVictor/c694d98ed69a7b5a02f0771f371066de"
-          }
+          },
+          "old" : true
         }, {
-          "is_old" : true,
           "files" : {
             "1814_CSS.kt" : "https://gist.github.com/PetukhovVictor/4d161989baaa326f3b5e66c5f3f1568c",
             "1814_PropertyHolder.class.json" : "https://gist.github.com/PetukhovVictor/60ab0abbaa1c2fd54eb84ade2744b8cd"
-          }
+          },
+          "old" : true
         } ]
       },
       "hwm" : {
         "total" : 1,
         "all_url" : "https://yadi.sk/d/CsHbavOA3UgZQT",
         "items" : [ {
-          "is_old" : true,
           "files" : {
             "105117.kt" : "https://gist.github.com/ksmirenko/78c40db8e87ab4c3f48507083ce66fb7"
-          }
+          },
+          "old" : true
         } ]
       }
     }
@@ -109,26 +109,44 @@
     "title" : "Top-level properties and functions",
     "examples" : {
       "bytecode" : {
-        "total" : 4,
+        "total" : 7,
         "all_url" : "https://yadi.sk/d/2lk2YE7P3T4tqr",
         "items" : [ {
-          "is_old" : true,
           "files" : {
             "4519_Generated.kt" : "https://gist.github.com/PetukhovVictor/35c954983fdd1e57a42e669ca3846ef4",
             "4519_KaliumPackage-Generated-42b15255.class.json" : "https://gist.github.com/PetukhovVictor/ea7902d95a2ecdaa19f95494186fd79f"
-          }
+          },
+          "old" : true
         }, {
-          "is_old" : true,
           "files" : {
             "634_ViewModel.kt" : "https://gist.github.com/PetukhovVictor/2c72a76ccc622185057449e151d3cdec",
             "634_ViewModel.class.json" : "https://gist.github.com/PetukhovVictor/f63f887bb76bd8f94ae4c2e5d53f8f13"
-          }
+          },
+          "old" : true
         }, {
-          "is_old" : true,
           "files" : {
             "2962_PropertiesPackage-generated-466c78cd.class.json" : "https://gist.github.com/PetukhovVictor/ac77f73ad843cc1eaeea5e4098333c55",
             "2962_PropertiesPackage-generated-466c78cd.kt" : "https://gist.github.com/PetukhovVictor/6a324101b640c2b7ea52fda7f88e5d3c"
-          }
+          },
+          "old" : true
+        }, {
+          "files" : {
+            "001_JsonElement.json" : "https://gist.github.com/PetukhovVictor/12a7122593784dd79116f3f80e8ae5f1",
+            "001_JsonElement.kt" : "https://gist.github.com/PetukhovVictor/a6f97e3c5cd94ef3756926c085d0684f"
+          },
+          "old" : false
+        }, {
+          "files" : {
+            "005_direct fields A.json" : "https://gist.github.com/PetukhovVictor/2d057b3a45cf9e3e6e33253e461e9e1d",
+            "005_direct fields A.kt" : "https://gist.github.com/PetukhovVictor/990ea2a59dfc00d5fbb09c323ff6e1a8"
+          },
+          "old" : false
+        }, {
+          "files" : {
+            "011_extension functions.json" : "https://gist.github.com/PetukhovVictor/3211ab7b4a6d889068176d19ee5a200c",
+            "011_extension functions.kt" : "https://gist.github.com/PetukhovVictor/65e67838d407cff0a2f6677f57a53155"
+          },
+          "old" : false
         } ]
       }
     }
@@ -140,38 +158,38 @@
         "total" : 3,
         "all_url" : "https://yadi.sk/d/mlvKLzaT3TFjG5",
         "items" : [ {
-          "is_old" : true,
           "files" : {
             "456_BrowserActivity.kt" : "https://gist.github.com/PetukhovVictor/92cc8bca2044f8e52216af5d07eb55cf",
             "456_BrowserActivity.class.json" : "https://gist.github.com/PetukhovVictor/bae754340360d97fb640952c66bb0d3d"
-          }
+          },
+          "old" : true
         }, {
-          "is_old" : true,
           "files" : {
             "975_Editor.class.json" : "https://gist.github.com/PetukhovVictor/48cf1b3286266c7952f0faaa819aa68c",
             "975_Editor.kt" : "https://gist.github.com/PetukhovVictor/dd04dfc5a77a034cb14f0a741cd0c0b9"
-          }
+          },
+          "old" : true
         }, {
-          "is_old" : true,
           "files" : {
             "398_DrawerLayout.class.json" : "https://gist.github.com/PetukhovVictor/bde571760218a5b2608b5ff8eb5599f9",
             "398_DrawerLayout.kt" : "https://gist.github.com/PetukhovVictor/f910f849ed1d9e033242fb36144fd411"
-          }
+          },
+          "old" : true
         } ]
       },
       "hwm" : {
         "total" : 2,
         "all_url" : "https://yadi.sk/d/Qnn_CLrU3UgZBs",
         "items" : [ {
-          "is_old" : true,
           "files" : {
             "1977086.kt" : "https://gist.github.com/ksmirenko/5589d4a033ad6118259e89340ab01daa"
-          }
+          },
+          "old" : true
         }, {
-          "is_old" : true,
           "files" : {
             "2004953.kt" : "https://gist.github.com/ksmirenko/b9b3cf1f9c1d84b5a9e408fbfb730e53"
-          }
+          },
+          "old" : true
         } ]
       }
     }
@@ -183,11 +201,11 @@
         "total" : 1,
         "all_url" : "https://yadi.sk/d/Gt1pPTTb3TGLRC",
         "items" : [ {
-          "is_old" : true,
           "files" : {
             "3554_PackageApi.kt" : "https://gist.github.com/PetukhovVictor/a59674bfbb4eea008a51c0401b1e5e8e",
             "3554_PackageApi$CompanyInfo.class.json" : "https://gist.github.com/PetukhovVictor/4ccbfbed629967d636fd601eef244733"
-          }
+          },
+          "old" : true
         } ]
       }
     }
@@ -199,11 +217,11 @@
         "total" : 1,
         "all_url" : "https://yadi.sk/d/8e4p_5u13TGLaZ",
         "items" : [ {
-          "is_old" : true,
           "files" : {
             "585_MainPresenterImpl.kt" : "https://gist.github.com/PetukhovVictor/7c77e712873264f206a3964d22bbb8d5",
             "585_MainPresenterImpl.class.json" : "https://gist.github.com/PetukhovVictor/c38ff350fa0ba6f1a3478049df84a6c8"
-          }
+          },
+          "old" : true
         } ]
       }
     }
@@ -212,40 +230,70 @@
     "title" : "Properties and functions",
     "examples" : {
       "bytecode" : {
-        "total" : 24,
+        "total" : 29,
         "all_url" : "https://yadi.sk/d/t406Jtx13T4KNS",
         "items" : [ {
-          "is_old" : true,
           "files" : {
             "651_Settings.class.json" : "https://gist.github.com/PetukhovVictor/2e046fd701599e3ae0b53e71bd1e7c1d",
             "651_Settings.kt" : "https://gist.github.com/PetukhovVictor/46809a3759801349d9481ae51b004730"
-          }
+          },
+          "old" : true
         }, {
-          "is_old" : true,
           "files" : {
             "398_DrawerLayout.class.json" : "https://gist.github.com/PetukhovVictor/29d368db62e90bcfe3a841caeb9e8593",
             "398_DrawerLayout.kt" : "https://gist.github.com/PetukhovVictor/c5e7a7860d944f0d28b02171cd6ceefc"
-          }
+          },
+          "old" : true
+        }, {
+          "files" : {
+            "001_JsonElement.json" : "https://gist.github.com/PetukhovVictor/fa31591a15a746d82c49fe3185be96af",
+            "001_JsonElement.kt" : "https://gist.github.com/PetukhovVictor/7eb3c154e07587c24f7024cdaff8e17b"
+          },
+          "old" : false
+        }, {
+          "files" : {
+            "010_vk.json" : "https://gist.github.com/PetukhovVictor/2a509b1b2e71bec240b930b61a194ba0",
+            "010_vk.kt" : "https://gist.github.com/PetukhovVictor/4465fcf8d44dfcce49e513fe085428df"
+          },
+          "old" : false
+        }, {
+          "files" : {
+            "009_Def.json" : "https://gist.github.com/PetukhovVictor/5de6e7bf896fd345532efd8b30fe9cc6",
+            "009_Def.kt" : "https://gist.github.com/PetukhovVictor/01d5e833cc20dda9129b04a3eb77af94"
+          },
+          "old" : false
+        }, {
+          "files" : {
+            "008_TunableConstants.json" : "https://gist.github.com/PetukhovVictor/93b8f6530fa204844ed8fbea1696b716",
+            "008_TunableConstants.kt" : "https://gist.github.com/PetukhovVictor/0ae735c59973c065f77243049430bbe4"
+          },
+          "old" : false
+        }, {
+          "files" : {
+            "011_extension functions.json" : "https://gist.github.com/PetukhovVictor/9cfb8b872eec3bc24511999466fc8c88",
+            "011_extension functions.kt" : "https://gist.github.com/PetukhovVictor/1383a36e2d1189d39fae69254cd4412c"
+          },
+          "old" : false
         } ]
       },
       "cst" : {
         "total" : 14,
         "all_url" : "https://yadi.sk/d/iTTQJOFd3SpADb",
         "items" : [ {
-          "is_old" : true,
           "files" : {
             "4891_63999481.kt" : "https://gist.github.com/PetukhovVictor/4f04b991eb5a2d3a783df5932ff2b5e2"
-          }
+          },
+          "old" : true
         }, {
-          "is_old" : true,
           "files" : {
             "2740_93778153.kt" : "https://gist.github.com/PetukhovVictor/915fb4b3b9a91e8402e5b887a69be5d4"
-          }
+          },
+          "old" : true
         }, {
-          "is_old" : true,
           "files" : {
             "2547_91645477.kt" : "https://gist.github.com/PetukhovVictor/af66f92f3c43cb58a6ec280e13b73e63"
-          }
+          },
+          "old" : true
         } ]
       }
     }
@@ -257,32 +305,32 @@
         "total" : 4,
         "all_url" : "https://yadi.sk/d/1OOQppUp3TGLE2",
         "items" : [ {
-          "is_old" : true,
           "files" : {
             "3554_PackageApi.kt" : "https://gist.github.com/PetukhovVictor/f3e5093f78a89971e35a147f8d5bf550",
             "3554_PackageApi$CompanyInfo.class.json" : "https://gist.github.com/PetukhovVictor/56845feafdaa0276bb97d033e2ec568f"
-          }
+          },
+          "old" : true
         }, {
-          "is_old" : true,
           "files" : {
             "651_Settings.class.json" : "https://gist.github.com/PetukhovVictor/e80a300d60ac94fea11828b0c39ae54d",
             "651_Settings.kt" : "https://gist.github.com/PetukhovVictor/351ed5251e0b3fb6c89bb5b741f88ec9"
-          }
+          },
+          "old" : true
         } ]
       },
       "hwm" : {
         "total" : 2,
         "all_url" : "https://yadi.sk/d/vO4TOHP03UgZfg",
         "items" : [ {
-          "is_old" : true,
           "files" : {
             "1514679.kt" : "https://gist.github.com/ksmirenko/2764569c10e7dac7c380d8959d244e07"
-          }
+          },
+          "old" : true
         }, {
-          "is_old" : true,
           "files" : {
             "2880935.kt" : "https://gist.github.com/ksmirenko/6f5b7a053ade36008eaed802ef458bde"
-          }
+          },
+          "old" : true
         } ]
       }
     }
@@ -294,55 +342,55 @@
         "total" : 9,
         "all_url" : "https://yadi.sk/d/pLr5vDuR3T4JqQ",
         "items" : [ {
-          "is_old" : true,
           "files" : {
             "651_Settings.class.json" : "https://gist.github.com/PetukhovVictor/09525722a996d5f51691d20fbd1d2a95",
             "651_Settings.kt" : "https://gist.github.com/PetukhovVictor/20605a5c19dee31f48c2f5bdc6acd7ec"
-          }
+          },
+          "old" : true
         }, {
-          "is_old" : true,
           "files" : {
             "1012_widgets.kt" : "https://gist.github.com/PetukhovVictor/192dac21b2f2ef17ad2b4d058c435cbd",
             "1012_widgets.class.json" : "https://gist.github.com/PetukhovVictor/d9e30301b98da8b54ace91fa1fb55783"
-          }
+          },
+          "old" : true
         }, {
-          "is_old" : true,
           "files" : {
             "357_NoteStore.class.json" : "https://gist.github.com/PetukhovVictor/6ba8ff12e23b305cf533a46770bf8af4",
             "357_NoteStore.kt" : "https://gist.github.com/PetukhovVictor/1c196b32d543e3e9703bf1d03f96a8ba"
-          }
+          },
+          "old" : true
         }, {
-          "is_old" : true,
           "files" : {
             "366_JSONConverter$Companion.class.json" : "https://gist.github.com/PetukhovVictor/870561669add80e012a433fc3a055c39",
             "366_JSONConverter.kt" : "https://gist.github.com/PetukhovVictor/87cac75020950c80a619371cd42864fd"
-          }
+          },
+          "old" : true
         }, {
-          "is_old" : true,
           "files" : {
             "422_EventActivity.class.json" : "https://gist.github.com/PetukhovVictor/c99da01bd295e67c8b12b055622255ec",
             "422_EventActivity.kt" : "https://gist.github.com/PetukhovVictor/2f5cd496c91dc61cb9ed58e95ad6744f"
-          }
+          },
+          "old" : true
         } ]
       },
       "cst" : {
         "total" : 57,
         "all_url" : "https://yadi.sk/d/jf5FdjE83SpAjD",
         "items" : [ {
-          "is_old" : true,
           "files" : {
             "4177_1494766.kt" : "https://gist.github.com/PetukhovVictor/e1b0a656056130c04adb1b68c8598819"
-          }
+          },
+          "old" : true
         }, {
-          "is_old" : true,
           "files" : {
             "1262_83299418.kt" : "https://gist.github.com/PetukhovVictor/f5cfd5c6f15a43127653aaffa1a4de57"
-          }
+          },
+          "old" : true
         }, {
-          "is_old" : true,
           "files" : {
             "957_169484679.kt" : "https://gist.github.com/PetukhovVictor/00a45839580e6324bebaa827f096b1b4"
-          }
+          },
+          "old" : true
         } ]
       }
     }
@@ -354,64 +402,64 @@
         "total" : 5,
         "all_url" : "https://yadi.sk/d/nsHvyY3d3T4s8r",
         "items" : [ {
-          "is_old" : true,
           "files" : {
             "456_BrowserActivity.kt" : "https://gist.github.com/PetukhovVictor/1be18f5de0dfabd790ed8376b81f21d0",
             "456_BrowserActivity.class.json" : "https://gist.github.com/PetukhovVictor/698f74744731311248822e37281b3f48"
-          }
+          },
+          "old" : true
         }, {
-          "is_old" : true,
           "files" : {
             "1239_EditorStage.class.json" : "https://gist.github.com/PetukhovVictor/8ad78edde02e84ed238404483ce28efa",
             "1239_EditorStage.kt" : "https://gist.github.com/PetukhovVictor/204a907075c79bee420c1c177fed1dbc"
-          }
+          },
+          "old" : true
         }, {
-          "is_old" : true,
           "files" : {
             "439_DiscordBridge.kt" : "https://gist.github.com/PetukhovVictor/266fd8d56b7ef81962cfbfb3c0c8c541",
             "439_DiscordBridge.class.json" : "https://gist.github.com/PetukhovVictor/e511b1f53f155950029dd3097bf04d32"
-          }
+          },
+          "old" : true
         }, {
-          "is_old" : true,
           "files" : {
             "975_Editor.class.json" : "https://gist.github.com/PetukhovVictor/7cba17c2fac7d6d18881dc4565b2cc88",
             "975_Editor.kt" : "https://gist.github.com/PetukhovVictor/fcbbfab73b898459d193bdeebd8340a2"
-          }
+          },
+          "old" : true
         } ]
       },
       "cst" : {
         "total" : 38,
         "all_url" : "https://yadi.sk/d/xqzFZE_33Sp9Dt",
         "items" : [ {
-          "is_old" : true,
           "files" : {
             "2413_79989814.kt" : "https://gist.github.com/PetukhovVictor/b363cb1d53b039779d9a9d8a6aec6118"
-          }
+          },
+          "old" : true
         }, {
-          "is_old" : true,
           "files" : {
             "1741_0924744.kt" : "https://gist.github.com/PetukhovVictor/fd0dd19a1a988c1a6153d55a47a76f03"
-          }
+          },
+          "old" : true
         }, {
-          "is_old" : true,
           "files" : {
             "1119_62992668.kt" : "https://gist.github.com/PetukhovVictor/a8c5fa7bb73464de48cc61113956e4ca"
-          }
+          },
+          "old" : true
         } ]
       },
       "hwm" : {
         "total" : 2,
         "all_url" : "https://yadi.sk/d/z57_ovIk3UgZZg",
         "items" : [ {
-          "is_old" : true,
           "files" : {
             "937603.kt" : "https://gist.github.com/ksmirenko/0e32c42e68e0b58c2b76b56efb9c2386"
-          }
+          },
+          "old" : true
         }, {
-          "is_old" : true,
           "files" : {
             "2423735.kt" : "https://gist.github.com/ksmirenko/17d5445208398e3ca8eacf474762119b"
-          }
+          },
+          "old" : true
         } ]
       }
     }
@@ -423,20 +471,20 @@
         "total" : 3,
         "all_url" : "https://yadi.sk/d/clEG8QbV3SpB6N",
         "items" : [ {
-          "is_old" : true,
           "files" : {
             "2179_95451312.kt" : "https://gist.github.com/PetukhovVictor/5a3e032ed5e6e2e4db89d4b37f8af101"
-          }
+          },
+          "old" : true
         }, {
-          "is_old" : true,
           "files" : {
             "1789_55786539.kt" : "https://gist.github.com/PetukhovVictor/23d95b306437a158494472730a747d69"
-          }
+          },
+          "old" : true
         }, {
-          "is_old" : true,
           "files" : {
             "506_004230873.kt" : "https://gist.github.com/PetukhovVictor/d388c2a77744d897cf74c07ed345d915"
-          }
+          },
+          "old" : true
         } ]
       }
     }
@@ -445,20 +493,26 @@
     "title" : "Big init in bytecode",
     "examples" : {
       "bytecode" : {
-        "total" : 2,
+        "total" : 3,
         "all_url" : "https://yadi.sk/d/xZyD09ZZ3T4JBz",
         "items" : [ {
-          "is_old" : true,
           "files" : {
             "1351_ConfigModel.class.json" : "https://gist.github.com/PetukhovVictor/c544db710a1f865377440e7bbc050de3",
             "1351_ConfigModel.kt" : "https://gist.github.com/PetukhovVictor/bb60ea6e9c9eb4dda353bf38eadb6404"
-          }
+          },
+          "old" : true
         }, {
-          "is_old" : true,
           "files" : {
             "796_CabalTokelTypes.kt" : "https://gist.github.com/PetukhovVictor/37c12b1db74ca56b2e669cf4c9764e95",
             "796_CabalTokelTypes.class.json" : "https://gist.github.com/PetukhovVictor/de5683b1f0ff47831bc93c7c776a9e96"
-          }
+          },
+          "old" : true
+        }, {
+          "files" : {
+            "007_SourceViewModel.json" : "https://gist.github.com/PetukhovVictor/5b9a41357173827726160a53ab79dfdc",
+            "007_SourceViewModel.kt" : "https://gist.github.com/PetukhovVictor/b60ecdc3497a0370a083fe61ac8d4ad3"
+          },
+          "old" : false
         } ]
       }
     }
@@ -467,39 +521,45 @@
     "title" : "Many loops",
     "examples" : {
       "bytecode" : {
-        "total" : 1,
+        "total" : 2,
         "all_url" : "https://yadi.sk/d/6Hvtq-Y83T4tQ7",
         "items" : [ {
-          "is_old" : true,
           "files" : {
             "359_inputNavigationAndFocus.class.json" : "https://gist.github.com/PetukhovVictor/f6c53fec446a3867042e5ffc3192cec5",
             "359_inputNavigationAndFocus.kt" : "https://gist.github.com/PetukhovVictor/1f173a37631a74d8e4501f1d9dbc8dcd"
-          }
+          },
+          "old" : true
+        }, {
+          "files" : {
+            "008_TunableConstants.json" : "https://gist.github.com/PetukhovVictor/0bcdf137ae5db941ee03b01203a52075",
+            "008_TunableConstants.kt" : "https://gist.github.com/PetukhovVictor/0dd7016ec7146238e630a8f0913fcc5b"
+          },
+          "old" : false
         } ]
       },
       "cst" : {
         "total" : 7,
         "all_url" : "https://yadi.sk/d/EWJ6bcsN3SpCGq",
         "items" : [ {
-          "is_old" : true,
           "files" : {
             "2041_57944715.kt" : "https://gist.github.com/PetukhovVictor/7612e9b81b277b7b9f6f04e652bc7157"
-          }
+          },
+          "old" : true
         }, {
-          "is_old" : true,
           "files" : {
             "1069_46563454.kt" : "https://gist.github.com/PetukhovVictor/861ed527a8ea0b7225825b12367ceb80"
-          }
+          },
+          "old" : true
         } ]
       },
       "hwm" : {
         "total" : 1,
         "all_url" : "https://yadi.sk/d/lP5f8VS63UgZms",
         "items" : [ {
-          "is_old" : true,
           "files" : {
             "1774807.kt" : "https://gist.github.com/ksmirenko/1941587eeb8e4ee310c964acfe3f7ffb"
-          }
+          },
+          "old" : true
         } ]
       }
     }
@@ -508,72 +568,84 @@
     "title" : "Similar call expressions",
     "examples" : {
       "bytecode" : {
-        "total" : 42,
+        "total" : 44,
         "all_url" : "https://yadi.sk/d/3br1nT1Z3T4uTk",
         "items" : [ {
-          "is_old" : true,
           "files" : {
             "796_CabalTokelTypes.kt" : "https://gist.github.com/PetukhovVictor/ff593f45894f891b636fdf06417cbbdf",
             "796_CabalTokelTypes.class.json" : "https://gist.github.com/PetukhovVictor/4d1a7d79967aed39ccb454f474006ff3"
-          }
+          },
+          "old" : true
         }, {
-          "is_old" : true,
           "files" : {
             "1148_Value.class.json" : "https://gist.github.com/PetukhovVictor/1750cb1d91888c2c538419c7d985640e",
             "1148_Value.kt" : "https://gist.github.com/PetukhovVictor/12dd265c383205ce8c9545b1b1247d5f"
-          }
+          },
+          "old" : true
         }, {
-          "is_old" : true,
           "files" : {
             "3555_PackageApi.kt" : "https://gist.github.com/PetukhovVictor/71ea0062d214904a5ee942308079e2a9",
             "3555_PackageApi$CompanyInfo.class.json" : "https://gist.github.com/PetukhovVictor/74e0541b5f94dbf4c48e321f8fa1c06b"
-          }
+          },
+          "old" : true
         }, {
-          "is_old" : true,
           "files" : {
             "406_TitleManagerPlugin.kt" : "https://gist.github.com/PetukhovVictor/79da60c0d2653ad3f1efbdd8739379cb",
             "406_TitleManagerPlugin.class.json" : "https://gist.github.com/PetukhovVictor/5b748057bbc0c2224355dab6268195a9"
-          }
+          },
+          "old" : true
+        }, {
+          "files" : {
+            "014_GameRegistry.json" : "https://gist.github.com/PetukhovVictor/ca98cd614d464f2ba712a83cf0d37d4b",
+            "014_GameRegistry.kt" : "https://gist.github.com/PetukhovVictor/75d31bcf8c73236b0800dff5edce1047"
+          },
+          "old" : false
+        }, {
+          "files" : {
+            "016_MaterialColorPalette.json" : "https://gist.github.com/PetukhovVictor/ca5bb5caba495066b145006083d7d91c",
+            "016_MaterialColorPalette.kt" : "https://gist.github.com/PetukhovVictor/e8a965a7cb6852fc7f9458a2de9757ab"
+          },
+          "old" : false
         } ]
       },
       "cst" : {
         "total" : 86,
         "all_url" : "https://yadi.sk/d/oy7fdVDS3Sp9s3",
         "items" : [ {
-          "is_old" : true,
           "files" : {
             "14288_0148376.kt" : "https://gist.github.com/PetukhovVictor/87d591a6702bf46f0ce87ff91904d0a6"
-          }
+          },
+          "old" : true
         }, {
-          "is_old" : true,
           "files" : {
             "13421_6491434.kt" : "https://gist.github.com/PetukhovVictor/75c510080b5599edcc693389b67ab19a"
-          }
+          },
+          "old" : true
         }, {
-          "is_old" : true,
           "files" : {
             "6512_57228688.kt" : "https://gist.github.com/PetukhovVictor/95839918e64210895c371129442dd754"
-          }
+          },
+          "old" : true
         }, {
-          "is_old" : true,
           "files" : {
             "2703_26722649.kt" : "https://gist.github.com/PetukhovVictor/273a8aaa549c118732a23d9fcdf8404c"
-          }
+          },
+          "old" : true
         } ]
       },
       "hwm" : {
         "total" : 2,
         "all_url" : "https://yadi.sk/d/gkWLp2Or3UgZqG",
         "items" : [ {
-          "is_old" : true,
           "files" : {
             "727144.kt" : "https://gist.github.com/ksmirenko/7cefdafd04d4ca8b6b9904f5423637fe"
-          }
+          },
+          "old" : true
         }, {
-          "is_old" : true,
           "files" : {
             "2365505.kt" : "https://gist.github.com/ksmirenko/cd7c8b8a3f518044342206d3c9f52d4e"
-          }
+          },
+          "old" : true
         } ]
       }
     }
@@ -585,25 +657,25 @@
         "total" : 6,
         "all_url" : "https://yadi.sk/d/8LaLMlqX3Sp8it",
         "items" : [ {
-          "is_old" : true,
           "files" : {
             "600_498460165.kt" : "https://gist.github.com/PetukhovVictor/6e693a9024fec693edb277312f59f144"
-          }
+          },
+          "old" : true
         } ]
       },
       "hwm" : {
         "total" : 2,
         "all_url" : "https://yadi.sk/d/rvMpLTxM3UgZWj",
         "items" : [ {
-          "is_old" : true,
           "files" : {
             "1091547.kt" : "https://gist.github.com/ksmirenko/5d5b79a3f38193652f466732394d7e40"
-          }
+          },
+          "old" : true
         }, {
-          "is_old" : true,
           "files" : {
             "1561450.kt" : "https://gist.github.com/ksmirenko/4752c73276eac9b014b8f90b034ba228"
-          }
+          },
+          "old" : true
         } ]
       }
     }
@@ -612,60 +684,66 @@
     "title" : "Code hierarchy",
     "examples" : {
       "bytecode" : {
-        "total" : 6,
+        "total" : 7,
         "all_url" : "https://yadi.sk/d/YCnuCJct3T458t",
         "items" : [ {
-          "is_old" : true,
           "files" : {
             "1239_EditorStage.class.json" : "https://gist.github.com/PetukhovVictor/23bf17aa90861ccf53bfaf64540c9f3e",
             "1239_EditorStage.kt" : "https://gist.github.com/PetukhovVictor/32c2862d60e8a6dbdffde10c894eb0ee"
-          }
+          },
+          "old" : true
         }, {
-          "is_old" : true,
           "files" : {
             "1012_widgets.kt" : "https://gist.github.com/PetukhovVictor/3bfc65560dbe242770a197e4f70d6010",
             "1012_widgets.class.json" : "https://gist.github.com/PetukhovVictor/2acac35b52e41e10cd5f8ee7d9720ecb"
-          }
+          },
+          "old" : true
+        }, {
+          "files" : {
+            "012_MulinoAlphaBetaSearch.json" : "https://gist.github.com/PetukhovVictor/23f98d713586a22e8eefe1aaaa829531",
+            "012_MulinoAlphaBetaSearch.kt" : "https://gist.github.com/PetukhovVictor/bfb9464416904530459570d07b56e07e"
+          },
+          "old" : false
         } ]
       },
       "cst" : {
         "total" : 30,
         "all_url" : "https://yadi.sk/d/IrbdGxNE3Sp9Uv",
         "items" : [ {
-          "is_old" : true,
           "files" : {
             "1741_0924744.kt" : "https://gist.github.com/PetukhovVictor/151957f7945e3263b57250e77dfdb144"
-          }
+          },
+          "old" : true
         }, {
-          "is_old" : true,
           "files" : {
             "1074_71399994.kt" : "https://gist.github.com/PetukhovVictor/539c0d2f726ab9d172c2ba832647bb59"
-          }
+          },
+          "old" : true
         }, {
-          "is_old" : true,
           "files" : {
             "1069_46563454.kt" : "https://gist.github.com/PetukhovVictor/51faa4f6fe65ce5ffe7dcf07277298fc"
-          }
+          },
+          "old" : true
         }, {
-          "is_old" : true,
           "files" : {
             "898_05903588.kt" : "https://gist.github.com/PetukhovVictor/b3699e54be5e89620ef21d7daff046d5"
-          }
+          },
+          "old" : true
         } ]
       },
       "hwm" : {
         "total" : 2,
         "all_url" : "https://yadi.sk/d/NEqdAsMf3UgZAW",
         "items" : [ {
-          "is_old" : true,
           "files" : {
             "3136509.kt" : "https://gist.github.com/ksmirenko/22fe21d87a841fb45ff0beb4e63fa420"
-          }
+          },
+          "old" : true
         }, {
-          "is_old" : true,
           "files" : {
             "43270.kt" : "https://gist.github.com/ksmirenko/19f5514ce84740b6a871536ae977298c"
-          }
+          },
+          "old" : true
         } ]
       }
     }
@@ -674,14 +752,26 @@
     "title" : "Inline functions",
     "examples" : {
       "bytecode" : {
-        "total" : 3,
+        "total" : 5,
         "all_url" : "https://yadi.sk/d/LVkgotGI3T4sQY",
         "items" : [ {
-          "is_old" : true,
           "files" : {
             "2220_ItemViewModel.class.json" : "https://gist.github.com/PetukhovVictor/6e701d86333042e5b6e0df4fb66a6bb9",
             "2220_ViewModel.kt" : "https://gist.github.com/PetukhovVictor/8c6736aecff99f14dbfe0b38cd6e1576"
-          }
+          },
+          "old" : true
+        }, {
+          "files" : {
+            "010_vk.json" : "https://gist.github.com/PetukhovVictor/4ef1a0766684818d09591849e5675cdf",
+            "010_vk.kt" : "https://gist.github.com/PetukhovVictor/db0609929e7ff1e6cafbf290c92cb7e9"
+          },
+          "old" : false
+        }, {
+          "files" : {
+            "005_direct fields A.json" : "https://gist.github.com/PetukhovVictor/8759578eaa2fe134c08904be03b1a422",
+            "005_direct fields A.kt" : "https://gist.github.com/PetukhovVictor/2a0802ffb0351611349fbf0aae6bcfbd"
+          },
+          "old" : false
         } ]
       }
     }
@@ -693,11 +783,11 @@
         "total" : 1,
         "all_url" : "https://yadi.sk/d/E8QTHpFr3T4vrb",
         "items" : [ {
-          "is_old" : true,
           "files" : {
             "2220_ItemViewModel.class.json" : "https://gist.github.com/PetukhovVictor/9589b28614fc905eaa0362ffa999a91f",
             "2220_ViewModel.kt" : "https://gist.github.com/PetukhovVictor/b011dfddef8e45d154e563cef4a21b07"
-          }
+          },
+          "old" : true
         } ]
       }
     }
@@ -706,70 +796,100 @@
     "title" : "Arrays or maps",
     "examples" : {
       "bytecode" : {
-        "total" : 3,
+        "total" : 8,
         "all_url" : "https://yadi.sk/d/P757gCM93T4Jhk",
         "items" : [ {
-          "is_old" : true,
           "files" : {
             "4593_font.kt" : "https://gist.github.com/PetukhovVictor/d93b41874a6f3a8071cc8ed37c67f043",
             "4593_FontAtlas$jap.class.json" : "https://gist.github.com/PetukhovVictor/3decd6def7741376c04a6e8aa77a0e97"
-          }
+          },
+          "old" : true
         }, {
-          "is_old" : true,
           "files" : {
             "651_Settings.class.json" : "https://gist.github.com/PetukhovVictor/b6546620dc2364c85cfd004a1eed6a2e",
             "651_Settings.kt" : "https://gist.github.com/PetukhovVictor/76f01acc9d4238bdc639ff632ac5caf3"
-          }
+          },
+          "old" : true
+        }, {
+          "files" : {
+            "002_WordList.json" : "https://gist.github.com/PetukhovVictor/6e083921e510b7875a0ed59e84e2f039",
+            "002_WordList.kt" : "https://gist.github.com/PetukhovVictor/14d3f68484d7f97523725046ae76f3d3"
+          },
+          "old" : false
+        }, {
+          "files" : {
+            "009_Def.json" : "https://gist.github.com/PetukhovVictor/b015107f548817677596e7cf4e61e319",
+            "009_Def.kt" : "https://gist.github.com/PetukhovVictor/c444039d2e5ac926a00e2a5b260c48c2"
+          },
+          "old" : false
+        }, {
+          "files" : {
+            "008_TunableConstants.json" : "https://gist.github.com/PetukhovVictor/8cdce6f72d54b4d37a8960675bc38f01",
+            "008_TunableConstants.kt" : "https://gist.github.com/PetukhovVictor/6d589dc899349b1acf9cfae0bf45e2f6"
+          },
+          "old" : false
+        }, {
+          "files" : {
+            "016_MaterialColorPalette.json" : "https://gist.github.com/PetukhovVictor/69ebab489ad412a2e10e041fb948cba5",
+            "016_MaterialColorPalette.kt" : "https://gist.github.com/PetukhovVictor/b5a10e14a25642099b697fd80757fe49"
+          },
+          "old" : false
+        }, {
+          "files" : {
+            "004_Def.json" : "https://gist.github.com/PetukhovVictor/c72d338dd0d78465b0ed0030b4266361",
+            "004_Def.kt" : "https://gist.github.com/PetukhovVictor/7acba6c6b985196c7cfa67ac7fbab5dd"
+          },
+          "old" : false
         } ]
       },
       "cst" : {
         "total" : 30,
         "all_url" : "https://yadi.sk/d/maeusvha3SpBNz",
         "items" : [ {
-          "is_old" : true,
           "files" : {
             "9619_60767009.kt" : "https://gist.github.com/PetukhovVictor/0d8e93f7a4d5d2d90cd21dfe3db08ba9"
-          }
+          },
+          "old" : true
         }, {
-          "is_old" : true,
           "files" : {
             "2674_55547561.kt" : "https://gist.github.com/PetukhovVictor/42e6133f25da84e2441f860a31a9b6fa"
-          }
+          },
+          "old" : true
         }, {
-          "is_old" : true,
           "files" : {
             "980_875609694.kt" : "https://gist.github.com/PetukhovVictor/284565b7378498a33b08d616e89c1d5c"
-          }
+          },
+          "old" : true
         }, {
-          "is_old" : true,
           "files" : {
             "851_999352119.kt" : "https://gist.github.com/PetukhovVictor/e7ca55cc400dc58bd2c69b16301047c4"
-          }
+          },
+          "old" : true
         }, {
-          "is_old" : true,
           "files" : {
             "845_169014207.kt" : "https://gist.github.com/PetukhovVictor/716c3b8666504a113a378672f90ca805"
-          }
+          },
+          "old" : true
         }, {
-          "is_old" : true,
           "files" : {
             "695_518795113.kt" : "https://gist.github.com/PetukhovVictor/e696d3e199af4097ae248b11a9796325"
-          }
+          },
+          "old" : true
         } ]
       },
       "hwm" : {
         "total" : 2,
         "all_url" : "https://yadi.sk/d/Mj_K01DI3UgZDX",
         "items" : [ {
-          "is_old" : true,
           "files" : {
             "1422320.kt" : "https://gist.github.com/ksmirenko/3b45537c9f8fceac5f319716e7375b17"
-          }
+          },
+          "old" : true
         }, {
-          "is_old" : true,
           "files" : {
             "2525952.kt" : "https://gist.github.com/ksmirenko/c2668eeb0b9a4bb89fa08f5cbbc63a4b"
-          }
+          },
+          "old" : true
         } ]
       }
     }
@@ -781,37 +901,37 @@
         "total" : 14,
         "all_url" : "https://yadi.sk/d/w12QHeYe3T4JZ6",
         "items" : [ {
-          "is_old" : true,
           "files" : {
             "1318_Nuklear.kt" : "https://gist.github.com/PetukhovVictor/69f8449438004c9a44fb16ac83425953",
             "1318_Nuklear.class.json" : "https://gist.github.com/PetukhovVictor/019accb8655f3e82373d1307fd3dcb02"
-          }
+          },
+          "old" : true
         }, {
-          "is_old" : true,
           "files" : {
             "476_Yoga.kt" : "https://gist.github.com/PetukhovVictor/81902be30aa42bd0d9c06c490dbeb9f9",
             "476_Yoga.class.json" : "https://gist.github.com/PetukhovVictor/654a87b7b09c65e5560ce0f7858cfb99"
-          }
+          },
+          "old" : true
         } ]
       },
       "cst" : {
         "total" : 27,
         "all_url" : "https://yadi.sk/d/9Au__OYE3SpBCr",
         "items" : [ {
-          "is_old" : true,
           "files" : {
             "2186_41650207.kt" : "https://gist.github.com/PetukhovVictor/002658e398499aba5af48079b757ee37"
-          }
+          },
+          "old" : true
         }, {
-          "is_old" : true,
           "files" : {
             "1334_20790702.kt" : "https://gist.github.com/PetukhovVictor/8f99a88a788a7df5527d353249b757b7"
-          }
+          },
+          "old" : true
         }, {
-          "is_old" : true,
           "files" : {
             "1059_98046631.kt" : "https://gist.github.com/PetukhovVictor/c1bce32a004307edc75c2b1b06e8741e"
-          }
+          },
+          "old" : true
         } ]
       }
     }
@@ -820,40 +940,64 @@
     "title" : "Function parameters",
     "examples" : {
       "bytecode" : {
-        "total" : 8,
+        "total" : 12,
         "all_url" : "https://yadi.sk/d/pSYsDytv3T4reV",
         "items" : [ {
-          "is_old" : true,
           "files" : {
             "651_Settings.class.json" : "https://gist.github.com/PetukhovVictor/6d53c7b87385c01c800ca39d338ab967",
             "651_Settings.kt" : "https://gist.github.com/PetukhovVictor/853a9da5ef19eff9cd1f811d4e58d6d6"
-          }
+          },
+          "old" : true
         }, {
-          "is_old" : true,
           "files" : {
             "452_GLES20.kt" : "https://gist.github.com/PetukhovVictor/70e3297a4245c51ba36a796e88629a3d",
             "452_GLES20.class.json" : "https://gist.github.com/PetukhovVictor/fb30bd625ee2b2559ffbfb4033b772f5"
-          }
+          },
+          "old" : true
+        }, {
+          "files" : {
+            "002_WordList.json" : "https://gist.github.com/PetukhovVictor/0291f5034d037bbeedefae13833bf4f7",
+            "002_WordList.kt" : "https://gist.github.com/PetukhovVictor/ec22b4cd7a4d1a2026ed732b82326971"
+          },
+          "old" : false
+        }, {
+          "files" : {
+            "009_Def.json" : "https://gist.github.com/PetukhovVictor/ae4ba96d7af0adb286081ebc5015fbb3",
+            "009_Def.kt" : "https://gist.github.com/PetukhovVictor/f7f42ddfcaa2ca5573c347d189c2f6f8"
+          },
+          "old" : false
+        }, {
+          "files" : {
+            "008_TunableConstants.json" : "https://gist.github.com/PetukhovVictor/9e0d920a912ac21df168178277a8f76c",
+            "008_TunableConstants.kt" : "https://gist.github.com/PetukhovVictor/30ff4d30fc2357aa44b655e4c08f60e2"
+          },
+          "old" : false
+        }, {
+          "files" : {
+            "004_Def.json" : "https://gist.github.com/PetukhovVictor/a86bd02c5d387aee3e78506a7407681d",
+            "004_Def.kt" : "https://gist.github.com/PetukhovVictor/d9a16b77dd4c60ecf98f15c030b00232"
+          },
+          "old" : false
         } ]
       },
       "cst" : {
         "total" : 17,
         "all_url" : "https://yadi.sk/d/AkRgNLdo3SpCCo",
         "items" : [ {
-          "is_old" : true,
           "files" : {
             "9619_60767009.kt" : "https://gist.github.com/PetukhovVictor/e41da15240b19c83394d366c1b068f32"
-          }
+          },
+          "old" : true
         }, {
-          "is_old" : true,
           "files" : {
             "934_279728986.kt" : "https://gist.github.com/PetukhovVictor/1c5d2b61a1b9e79dd9b0ec5a0e845d8e"
-          }
+          },
+          "old" : true
         }, {
-          "is_old" : true,
           "files" : {
             "787_781482349.kt" : "https://gist.github.com/PetukhovVictor/5eba165d3cbbb9bbb58905bd14ace270"
-          }
+          },
+          "old" : true
         } ]
       }
     }
@@ -865,58 +1009,58 @@
         "total" : 3,
         "all_url" : "https://yadi.sk/d/XzXrz5Y93T4K3A",
         "items" : [ {
-          "is_old" : true,
           "files" : {
             "634_ViewModel.kt" : "https://gist.github.com/PetukhovVictor/5c03635aa5843afee6484c871418a10d",
             "634_ViewModel.class.json" : "https://gist.github.com/PetukhovVictor/a9c5856a5dc2c06323918897ad096057"
-          }
+          },
+          "old" : true
         }, {
-          "is_old" : true,
           "files" : {
             "1148_Value.class.json" : "https://gist.github.com/PetukhovVictor/8d130f11de848db0fd602ef5c0eacd5f",
             "1148_Value.kt" : "https://gist.github.com/PetukhovVictor/465188cda600cf121b7d9389b8ea9270"
-          }
+          },
+          "old" : true
         }, {
-          "is_old" : true,
           "files" : {
             "374_EventListener.kt" : "https://gist.github.com/PetukhovVictor/53bbab49f5a3b7cd978656b75701b4c5",
             "374_EventListener$WhenMappings.class.json" : "https://gist.github.com/PetukhovVictor/d87efe698d693d87ba2c2a416e2804fa"
-          }
+          },
+          "old" : true
         } ]
       },
       "cst" : {
         "total" : 33,
         "all_url" : "https://yadi.sk/d/OFBOzJAD3Sp97x",
         "items" : [ {
-          "is_old" : true,
           "files" : {
             "9427_45911639.kt" : "https://gist.github.com/PetukhovVictor/e181a0760133fc553f53009f73c54980"
-          }
+          },
+          "old" : true
         }, {
-          "is_old" : true,
           "files" : {
             "2359_47083853.kt" : "https://gist.github.com/PetukhovVictor/3b1971a3c1dcb80d724a728f0d562909"
-          }
+          },
+          "old" : true
         }, {
-          "is_old" : true,
           "files" : {
             "2238_22719281.kt" : "https://gist.github.com/PetukhovVictor/365a663c52112c79f3f9a754c201f2f5"
-          }
+          },
+          "old" : true
         } ]
       },
       "hwm" : {
         "total" : 2,
         "all_url" : "https://yadi.sk/d/S2NzQCYR3UgZJa",
         "items" : [ {
-          "is_old" : true,
           "files" : {
             "3357776.kt" : "https://gist.github.com/ksmirenko/3251b9aee8a40107e0e335bf2e0a90cd"
-          }
+          },
+          "old" : true
         }, {
-          "is_old" : true,
           "files" : {
             "2570270.kt" : "https://gist.github.com/ksmirenko/1a8c90b93dad5828b708b2c5bf460a49"
-          }
+          },
+          "old" : true
         } ]
       }
     }
@@ -928,11 +1072,11 @@
         "total" : 1,
         "all_url" : "https://yadi.sk/d/i0DbihEg3T4KA6",
         "items" : [ {
-          "is_old" : true,
           "files" : {
             "1239_EditorStage.class.json" : "https://gist.github.com/PetukhovVictor/047313bd178ca236e375fa1915775dcb",
             "1239_EditorStage.kt" : "https://gist.github.com/PetukhovVictor/9d2785699334f5f829b808bf2b7a2380"
-          }
+          },
+          "old" : true
         } ]
       }
     }
@@ -944,20 +1088,20 @@
         "total" : 6,
         "all_url" : "https://yadi.sk/d/5G06go5u3SpBb4",
         "items" : [ {
-          "is_old" : true,
           "files" : {
             "1059_98046631.kt" : "https://gist.github.com/PetukhovVictor/3647ffb32f84ccc3d2a70f8c307ba73b"
-          }
+          },
+          "old" : true
         }, {
-          "is_old" : true,
           "files" : {
             "915_130522116.kt" : "https://gist.github.com/PetukhovVictor/dc6328ef8f09d1cf92579fc9eb232c6a"
-          }
+          },
+          "old" : true
         }, {
-          "is_old" : true,
           "files" : {
             "820_667231648.kt" : "https://gist.github.com/PetukhovVictor/b300171c7ed957ed63dab31478ddae91"
-          }
+          },
+          "old" : true
         } ]
       }
     }
@@ -969,42 +1113,42 @@
         "total" : 2,
         "all_url" : "https://yadi.sk/d/qe-UHD3G3TGKFm",
         "items" : [ {
-          "is_old" : true,
           "files" : {
             "439_DiscordBridge.kt" : "https://gist.github.com/PetukhovVictor/5ae3a1525d6aaf9093b9250b05bfe073",
             "439_DiscordBridge.class.json" : "https://gist.github.com/PetukhovVictor/fb28c0441f9161b4363c40ca0f68ec90"
-          }
+          },
+          "old" : true
         }, {
-          "is_old" : true,
           "files" : {
             "585_GraphQLSchemaBuilder.class.json" : "https://gist.github.com/PetukhovVictor/95cb1290f0b1e6a4dd73f4e265cf218a",
             "585_GraphQLSchemaBuilder.kt" : "https://gist.github.com/PetukhovVictor/04065c28fce01ea7def8b6fcee93e301"
-          }
+          },
+          "old" : true
         } ]
       },
       "cst" : {
         "total" : 5,
         "all_url" : "https://yadi.sk/d/W8eMX2-O3SpBVD",
         "items" : [ {
-          "is_old" : true,
           "files" : {
             "2248_26554994.kt" : "https://gist.github.com/PetukhovVictor/2b99468058b33bf3b2b7cc5a58e066c6"
-          }
+          },
+          "old" : true
         }, {
-          "is_old" : true,
           "files" : {
             "727_697819708.kt" : "https://gist.github.com/PetukhovVictor/b7e12a90af763f8391c2ae8106079b6d"
-          }
+          },
+          "old" : true
         }, {
-          "is_old" : true,
           "files" : {
             "518_805403162.kt" : "https://gist.github.com/PetukhovVictor/2246bf7576e58da5b21daab33b8ef2c5"
-          }
+          },
+          "old" : true
         }, {
-          "is_old" : true,
           "files" : {
             "461_072377513.kt" : "https://gist.github.com/PetukhovVictor/5f7dea7728ddbd95f2f776de019dc5d5"
-          }
+          },
+          "old" : true
         } ]
       }
     }
@@ -1016,17 +1160,17 @@
         "total" : 2,
         "all_url" : "https://yadi.sk/d/aZ2NomX53TGLL4",
         "items" : [ {
-          "is_old" : true,
           "files" : {
             "398_DrawerLayout.class.json" : "https://gist.github.com/PetukhovVictor/1b9b91d49ccfb95e5ed6f0513876ab6d",
             "398_DrawerLayout.kt" : "https://gist.github.com/PetukhovVictor/51dbdb6285e6015c410e68caa861736e"
-          }
+          },
+          "old" : true
         }, {
-          "is_old" : true,
           "files" : {
             "585_GraphQLSchemaBuilder.class.json" : "https://gist.github.com/PetukhovVictor/9e98bf5951abc7b67a53647856aaf05e",
             "585_GraphQLSchemaBuilder.kt" : "https://gist.github.com/PetukhovVictor/9f1fb7a63b0b900b5f9e0a6c9b322863"
-          }
+          },
+          "old" : true
         } ]
       }
     }
@@ -1038,15 +1182,15 @@
         "total" : 2,
         "all_url" : "https://yadi.sk/d/bDlWpiO43SpBsG",
         "items" : [ {
-          "is_old" : true,
           "files" : {
             "1403_48722141.kt" : "https://gist.github.com/PetukhovVictor/78471c599da5c5f3833d750c1e89121c"
-          }
+          },
+          "old" : true
         }, {
-          "is_old" : true,
           "files" : {
             "1391_26303605.kt" : "https://gist.github.com/PetukhovVictor/8bb6cfe1e759e798812684a14ecfb2a7"
-          }
+          },
+          "old" : true
         } ]
       }
     }
@@ -1055,26 +1199,38 @@
     "title" : "Enums",
     "examples" : {
       "bytecode" : {
-        "total" : 7,
+        "total" : 9,
         "all_url" : "https://yadi.sk/d/yyWj_N5N3T3wwd",
         "items" : [ {
-          "is_old" : true,
           "files" : {
             "4168_Book.class.json" : "https://gist.github.com/PetukhovVictor/d3d567937029579a254735e14e9668f3",
             "4168_Book.kt" : "https://gist.github.com/PetukhovVictor/d24329380b308b672f37edfbb33386d6"
-          }
+          },
+          "old" : true
         }, {
-          "is_old" : true,
           "files" : {
             "1985_LatexNoMathCommand.kt" : "https://gist.github.com/PetukhovVictor/5e3b21d8a2d1f932ca3ad99c24d7fdd3",
             "1985_LatexNoMathCommand.class.json" : "https://gist.github.com/PetukhovVictor/7162bc04e58ae9840a25969afd11d47d"
-          }
+          },
+          "old" : true
         }, {
-          "is_old" : true,
           "files" : {
             "482_Lang.kt" : "https://gist.github.com/PetukhovVictor/79512c46934ec6736af10a341df46172",
             "482_Lang.class.json" : "https://gist.github.com/PetukhovVictor/6192b13417f223b1b3f3fa650152cfd0"
-          }
+          },
+          "old" : true
+        }, {
+          "files" : {
+            "003_Item113.json" : "https://gist.github.com/PetukhovVictor/d7f1a1f95a60b79cff73b3cec97147f4",
+            "003_Item113.kt" : "https://gist.github.com/PetukhovVictor/5339bae38d6fa6d524eb8a3d31d36c1a"
+          },
+          "old" : false
+        }, {
+          "files" : {
+            "006_Sound.json" : "https://gist.github.com/PetukhovVictor/4c06d3e1b8890b0d6feb3263f8bcd5b4",
+            "006_Sound.kt" : "https://gist.github.com/PetukhovVictor/66cd385d3baf8bbd9763666639498c25"
+          },
+          "old" : false
         } ]
       }
     }
@@ -1086,15 +1242,15 @@
         "total" : 2,
         "all_url" : "https://yadi.sk/d/v_uM7BKY3UgZoG",
         "items" : [ {
-          "is_old" : true,
           "files" : {
             "3001141.kt" : "https://gist.github.com/ksmirenko/936c88c349ad31610889100d98b08e70"
-          }
+          },
+          "old" : true
         }, {
-          "is_old" : true,
           "files" : {
             "742727.kt" : "https://gist.github.com/ksmirenko/81bd9260a3a82c07a6d02fc9a1f2d8a8"
-          }
+          },
+          "old" : true
         } ]
       }
     }
@@ -1106,10 +1262,10 @@
         "total" : 1,
         "all_url" : "https://yadi.sk/d/uAEs7yM23UgZwn",
         "items" : [ {
-          "is_old" : true,
           "files" : {
             "114899.kt" : "https://gist.github.com/ksmirenko/08bbe0cb4c1abab98a4838e4866d8928"
-          }
+          },
+          "old" : true
         } ]
       }
     }
@@ -1121,15 +1277,15 @@
         "total" : 2,
         "all_url" : "https://yadi.sk/d/ovdM0ANU3UgZGr",
         "items" : [ {
-          "is_old" : true,
           "files" : {
             "3353018.kt" : "https://gist.github.com/ksmirenko/ff82149a6f3a7be3fce9e7db50c3d675"
-          }
+          },
+          "old" : true
         }, {
-          "is_old" : true,
           "files" : {
             "2269110.kt" : "https://gist.github.com/ksmirenko/533f06d36acc2b05754505dcaed3bca2"
-          }
+          },
+          "old" : true
         } ]
       }
     }
@@ -1141,15 +1297,15 @@
         "total" : 2,
         "all_url" : "https://yadi.sk/d/FEqBLJmY3UgZEy",
         "items" : [ {
-          "is_old" : true,
           "files" : {
             "669372.kt" : "https://gist.github.com/ksmirenko/7fa84f4a2363cafd3acbac7c36d93bdc"
-          }
+          },
+          "old" : true
         }, {
-          "is_old" : true,
           "files" : {
             "4031605.kt" : "https://gist.github.com/ksmirenko/1e940e97bc4596b05c042a64a2fd70c6"
-          }
+          },
+          "old" : true
         } ]
       }
     }
@@ -1161,20 +1317,20 @@
         "total" : 3,
         "all_url" : "https://yadi.sk/d/11fAO0Kv3Uga68",
         "items" : [ {
-          "is_old" : true,
           "files" : {
             "2404669.kt" : "https://gist.github.com/ksmirenko/d3056493729ba66ab11cb8c17d40b9ca"
-          }
+          },
+          "old" : true
         }, {
-          "is_old" : true,
           "files" : {
             "2473197.kt" : "https://gist.github.com/ksmirenko/b55464356a53510ab8f74de0b1863e92"
-          }
+          },
+          "old" : true
         }, {
-          "is_old" : true,
           "files" : {
             "2457263.kt" : "https://gist.github.com/ksmirenko/a6ba2736a6a28c06b311437f75177722"
-          }
+          },
+          "old" : true
         } ]
       }
     }
@@ -1186,15 +1342,15 @@
         "total" : 2,
         "all_url" : "https://yadi.sk/d/H1-9nFU_3UgZvK",
         "items" : [ {
-          "is_old" : true,
           "files" : {
             "899075.kt" : "https://gist.github.com/ksmirenko/2138eda2a3af23c835fc2a36a353a81b"
-          }
+          },
+          "old" : true
         }, {
-          "is_old" : true,
           "files" : {
             "1708358.kt" : "https://gist.github.com/ksmirenko/e7918aadf6121a5134d5b0420c7dc39e"
-          }
+          },
+          "old" : true
         } ]
       }
     }
@@ -1206,15 +1362,15 @@
         "total" : 2,
         "all_url" : "https://yadi.sk/d/wk3Z54W53UgZtK",
         "items" : [ {
-          "is_old" : true,
           "files" : {
             "897928.kt" : "https://gist.github.com/ksmirenko/c6e36d57b0244eb0831bd3c86a8e9cbf"
-          }
+          },
+          "old" : true
         }, {
-          "is_old" : true,
           "files" : {
             "3624092.kt" : "https://gist.github.com/ksmirenko/fabd2f9d8618eed07f8cce9dfe95dd0f"
-          }
+          },
+          "old" : true
         } ]
       }
     }
@@ -1226,15 +1382,15 @@
         "total" : 2,
         "all_url" : "https://yadi.sk/d/xBJvwdp33Uga2G",
         "items" : [ {
-          "is_old" : true,
           "files" : {
             "2649698.kt" : "https://gist.github.com/ksmirenko/b66be69971b0c291dd207035bd0e0f75"
-          }
+          },
+          "old" : true
         }, {
-          "is_old" : true,
           "files" : {
             "2930817.kt" : "https://gist.github.com/ksmirenko/1be72de8dfbdcd0b2a931dd22bf7c1b2"
-          }
+          },
+          "old" : true
         } ]
       }
     }
@@ -1246,15 +1402,15 @@
         "total" : 2,
         "all_url" : "https://yadi.sk/d/JwstHRsY3UgZMJ",
         "items" : [ {
-          "is_old" : true,
           "files" : {
             "1565566.kt" : "https://gist.github.com/ksmirenko/b4128d8dfbc9fdcbf2988c7d004ae0e6"
-          }
+          },
+          "old" : true
         }, {
-          "is_old" : true,
           "files" : {
             "717538.kt" : "https://gist.github.com/ksmirenko/8cb46476ea0829bcffda912e268c8f90"
-          }
+          },
+          "old" : true
         } ]
       }
     }
@@ -1266,15 +1422,15 @@
         "total" : 2,
         "all_url" : "https://yadi.sk/d/G7h22EcR3UgZSQ",
         "items" : [ {
-          "is_old" : true,
           "files" : {
             "1533063.kt" : "https://gist.github.com/ksmirenko/01c226958a881ab056e5caa2761ebd28"
-          }
+          },
+          "old" : true
         }, {
-          "is_old" : true,
           "files" : {
             "1533066.kt" : "https://gist.github.com/ksmirenko/df925f24dc3983c005904c7e9e285ffc"
-          }
+          },
+          "old" : true
         } ]
       }
     }
@@ -1286,15 +1442,15 @@
         "total" : 2,
         "all_url" : "https://yadi.sk/d/myXso9lS3UgZbG",
         "items" : [ {
-          "is_old" : true,
           "files" : {
             "1829273.kt" : "https://gist.github.com/ksmirenko/a4b6edd26007a5a5ec8331bb979feb34"
-          }
+          },
+          "old" : true
         }, {
-          "is_old" : true,
           "files" : {
             "2935568.kt" : "https://gist.github.com/ksmirenko/45b496d837807befd27f7090fdc6bae7"
-          }
+          },
+          "old" : true
         } ]
       }
     }
@@ -1306,15 +1462,15 @@
         "total" : 2,
         "all_url" : "https://yadi.sk/d/cU95MsEO3UgZhb",
         "items" : [ {
-          "is_old" : true,
           "files" : {
             "856872.kt" : "https://gist.github.com/ksmirenko/7f8390067b6ce9b6985d05d997a17ef9"
-          }
+          },
+          "old" : true
         }, {
-          "is_old" : true,
           "files" : {
             "2723480.kt" : "https://gist.github.com/ksmirenko/6eba871def8aecee74d76a76ee7036f3"
-          }
+          },
+          "old" : true
         } ]
       }
     }
@@ -1326,10 +1482,64 @@
         "total" : 1,
         "all_url" : "https://yadi.sk/d/S2NzQCYR3UgZJa",
         "items" : [ {
-          "is_old" : true,
           "files" : {
             "1740251.kt" : "https://gist.github.com/ksmirenko/d4a1bfb5e327a2095e433fbb6a840bc1"
-          }
+          },
+          "old" : true
+        } ]
+      }
+    }
+  },
+  "if_expressions" : {
+    "title" : "If expressions",
+    "examples" : {
+      "bytecode" : {
+        "total" : 1,
+        "all_url" : "https://yadi.sk/d/5NBXAA7TYBJtmw",
+        "items" : [ {
+          "files" : {
+            "012_MulinoAlphaBetaSearch.json" : "https://gist.github.com/PetukhovVictor/168579ffdb8b9d56609f5fefbb143589",
+            "012_MulinoAlphaBetaSearch.kt" : "https://gist.github.com/PetukhovVictor/ef0d52cf49ba1b95b1fa93e6eb8b48dd"
+          },
+          "old" : false
+        } ]
+      }
+    }
+  },
+  "constants" : {
+    "title" : "Constants",
+    "examples" : {
+      "bytecode" : {
+        "total" : 2,
+        "all_url" : "https://yadi.sk/d/YEcVxqFK4T5pKQ",
+        "items" : [ {
+          "files" : {
+            "009_Def.json" : "https://gist.github.com/PetukhovVictor/f641067c55fab9047c98450870bb3ed3",
+            "009_Def.kt" : "https://gist.github.com/PetukhovVictor/15ac9458a270e2eb1e36b07dc09fe726"
+          },
+          "old" : false
+        }, {
+          "files" : {
+            "004_Def.json" : "https://gist.github.com/PetukhovVictor/5e14259f265b32269e68f44d9472cb36",
+            "004_Def.kt" : "https://gist.github.com/PetukhovVictor/03545df63d6a31f693760cf9d8fe2e1c"
+          },
+          "old" : false
+        } ]
+      }
+    }
+  },
+  "extension_properties_and_functions" : {
+    "title" : "Extension properties and functions",
+    "examples" : {
+      "bytecode" : {
+        "total" : 1,
+        "all_url" : "https://yadi.sk/d/ql5XR7npyNsubA",
+        "items" : [ {
+          "files" : {
+            "001_JsonElement.json" : "https://gist.github.com/PetukhovVictor/87bfb7fa955041c9f07942b1761eb230",
+            "001_JsonElement.kt" : "https://gist.github.com/PetukhovVictor/285718482f1a6d6998ddcda7f5e6c67e"
+          },
+          "old" : false
         } ]
       }
     }
