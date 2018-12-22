@@ -121,6 +121,10 @@ function loadAnomalyExamples(anomalyClassInfo, anomalyClass, selectedAnomaliesTy
 		interceptedContent += str;
 	};
 
+	anomalyExamples.items.sort(function (a) {
+	    return a.old
+    });
+
 	anomalyExamples.items.forEach(function (anomalyExample) {
 		anomalyExamplesHtml.push([]);
 		var anomalyExampleHtml = anomalyExamplesHtml[anomalyExamplesHtml.length - 1];
